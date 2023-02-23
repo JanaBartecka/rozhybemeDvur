@@ -10,7 +10,7 @@ collections:
     slug: "{{year}}{{month}}{{day}}_{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/akce.njk"}
-      - {label: "tags", name: "tags", widget: "hidden", default:"akce"}
+      - {label: "tags", name: "tags", widget: "hidden", default: "akce"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Datum akce", name: "kdy", widget: "string"}
       - {label: "Misto konani akce", name: "kde", widget: "string"}

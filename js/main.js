@@ -1,5 +1,5 @@
 // not exactly vanilla as there is one lodash function
-console.log('jsem tu')
+
 var allCheckboxes = document.querySelectorAll('input[type=checkbox]');
 var allPlayers = Array.from(document.querySelectorAll('.akce'));
 var checked = {};
