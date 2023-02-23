@@ -1,0 +1,53 @@
+
+<header>
+    <h1>AKCE VE DVOŘE KRÁLOVÉ A OKOLÍ</h1>
+  </header>
+    <div class="container">
+    <aside>
+      <h3>Typ akce</h3>
+      <div>
+        <div><input type="checkbox" name="TypAkce" value="HudbaDivadlo" id="HudbaDivadlo"><label for="HudbaDivadlo">Hudební a divadelní</label></div>
+        <div><input type="checkbox" name="TypAkce" value="KurzyWorkshopy" id="KurzyWorkshopy"><label for="KurzyWorkshopy">Kurzy a workshopy</label></div>
+        <div><input type="checkbox" name="TypAkce" value="ProDeti" id="ProDeti"><label for="ProDeti">Pro děti</label></div>
+        <div><input type="checkbox" name="TypAkce" value="ProDospele" id="ProDospele"><label for="ProDospele">Pro dospělé</label></div>
+        <div><input type="checkbox" name="TypAkce" value="Spolecenske" id="Spolecenske"><label for="Spolecenske">Společenské akce</label></div>
+        <div><input type="checkbox" name="TypAkce" value="Sportovni" id="Sportovni"><label for="Sportovni">Sportovní akce</label></div>
+        <div><input type="checkbox" name="TypAkce" value="Vystavy" id="Vystavy"><label for="Vystavy">Výstavy</label></div>
+        <div><input type="checkbox" name="TypAkce" value="Ostatni" id="Ostatni"><label for="Ostatni">Ostatní</label></div>
+      </div>
+      <h3>Doba konani</h3>
+      <div>
+        <div><input type="checkbox" name="DobaKonani" value="brezen2023" id="brezen2023"><label for="brezen2023">Březen 2023</label></div>
+        <div><input type="checkbox" name="DobaKonani" value="duben2023" id="duben2023"><label for="duben2023">Duben 2023</label></div>
+        <div><input type="checkbox" name="DobaKonani" value="kveten2023" id="kveten2023"><label for="kveten2023">Květen 2023</label></div>
+        <div><input type="checkbox" name="DobaKonani" value="cerven2023" id="cerven2023"><label for="cerven2023">Červen 2023</label></div>
+      </div>
+    </aside>
+    <main>
+
+
+{% for akce in collections.akce | reverse %}  
+      
+<div class=" {{ akce.data.myTags }} ">
+  <h3 class="recent-event__title">{{ akce.data.title }}</h3>
+  <!-- <div class="recent-event__description"> -->
+    <!-- <div class="recent-event__leaflet"> -->
+      <a href="/images/{{ akce.data.fotomax }}"><img src="/images/{{ akce.data.fotomin }}" class="recent-event__image" alt="{{ akce.data.alt }}"></a>
+    <!-- </div> -->
+      <div class="recent-event__text">
+          <em>Kdy:</em> {{ akce.data.kdy }} <br>
+          <em>Kde:</em> {{ akce.data.kde }} <br>
+          {{ akce.content | safe }}
+      </div>
+  
+  <!-- </div> -->
+
+</div>
+
+
+
+{% endfor %}
+
+</main>
+</div>
+<script src="/js/main.js"></script>
