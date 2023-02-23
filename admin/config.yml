@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "images/akce"
+collections:
+  - name: "akce"
+    label: "Akce"
+    folder: "akce"
+    create: true
+    slug: "{{year}}{{month}}{{day}}_{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/akce.njk"}
+      - {label: "tags", name: "tags", widget: "hidden", default:"akce"}
+      - {label: "Titulek", name: "title", widget: "string"}
+      - {label: "Datum akce", name: "kdy", widget: "string"}
+      - {label: "Plakat - min", name: "fotomin", widget: "image"}
+      - {label: "Plakat - max", name: "fotomax", widget: "image"}
+      - {label: "Alternativni text", name: "alt", widget: "string"}
+      - {label: "Tagy", name: "myTags", widget: "string"}
+      - {label: "Text", name: "body", widget: "markdown"}

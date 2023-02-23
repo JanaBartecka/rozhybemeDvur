@@ -14,6 +14,9 @@ module.exports = function(eleventyConfig) {
   // Zkopírovat icons/ to _site/icons/
   eleventyConfig.addPassthroughCopy("icons");
 
+  // Zkopírovat icons/ to _site/icons/
+  eleventyConfig.addPassthroughCopy("admin");
+
   eleventyConfig.addFilter("limit", function (arr, limit) {
     return arr.slice(0, limit);
   });  
