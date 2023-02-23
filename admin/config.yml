@@ -13,6 +13,7 @@ collections:
       - {label: "tags", name: "tags", widget: "hidden", default:"akce"}
       - {label: "Titulek", name: "title", widget: "string"}
       - {label: "Datum akce", name: "kdy", widget: "string"}
+      - {label: "Misto konani akce", name: "kde", widget: "string"}
       - {label: "Plakat - min", name: "fotomin", widget: "image"}
       - {label: "Plakat - max", name: "fotomax", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
