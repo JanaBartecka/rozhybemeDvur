@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-title: Dětský karneval
+title: Detsky karneval
 kdy: 4.3.2023
 fotomin: /images/akce/detskykarneval.jpg
 fotomax: /images/akce/detskykarneval.jpg
