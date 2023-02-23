@@ -3,8 +3,8 @@ layout: /partials/akce.njk
 title: Ples seniorů
 kdy: 18.5.2023
 kde: Dvůr králové nad labem
-fotomin: akce/plessenioru.jpg
-fotomax: akce/plessenioru.jpg
+fotomin: /images/akce/plessenioru.jpg
+fotomax: /images/akce/plessenioru.jpg
 alt: detsky den
 myTags: akce HudbaDivadlo ProDospele Spolecenske kveten2023
 tags: akce

@@ -3,8 +3,8 @@ layout: /partials/akce.njk
 title: Safariběh ČSOB
 kdy: 1.4.2023
 kde: Dvůr králové nad labem – ZOO
-fotomin: akce/safaribeh.jpg
-fotomax: akce/safaribeh.jpg
+fotomin: /images/akce/safaribeh.jpg
+fotomax: /images/akce/safaribeh.jpg
 alt: detsky den
 myTags: akce ProDospele SportovniAkce Ostatni duben2023
 tags: akce

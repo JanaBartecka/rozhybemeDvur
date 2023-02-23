@@ -3,8 +3,8 @@ layout: /partials/akce.njk
 title: Dětský den
 kdy: 3.6.2023
 kde: Pecka – Koupaliště a kemp na Pecce
-fotomin: akce/detskyDen.jpg
-fotomax: akce/detskyDen.jpg
+fotomin: /images/akce/detskyDen.jpg
+fotomax: /images/akce/detskyDen.jpg
 alt: detsky den
 myTags: akce HudbaDivadlo ProDeti Ostatni cerven2023
 tags: akce
