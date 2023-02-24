@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 media_folder: "images/akce"
+slug:
+  encoding: "ascii"
+  clean_accents: true
 collections:
   - name: "akce"
     label: "Akce"

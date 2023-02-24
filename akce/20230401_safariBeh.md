@@ -6,7 +6,7 @@ kde: Dvůr králové nad labem – ZOO
 fotomin: /images/akce/safaribeh.jpg
 fotomax: /images/akce/safaribeh.jpg
 alt: detsky den
-myTags: akce ProDospele SportovniAkce Ostatni duben2023
+myTags: ProDospele SportovniAkce Ostatni duben2023
 tags: akce
 ---
 

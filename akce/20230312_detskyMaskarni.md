@@ -6,7 +6,7 @@ kde: Pilníkov – Sál restaurace Slunce
 fotomin: /images/akce/detskyMaskarni.jpg
 fotomax: /images/akce/detskyMaskarni.jpg
 alt: detsky den
-myTags: akce HudbaDivadlo ProDeti Ostatni brezen2023
+myTags: HudbaDivadlo ProDeti Ostatni brezen2023
 tags: akce
 ---
 

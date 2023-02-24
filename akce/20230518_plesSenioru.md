@@ -6,7 +6,7 @@ kde: Dvůr králové nad labem
 fotomin: /images/akce/plessenioru.jpg
 fotomax: /images/akce/plessenioru.jpg
 alt: detsky den
-myTags: akce HudbaDivadlo ProDospele Spolecenske kveten2023
+myTags: HudbaDivadlo ProDospele Spolecenske kveten2023
 tags: akce
 ---
 

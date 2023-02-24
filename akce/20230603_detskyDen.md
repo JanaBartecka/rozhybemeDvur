@@ -6,7 +6,7 @@ kde: Pecka – Koupaliště a kemp na Pecce
 fotomin: /images/akce/detskyDen.jpg
 fotomax: /images/akce/detskyDen.jpg
 alt: detsky den
-myTags: akce HudbaDivadlo ProDeti Ostatni cerven2023
+myTags: HudbaDivadlo ProDeti Ostatni cerven2023
 tags: akce
 ---
 

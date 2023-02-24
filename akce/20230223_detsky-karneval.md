@@ -7,6 +7,6 @@ kde: nekde
 fotomin: /images/akce/detskykarneval.jpg
 fotomax: /images/akce/detskykarneval.jpg
 alt: alt text
-myTags: akce ProDeti
+myTags: ProDeti brezen2023
 ---
 n﻿ejaky text

@@ -6,7 +6,7 @@ kde: Jaroměř – letiště
 fotomin: /images/akce/letisteJaromer.jpg
 fotomax: /images/akce/letisteJaromer.jpg
 alt: detsky den
-myTags: akce HudbaDivadlo ProDeti ProDospele Vystavy Ostatni cerven2023
+myTags: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni cerven2023
 tags: akce
 ---
 
