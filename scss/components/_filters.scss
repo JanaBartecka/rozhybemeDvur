@@ -1,0 +1,55 @@
+@use '../abstracts/variables' as v;
+
+input[type='checkbox'] {
+    opacity: 0;
+    z-index: -1; 
+    position: absolute; 
+    left: -100px;
+
+
+}
+
+label {
+    color: var(--greyColor);
+    font-style: italic;
+}
+
+.filters {
+    padding: 0 1rem;
+    &__group {
+        margin-top: 1rem;
+    }
+
+    &__category-name {
+        text-align: justify;
+    }
+
+    &__checkboxItem + .filters__checkboxItem {
+        padding-top: v.$spacer-small;
+    }
+
+    &__checkboxItem {
+        margin-left: 1rem;
+
+        &:before {
+            content: '';
+            display: inline-block;
+            background-image: none;
+            background-position: cover;
+            background-repeat: no-repeat;
+            width: 0.9em;
+            height: 0.9em;
+            margin-right: 0.5em;
+        }
+        &--active:before {
+            // content: '';
+            // display: inline-block;
+            background-image: url(/images/general/GreenTick.svg);
+            // background-position: cover;
+            // background-repeat: no-repeat;
+            // width: 0.9em;
+            // height: 0.9em;
+            // margin-right: 0.5em;
+        }
+    }
+}

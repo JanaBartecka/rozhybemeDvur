@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+
+.banner {
+    min-height: 100px;
+    width: 100vw;
+    background-color:  var(--primaryColor-similar) ;
+    border-top: 1px dotted black;
+
+    &__headline {
+        font-size: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem 0;
+        color: var(--lightColor);
+        text-shadow: 1px 1px 1px var(--primaryColor), 2px 2px 1px var(--primaryColor);
+    }
+}

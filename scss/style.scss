@@ -1,1 +1,9 @@
 @use 'components/general';
+
+@use 'abstracts/basics';
+@use 'abstracts/mixins';
+@use 'abstracts/variables';
+
+@use 'components/banner';
+@use 'components/filters';
+@use 'components/menu';

@@ -1,0 +1,118 @@
+@use 'variables' as v;
+
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem; 
+  font-weight: 400; 
+  line-height: 1.5;
+  text-align: left;
+  color: var(--textColor);
+}
+
+p + p {
+    padding-top: v.$spacer-small;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+    text-align: center;
+    color: var(--textColor);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-top: v.$spacer-big;
+}
+
+h2::after {
+    background-color: transparent;
+    content: '';
+    display: block;
+    padding-top: v.$spacer-small;
+    border-bottom: 5px dotted var(--primaryColor);
+    width: 10vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: v.$spacer-big;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: v.$spacer-middle;
+}
+
+*::selection {
+    background-color: yellow;
+    color: rgb(20, 10, 2);
+  }
+
+a:focus-visible {
+    outline: 6px dotted #B309A6;
+}  
+
+[src$=".png"], [src$=".jpg"],[src$=".jpeg"],[src$=".svg"],svg,
+.fotogalerie__link {
+    filter:brightness(var(--darkBrightness)); 
+}
+
+li {
+    text-align: left;
+    color: var(--textColor);
+}
+
+.openNewTab:after {
+    content: '';
+    display: inline-block;
+    background-image: url(/images/newtab.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.5em;
+}
+
+.pdf-icon:before {
+    content: '';
+    display: inline-block;
+    background-image: url(/images/pdf-icon.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.5em;;
+}
+
+.word-icon:before {
+    content: '';
+    display: inline-block;
+    background-image: url(/images/word-icon.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.5em;
+}
+
+
