@@ -4,8 +4,9 @@
 
     min-height: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    align-content: center;
     padding: 0 36px;
     margin: 0 auto;
     position: relative;
@@ -17,6 +18,12 @@
 
     &__logo {
         font-size: 2rem;
+        
+        & img {
+            width: 100px;
+            border-radius: 15px;
+            padding-top: 10px;
+        }
     }
 
     &__list {
@@ -98,7 +105,7 @@
         background-color: var(--textColor);
     }
 
-    @media screen and (min-width:v.$minwidth-computer) {
+    @media screen and (min-width:v.$minwidth-tablet) {
         max-width: v.$maxwidth;
 
         &__list {

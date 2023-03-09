@@ -2,8 +2,19 @@
 layout: /layouts/template-main.njk
 title: Rozhybeme Dvur
 metaDescription: nejaky popis
+pagination:
+  data: collections.akce
+  size: 3
 ---
 {% include 'partials/menu.njk' %}
 {% include 'partials/banner.njk' %}
+{% include 'partials/filters.njk' %}
 
 {% include 'partials/akce.njk' %}
+
+
+<div class="akce__pagination">
+  {% if pagination.href.previous %} <button class="button"><a href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}
+
+  {% if pagination.href.next %} <button class="button"><a href="{{ pagination.href.next }}">Dalsi   strana</a></button>{% endif %}
+</div>

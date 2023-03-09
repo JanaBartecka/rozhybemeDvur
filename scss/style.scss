@@ -1,4 +1,3 @@
-@use 'components/general';
 
 @use 'abstracts/basics';
 @use 'abstracts/mixins';
@@ -7,3 +6,9 @@
 @use 'components/banner';
 @use 'components/filters';
 @use 'components/menu';
+
+@use 'components/akce';
+
+@use 'components/footer';
+
+@use 'components/button';

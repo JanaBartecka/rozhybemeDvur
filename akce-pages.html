@@ -2,7 +2,17 @@
 layout: /layouts/template-main.njk
 title: Rozhybeme Dvur
 metaDescription: nejaky popis
+pagination:
+  data: collections.akce
+  size: 1
+  alias: SingleAkce
+permalink: "akcemoje/{{ SingleAkce.data.title }}/"
 ---
+
 {% include 'partials/menu.njk' %}
 {% include 'partials/banner.njk' %}
+
+<p>{{ SingleAkce.data.title }}</p>
+
+
 

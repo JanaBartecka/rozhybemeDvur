@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as v;
+
+.footer {
+    &__copyright {
+        display: block;
+        text-decoration: none;
+        padding: 1rem;
+        background-color: var(--greyColor);
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: var(--lightColor);
+        transform: translateY(3rem);
+    }
+}

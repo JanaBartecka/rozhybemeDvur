@@ -1,23 +1,20 @@
 
+<div class="akce">
 
+  {% for akce in collections.akce | reverse %}  
 
+  <div class=" akce__item {{ akce.data.myTags }} ">
+    <a class="akce__link" href="{{ akce.data.fotomax }}">
 
-{% for akce in collections.akce | reverse %}  
-      
-<div class=" akce {{ akce.data.myTags }} ">
-  <h3 class="recent-event__title">{{ akce.data.title }}</h3>
-  <!-- <div class="recent-event__description"> -->
-    <!-- <div class="recent-event__leaflet"> -->
-      <a href="{{ akce.data.fotomax }}"><img src="{{ akce.data.fotomin }}" class="recent-event__image" alt="{{ akce.data.alt }}"></a>
-    <!-- </div> -->
-      <div class="recent-event__text">
-          <em>Kdy:</em> {{ akce.data.kdy }} <br>
-          <em>Kde:</em> {{ akce.data.kde }} <br>
-          {{ akce.content | safe }}
-      </div>
-  
-  <!-- </div> -->
+      <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
+      <h3 class="akce__title">{{ akce.data.title }}</h3>
+      <span class="akce__datum">{{ akce.data.kdy }} </span> 
+    </a>
+  </div>
+
+  {% endfor %}
 
 </div>
 
-{% endfor %}
+</div>
+

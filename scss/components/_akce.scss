@@ -1,0 +1,67 @@
+@use '../abstracts/variables' as v;
+
+.akce {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: v.$spacer-middle;
+    margin: v.$spacer-big auto 0 auto;
+    padding: 0 v.$spacer-small;
+    flex: 1 1 100%;
+    // max-width: calc(100vw - 2*v.$spacer-small);
+
+    &__link {
+        height: 100%;
+        width: 100%;
+        background-color: var(--primaryColor-similar);
+        text-decoration: none;
+    }
+
+    &__item {
+        max-width: 200px;
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        // background-color: grey;
+        position: relative;
+    }
+
+    &__item + .akce__item {
+        margin-top: v.$spacer-small;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__title {
+        // padding-top: 1rem;
+        padding-bottom: v.$spacer-middle;
+        text-decoration: underline;
+    }
+
+    &__datum {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: var(--secondaryColor);
+        opacity: 0.8;
+        padding: v.$spacer-small;
+        color: black;
+        font-weight: 500;
+    }
+
+    &__pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+
+    @media screen and (min-width:v.$minwidth-tablet) {
+
+    }
+}

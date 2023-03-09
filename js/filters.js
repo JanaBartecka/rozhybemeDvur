@@ -1,7 +1,7 @@
 // not exactly vanilla as there is one lodash function
 
 var allCheckboxes = document.querySelectorAll('input[type=checkbox]');
-var allPlayers = Array.from(document.querySelectorAll('.akce'));
+var allPlayers = Array.from(document.querySelectorAll('.akce__item'));
 var checked = {};
 
 getChecked('TypAkce');

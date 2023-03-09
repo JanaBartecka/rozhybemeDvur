@@ -1,0 +1,33 @@
+@use '../abstracts/variables' as v;
+
+.button {
+    padding: v.$spacer-small v.$spacer-big;
+    margin-top: v.$spacer-normal;
+    border: none;
+    border-radius: v.$radius;
+    background-color: var(--buttonColor);
+    color: var(--lightColor);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+        background-color: var(--tertiaryColor);
+        color:var(--textColor);
+        transition: all 0.3s;
+    }
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+button:focus-visible {
+    outline: 6px dotted var(--focusColor);
+}   
+
+.button + .button {
+    margin-left: v.$spacer-middle;
+}
+

@@ -1,17 +1,24 @@
 <header>
     <div class="menu__background">
-        <nav class="menu" role="navigation">
+        <nav class="menu" role="navigation" aria-hidden="true">
             <div class="menu__logo">
-                tady logo
+                <img src="/images/zabka.jpg" alt="logo">
             </div>
 
-            <div class="menu__navigation">
+            <button class="menu__hamburger" aria-expanded="false" aria-label="menu">
+                <span class="menu__bar"></span>
+                <span class="menu__bar"></span>
+                <span class="menu__bar"></span>
+            </button>
+
+            <!-- <div class="menu__navigation"> -->
                 <ul class="menu__list">
-                    <li class="menu__item"><a href="" class="menu__link">Úvod</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Akce</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Kontakt</a></li>
+                    <li class="menu__item {{ 'menu__item--active' if page.fileSlug === ''}}"><a href="/" class="menu__link">Úvod</a></li>
+                    <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'akce'}}"><a href="/akce" class="menu__link">Akce</a></li>
+                    <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'krouzky'}}"><a href="/" class="menu__link">Kroužky</a></li>
+                    <li class="menu__item {{ 'menu__item--active' if page.fileSlug === 'kontakt'}}"><a href="/kontakt" class="menu__link">Kontakt</a></li>
                 </ul>
-            </div>
+            <!-- </div> -->
         </nav>
     </div>
 </header>
