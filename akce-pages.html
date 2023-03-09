@@ -3,14 +3,23 @@ layout: /layouts/template-main.njk
 title: Rozhybeme Dvur
 metaDescription: nejaky popis
 pagination:
-  data: collections.akce
+  data: collections.akceMD
   size: 1
   alias: SingleAkce
-permalink: "akcemoje/{{ SingleAkce.data.title }}/"
+permalink: "akce/{{ SingleAkce.data.kdy | slugify }}_{{ SingleAkce.data.title | slugify }}/"
 ---
 
 {% include 'partials/menu.njk' %}
 {% include 'partials/banner.njk' %}
+
+
+<div class="singleAkce">
+
+    <img src="{{ SingleAkce.data.fotomin }}" class="akce__image" alt="{{ SingleAkce.data.alt }}">
+    <h3 class="akce__title">{{ SingleAkce.data.title }}</h3>
+    <span class="akce__datum">{{ SingleAkce.data.kdy }} </span> 
+
+</div>
 
 <p>{{ SingleAkce.data.title }}</p>
 

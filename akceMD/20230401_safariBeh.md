@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-tags: akce
+tags: akceMD
 title: Safariběh ČSOB
 kdy: 1.4.2023
 kde: Dvůr králové nad labem – ZOO

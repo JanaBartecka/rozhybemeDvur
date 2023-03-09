@@ -1,8 +1,8 @@
 ---
 layout: /partials/akce.njk
-tags: akce
-title: Hudebníček2
-kdy: Únor přihlášky
+tags: akceMD
+title: Hudebníček
+kdy: Únor přihlášky2
 kde: ZUS Dvůr Králové nad Labem
 fotomin: /images/akce/332767259_580138424133114_6133457450795720620_n.jpg
 fotomax: /images/akce/332767259_580138424133114_6133457450795720620_n.jpg

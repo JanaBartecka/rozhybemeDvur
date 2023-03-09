@@ -1,10 +1,10 @@
 
 <div class="akce">
 
-  {% for akce in collections.akce | reverse %}  
+  {% for akce in collections.akceMD | reverse %}  
 
   <div class=" akce__item {{ akce.data.myTags }} ">
-    <a class="akce__link" href="{{ akce.data.fotomax }}">
+    <a class="akce__link" href="{{ akce.data.kdy | slugify }}_{{ akce.data.title | slugify }}">
 
       <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
       <h3 class="akce__title">{{ akce.data.title }}</h3>

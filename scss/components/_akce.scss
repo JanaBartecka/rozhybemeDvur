@@ -16,7 +16,7 @@
     &__link {
         height: 100%;
         width: 100%;
-        background-color: var(--primaryColor-similar);
+        // background-color: var(--primaryColor-similar);
         text-decoration: none;
     }
 
@@ -42,6 +42,8 @@
         // padding-top: 1rem;
         padding-bottom: v.$spacer-middle;
         text-decoration: underline;
+        font-weight: 600;
+        color: var(--tertiaryColor);
     }
 
     &__datum {

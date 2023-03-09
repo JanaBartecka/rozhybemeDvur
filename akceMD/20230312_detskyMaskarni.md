@@ -7,7 +7,7 @@ fotomin: /images/akce/detskyMaskarni.jpg
 fotomax: /images/akce/detskyMaskarni.jpg
 alt: detsky den
 myTags: HudbaDivadlo ProDeti Ostatni brezen2023
-tags: akce
+tags: akceMD
 ---
 
 Odpoledne plné tance, her a soutěží. Loutkové divadlo Kozlíček, hudební doprovod. Soutěž o nejlepší masku a nebude chybět občerstvení.

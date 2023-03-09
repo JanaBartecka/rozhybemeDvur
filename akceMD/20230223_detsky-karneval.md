@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-tags: akce
+tags: akceMD
 title: detsky karneval
 kdy: 4.3.2023
 kde: nekde

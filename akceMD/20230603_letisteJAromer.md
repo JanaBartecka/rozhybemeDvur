@@ -7,7 +7,7 @@ fotomin: /images/akce/letisteJaromer.jpg
 fotomax: /images/akce/letisteJaromer.jpg
 alt: detsky den
 myTags: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni cerven2023
-tags: akce
+tags: akceMD
 ---
 
 Program pro děti, ukázka leteckých modelářů nebudou chybět ani letové ukázky.

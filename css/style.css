@@ -359,7 +359,6 @@ label {
 .akce__link {
   height: 100%;
   width: 100%;
-  background-color: var(--primaryColor-similar);
   text-decoration: none;
 }
 .akce__item {
@@ -377,6 +376,8 @@ label {
 .akce__title {
   padding-bottom: 1.5rem;
   text-decoration: underline;
+  font-weight: 600;
+  color: var(--tertiaryColor);
 }
 .akce__datum {
   position: absolute;
