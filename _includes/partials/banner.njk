@@ -1,19 +1,13 @@
 <section class="banner">
     <p class="banner__headline">
     {% if page.fileSlug === '' %}
-            Úvod
-    {% endif %}
-    
-    {% if page.fileSlug === 'akce' %}
-    Akce
-    {% endif %}
-
-    {% if page.fileSlug === 'krouzky' %}
-    Kroužky
-    {% endif %}
-
-    {% if page.fileSlug === 'kontakt' %}
-    Kontakt
+        Úvod
+    {% elseif page.fileSlug === 'akce' %}
+        Akce
+    {% elseif page.fileSlug === 'krouzky' %}
+        Kroužky
+    {% elseif page.fileSlug === 'kontakt' %}
+        Kontakt
     {% endif %}
     </p>
 </section>

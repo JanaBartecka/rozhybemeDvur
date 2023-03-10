@@ -3,9 +3,9 @@ const allFilters=document.querySelectorAll('.filters__checkboxItem')
 const allFiltersArray=Array.from(allFilters)
 allFilters.forEach(filter => filter.addEventListener('click',() => {
     filter.classList.toggle('filters__checkboxItem--active')
-    const filterID=filter.getAttribute('for')
-    const filterInput=document.getElementById(filterID)
-    filterInput.toggleAttribute("checked")
+    // const filterID=filter.getAttribute('for')
+    // const filterInput=document.getElementById(filterID)
+    // filterInput.toggleAttribute("checked")
 }));
 
 // show/hide filters and change text in the button
@@ -27,19 +27,19 @@ btnShowFilter.addEventListener('click', () => {
     // console.log(localStorage.getItem("filterValue"));
 //   }
 
-const akceItem=document.querySelectorAll('.button__filtrovani')
-akceItem.forEach(akce => akce.addEventListener('click',() => {
-    allFiltersArray.filter( (oneFilter) => {
-        console.log(oneFilter);
-        const filterID=oneFilter.getAttribute('for')
-        const filterInput=document.getElementById(filterID)
-        console.log(filterInput.getAttribute('checked'));
-        if (filterInput.getAttribute('checked') !== null) {
-            console.log('jsem zde');
-        }
-        // return filterInput.getAttribute('checked') ? console.log('jo') : console.log('ne')
-    })
+// const akceItem=document.querySelectorAll('.button__filtrovani')
+// akceItem.forEach(akce => akce.addEventListener('click',() => {
+    // allFiltersArray.filter( (oneFilter) => {
+        // console.log(oneFilter);
+        // const filterID=oneFilter.getAttribute('for')
+        // const filterInput=document.getElementById(filterID)
+        // console.log(filterInput.getAttribute('checked'));
+        // if (filterInput.getAttribute('checked') !== null) {
+            // console.log('jsem zde');
+        // }
+        // //return filterInput.getAttribute('checked') ? console.log('jo') : console.log('ne')
+    // })
     // Save filter values to local storage when the filter button is clicked
-    // localStorage.setItem("filterValue", filter.getAttribute('for'))
-}))
+    // ////localStorage.setItem("filterValue", filter.getAttribute('for'))
+// }))
 

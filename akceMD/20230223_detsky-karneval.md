@@ -1,7 +1,7 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: detsky karneval
+title: ProDeti brezen2023
 kdy: 4.3.2023
 kde: nekde
 fotomin: /images/akce/detskykarneval.jpg

@@ -110,13 +110,12 @@
 
         &__list {
             display: flex;
-            border-bottom-left-radius: v.$radius;
-            border-top-right-radius: v.$radius;
             max-width: max-content;
             width: auto;
             left: auto;
             top: auto;
             position: relative;
+            background-color: var(--primaryColor);
         }
 
         &__hamburger {
@@ -127,27 +126,11 @@
             display: block;
             z-index: 100;
             border-bottom: 0;
-            border-right: 1px solid var(--lightColor);
+            // border-right: 1px solid var(--lightColor);
         }
 
         &__item:last-child {
             border: 0;
-        }
-
-        &__item:last-child :hover {
-            border-top-right-radius: v.$radius;
-        }
-
-        &__item:first-child :hover {
-            border-bottom-left-radius: v.$radius;
-        }
-
-        &__item--active:first-child &__link {
-            border-bottom-left-radius: v.$radius;
-        }
-
-        &__item--active:last-child &__link {
-            border-top-right-radius: v.$radius;
         }
 
     }

@@ -4,11 +4,14 @@
   {% for akce in collections.akceMD | reverse %}  
 
   <div class=" akce__item {{ akce.data.myTags }} ">
+    
     <a class="akce__link" href="{{ akce.data.kdy | slugify }}_{{ akce.data.title | slugify }}">
-
-      <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
+      <div class="akce__datum">{{ akce.data.kdy }} </div> 
+      <div class="akce__image-holder">
+        <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
+      </div>
+      
       <h3 class="akce__title">{{ akce.data.title }}</h3>
-      <span class="akce__datum">{{ akce.data.kdy }} </span> 
     </a>
   </div>
 

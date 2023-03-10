@@ -1,7 +1,7 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: Safariběh ČSOB
+title: ProDospele Sportovni Ostatni duben2023
 kdy: 1.4.2023
 kde: Dvůr králové nad labem – ZOO
 fotomin: /images/akce/safaribeh.jpg

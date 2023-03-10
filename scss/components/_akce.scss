@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
 
 .akce {
 
@@ -18,16 +19,24 @@
         width: 100%;
         // background-color: var(--primaryColor-similar);
         text-decoration: none;
+        transition: all 0.5s linear;
+        box-shadow: 0px 0px 10px var(--primaryColor-similar);
+        @include m.cornerRound;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:hover .akce__datum{
+            transform: scale(1.05);
+        }
     }
 
     &__item {
         max-width: 200px;
-        // height: 100%;
         display: flex;
         flex-direction: column;
-        
-        // background-color: grey;
-        position: relative;
+       position: relative;
     }
 
     &__item + .akce__item {
@@ -35,15 +44,25 @@
     }
 
     &__image {
-        max-width: 100%;
+        width: 100%;
+        overflow: hidden;
+        
+
+        &-holder {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            @include m.cornerRound(v.$radius,v.$radius,0,0);
+        }
     }
 
     &__title {
         // padding-top: 1rem;
-        padding-bottom: v.$spacer-middle;
-        text-decoration: underline;
+        padding: v.$spacer-small;
         font-weight: 600;
+        font-size: 1rem;
         color: var(--tertiaryColor);
+        text-align: left;
     }
 
     &__datum {
@@ -51,10 +70,12 @@
         right: 0;
         top: 0;
         background-color: var(--secondaryColor);
-        opacity: 0.8;
+        opacity: 0.7;
         padding: v.$spacer-small;
         color: black;
-        font-weight: 500;
+        font-weight: 600;
+        @include m.cornerRound(0,v.$radius,0,0);
+        transition: all 0.5s linear;
     }
 
     &__pagination {

@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-title: Den otevřených dveří a dětský den
+title: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni cerven2023
 kdy: 3.6.2023  Od 10:00 -17:00
 kde: Jaroměř – letiště
 fotomin: /images/akce/letisteJaromer.jpg

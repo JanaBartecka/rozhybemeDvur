@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-title: Dětský den
+title: HudbaDivadlo ProDeti Ostatni cerven2023
 kdy: 3.6.2023
 kde: Pecka – Koupaliště a kemp na Pecce
 fotomin: /images/akce/detskyDen.jpg

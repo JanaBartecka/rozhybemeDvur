@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-title: Ples seniorů
+title: HudbaDivadlo ProDospele Spolecenske kveten2023
 kdy: 18.5.2023
 kde: Dvůr králové nad labem
 fotomin: /images/akce/plessenioru.jpg

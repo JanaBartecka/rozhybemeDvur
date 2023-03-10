@@ -1,6 +1,6 @@
 ---
 layout: /partials/akce.njk
-title: Dětský maškarní karneval s pohádkou čert a káča
+title: HudbaDivadlo ProDeti Ostatni brezen2023
 kdy: 12.3.2023 Od 13:30
 kde: Pilníkov – Sál restaurace Slunce
 fotomin: /images/akce/detskyMaskarni.jpg

@@ -1,24 +1,19 @@
 @use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
 
 input[type='checkbox'] {
     opacity: 0;
     z-index: -1; 
     position: absolute; 
     left: -100px;
-
-
-}
-
-label {
-    color: var(--greyColor);
-    font-style: italic;
-    font-size: 1.5rem;
 }
 
 .filterContent {
     @media screen and (min-width:v.$minwidth-tablet) {
+        max-width: v.$maxwidth;
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        margin: 0 auto;
+        grid-template-columns: 360px auto;
     }
 }
 
@@ -38,12 +33,21 @@ label {
 
     &__hide {
         height: 0px;
-        weight: 0px;
+        width: 0px;
         visibility: hidden;
     }
 
     &__checkboxItem {
         margin-left: 1rem;
+        padding-right: 1.5rem;
+        color: var(--greyColor);
+        font-style: italic;
+        font-size: 1.5rem;
+
+        &:hover {
+            border: 2px solid var(--secondaryColor);
+            @include m.cornerRound;
+        }
 
         &:before {
             content: '';
@@ -54,6 +58,7 @@ label {
             width: 0.9em;
             height: 0.9em;
             margin-right: 0.5em;
+            margin-left: 0.5em;
         }
         &--active:before {
             // content: '';
@@ -64,6 +69,11 @@ label {
             // width: 0.9em;
             // height: 0.9em;
             // margin-right: 0.5em;
+        }
+
+        &--active {
+            color: black;
+            font-weight: 600;
         }
     }
 }

@@ -6,7 +6,7 @@
     border: none;
     border-radius: v.$radius;
     background-color: var(--buttonColor);
-    color: var(--lightColor);
+    color: var(--textColor);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -14,7 +14,7 @@
 
     &:hover {
         background-color: var(--tertiaryColor);
-        color:var(--textColor);
+        color:var(--lightColor);
         transition: all 0.3s;
     }
 
