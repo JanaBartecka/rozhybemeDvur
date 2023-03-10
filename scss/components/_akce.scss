@@ -69,16 +69,21 @@
 }
 
 .singleAkce {
-    max-width: calc(100vw - 2*v.$spacer-small);
     padding: 0 v.$spacer-big;
+    margin: 0 auto;
+
+    &__image {
+        max-width: 100%;
+    }
 
     @media screen and (min-width:v.$minwidth-tablet) {
+        max-width: v.$maxwidth;
         display: flex;
         flex-direction: row;
-        flex: 1 1 50%;
 
         &__image {
-            max-width: 300px;
+            max-width: 500px;
         }
+
     }
 }

@@ -26,7 +26,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 0 auto;
+        margin: v.$spacer-middle auto 0 auto;
         @media screen and (min-width:v.$minwidth-tablet) {
             display: none;
         }
