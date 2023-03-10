@@ -36,6 +36,12 @@ label {
         padding-top: v.$spacer-small;
     }
 
+    &__hide {
+        height: 0px;
+        weight: 0px;
+        visibility: hidden;
+    }
+
     &__checkboxItem {
         margin-left: 1rem;
 

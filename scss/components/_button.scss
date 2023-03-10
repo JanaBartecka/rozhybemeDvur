@@ -21,6 +21,16 @@
     & a {
         text-decoration: none;
     }
+
+    &__filtrovani {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        @media screen and (min-width:v.$minwidth-tablet) {
+            display: none;
+        }
+    }
 }
 
 button:focus-visible {

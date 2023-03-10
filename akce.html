@@ -12,26 +12,9 @@ pagination:
 {% include 'partials/banner.njk' %}
 {% include 'partials/filters.njk' %}
 
-<!-- {% include 'partials/akce.njk' %} -->
+{% include 'partials/akce.njk' %}
 
-<div class="akce">
 
-  {% for akce in collections.akceMD | reverse %}  
-
-  <div class=" akce__item {{ akce.data.myTags }} ">
-    <a class="akce__link" href="{{ akce.data.kdy | slugify }}_{{ akce.data.title | slugify }}">
-
-      <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
-      <h4 class="akce__title">{{ akce.data.title }}</h4>
-      <span class="akce__datum">{{ akce.data.kdy }} </span>
-    </a>
-  </div>
-
-  {% endfor %}
-
-</div>
-
-</div>
 
 <div class="akce__pagination">
     {% if pagination.href.previous %} <button class="button"><a href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}

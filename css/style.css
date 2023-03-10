@@ -186,6 +186,11 @@ label {
 .filters__checkboxItem + .filters__checkboxItem {
   padding-top: 0.5rem;
 }
+.filters__hide {
+  height: 0px;
+  weight: 0px;
+  visibility: hidden;
+}
 .filters__checkboxItem {
   margin-left: 1rem;
 }
@@ -428,6 +433,17 @@ label {
 }
 .button a {
   text-decoration: none;
+}
+.button__filtrovani {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+@media screen and (min-width: 42rem) {
+  .button__filtrovani {
+    display: none;
+  }
 }
 
 button:focus-visible {
