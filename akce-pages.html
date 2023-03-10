@@ -13,15 +13,21 @@ permalink: "akce/{{ SingleAkce.data.kdy | slugify }}_{{ SingleAkce.data.title | 
 {% include 'partials/banner.njk' %}
 
 
-<div class="singleAkce">
 
-    <img src="{{ SingleAkce.data.fotomin }}" class="akce__image" alt="{{ SingleAkce.data.alt }}">
-    <h3 class="akce__title">{{ SingleAkce.data.title }}</h3>
-    <span class="akce__datum">{{ SingleAkce.data.kdy }} </span> 
-
+  
+  <h2>{{ SingleAkce.data.title }}</h2>
+  <div class="singleAkce"></div>
+  <div>
+  <p>Kdy: {{ SingleAkce.data.kdy }} </p>
+  <p>Kde: {{ SingleAkce.data.kde }} </p>
+  <p>{{ SingleAkce.templateContent | safe }}</p>
+</div>
+<div>
+  <img src="{{ SingleAkce.data.fotomin }}" class="singleAkce__image" alt="{{ SingleAkce.data.alt }}">
+</div>
 </div>
 
-<p>{{ SingleAkce.data.title }}</p>
+
 
 
 

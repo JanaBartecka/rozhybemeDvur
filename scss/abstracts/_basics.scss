@@ -39,18 +39,6 @@ h1 {
     padding-top: v.$spacer-big;
 }
 
-h2::after {
-    background-color: transparent;
-    content: '';
-    display: block;
-    padding-top: v.$spacer-small;
-    border-bottom: 5px dotted var(--primaryColor);
-    width: 10vw;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h2 {
     font-weight: 600;
     font-size: 2rem;

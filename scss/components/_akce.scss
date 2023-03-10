@@ -67,3 +67,18 @@
 
     }
 }
+
+.singleAkce {
+    max-width: calc(100vw - 2*v.$spacer-small);
+    padding: 0 v.$spacer-big;
+
+    @media screen and (min-width:v.$minwidth-tablet) {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 50%;
+
+        &__image {
+            max-width: 300px;
+        }
+    }
+}
