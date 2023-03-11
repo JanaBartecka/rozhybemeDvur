@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "06"
 SouborDen: "02"
 kde: u nas doma
-fotomin: /images/akce/img_20220816_153251.jpg
+fotomin: /images/akce/332767259_580138424133114_6133457450795720620_n.jpg
 alt: alt texttttttt
 web: www.seznam.cz
 vstupne: 55kč
