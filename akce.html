@@ -14,8 +14,6 @@ pagination:
 
 {% include 'partials/akce.njk' %}
 
-
-
 <div class="akce__pagination">
     {% if pagination.href.previous %} <button class="button"><a href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}
       {% for pageNumber in pagination.pages %}
