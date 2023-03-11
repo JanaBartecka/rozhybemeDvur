@@ -3,8 +3,12 @@ layout: /partials/akce.njk
 title: HudbaDivadlo ProDospele Spolecenske kveten2023
 kdy: 18.5.2023
 kde: Dvůr králové nad labem
-fotomin: /images/akce/plessenioru.jpg
-fotomax: /images/akce/plessenioru.jpg
+web: www.seznam.cz
+vstupne: 10-20kc
+SouborRok: "2023"
+SouborMesic: "03"
+SouborDen: "01"
+foto: /images/akce/plessenioru.jpg
 alt: detsky den
 myTags: HudbaDivadlo ProDospele Spolecenske kveten2023
 tags: akceMD

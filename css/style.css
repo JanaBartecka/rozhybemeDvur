@@ -6,7 +6,8 @@
   --buttonColor:#FFBF69;
   --textColor:black;
   --lightColor:white;
-  --greyColor: #707070;
+  --greyColor: #d1d1d1;
+  --greyDarkColor: #606060;
   --backgroundColor:white;
 }
 
@@ -190,7 +191,7 @@ input[type=checkbox] {
 .filters__checkboxItem {
   margin-left: 1rem;
   padding-right: 1.5rem;
-  color: var(--greyColor);
+  color: var(--greyDarkColor);
   font-style: italic;
   font-size: 1.5rem;
 }
@@ -414,20 +415,49 @@ input[type=checkbox] {
   justify-content: center;
 }
 .singleAkce {
-  padding: 0 2rem;
   margin: 0 auto;
 }
 .singleAkce__image {
   max-width: 100%;
+  padding: 0 2rem;
+  margin: 1rem auto 0 auto;
 }
-@media screen and (min-width: 42rem) {
+.singleAkce__popisek {
+  background-color: var(--greyColor);
+  font-weight: 600;
+  padding: 0.5rem;
+}
+.singleAkce__popisek-text {
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+.singleAkce__nadpis {
+  padding: 1rem;
+  background-color: var(--tertiaryColor);
+  color: var(--lightColor);
+  margin: 1rem 0;
+}
+.singleAkce__textovaCast {
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media screen and (min-width: 50rem) {
   .singleAkce {
     max-width: 70rem;
     display: flex;
     flex-direction: row;
+    flex: 1 1 50%;
+    justify-content: center;
   }
   .singleAkce__image {
-    max-width: 500px;
+    max-width: 400px;
+  }
+  .singleAkce__textovaCast {
+    padding: 0 2rem;
+    margin: 0;
   }
 }
 
@@ -435,7 +465,7 @@ input[type=checkbox] {
   display: block;
   text-decoration: none;
   padding: 1rem;
-  background-color: var(--greyColor);
+  background-color: var(--greyDarkColor);
   text-align: center;
   font-size: 0.9rem;
   font-weight: 300;

@@ -6,22 +6,37 @@ pagination:
   data: collections.akceMD
   size: 1
   alias: SingleAkce
-permalink: "akce/{{ SingleAkce.data.kdy | slugify }}_{{ SingleAkce.data.title | slugify }}/"
+permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }}{{ SingleAkce.data.SouborDen }}_{{ SingleAkce.data.title | slugify }}/"
 ---
 
 {% include 'partials/menu.njk' %}
-{% include 'partials/banner.njk' %}
 
-  <h2>{{ SingleAkce.data.title }}</h2>
-  <div class="singleAkce">
+<section class="banner">
+  <p class="banner__headline">
+    {{ SingleAkce.data.title }}
+  </p>
+</section>
+
+  <!-- <h2>{{ SingleAkce.data.title }}</h2> -->
+<div class="singleAkce">
+  <div class="singleAkce__textovaCast">
+    <h3 class="singleAkce__nadpis">INFORMACE O AKCI</h3>
+    <p class="singleAkce__popisek">Kdy: </p>
+      <p class="singleAkce__popisek-text">{{ SingleAkce.data.kdy }}</p>
+    <p class="singleAkce__popisek">Kde: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAkce.data.kde }}</p>
+    <p class="singleAkce__popisek">Vstupné: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAkce.data.vstupne }}</p>
+    {% if SingleAkce.data.web != null %}
+    <p class="singleAkce__popisek">Webové stránky akce: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAkce.data.web }} </p>
+    {% endif %}
+    <p class="singleAkce__popisek">Podrobnosti: </p>
+    <p  class="singleAkce__popisek-text">{{ SingleAkce.templateContent | safe }}</p>
+  </div>
   <div>
-  <p>Kdy: {{ SingleAkce.data.kdy }} </p>
-  <p>Kde: {{ SingleAkce.data.kde }} </p>
-  <p>{{ SingleAkce.templateContent | safe }}</p>
-</div>
-<div>
-  <img src="{{ SingleAkce.data.fotomin }}" class="singleAkce__image" alt="{{ SingleAkce.data.alt }}">
-</div>
+    <img src="{{ SingleAkce.data.foto }}" class="singleAkce__image" alt="{{ SingleAkce.data.alt }}">
+  </div>
 </div>
 
 

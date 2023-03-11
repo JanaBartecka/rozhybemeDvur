@@ -3,8 +3,12 @@ layout: /partials/akce.njk
 title: HudbaDivadlo ProDeti Ostatni brezen2023
 kdy: 12.3.2023 Od 13:30
 kde: Pilníkov – Sál restaurace Slunce
-fotomin: /images/akce/detskyMaskarni.jpg
-fotomax: /images/akce/detskyMaskarni.jpg
+web: www.seznam.cz
+vstupne: 10-20kc
+SouborRok: "2023"
+SouborMesic: "03"
+SouborDen: "01"
+foto: /images/akce/detskyMaskarni.jpg
 alt: detsky den
 myTags: HudbaDivadlo ProDeti Ostatni brezen2023
 tags: akceMD

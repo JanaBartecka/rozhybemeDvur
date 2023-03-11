@@ -4,8 +4,12 @@ tags: akceMD
 title: ProDospele Sportovni Ostatni duben2023
 kdy: 1.4.2023
 kde: Dvůr králové nad labem – ZOO
-fotomin: /images/akce/safaribeh.jpg
-fotomax: /images/akce/safaribeh.jpg
+web: 
+vstupne: 10-20kc
+SouborRok: "2023"
+SouborMesic: "03"
+SouborDen: "01"
+foto: /images/akce/safaribeh.jpg
 alt: detsky den
 myTags: ProDospele Sportovni Ostatni duben2023
 ---

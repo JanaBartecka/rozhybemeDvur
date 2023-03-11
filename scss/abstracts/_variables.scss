@@ -8,7 +8,8 @@
     --textColor:black;
     --lightColor:white;
     // --focusColor:#B309A6;
-    --greyColor: #707070;
+    --greyColor: #d1d1d1;
+    --greyDarkColor: #606060;
     // --shadowColor:#c5c5c5;
     --backgroundColor:white;
 
@@ -41,6 +42,7 @@ $radius:10px;
 
 $minwidth-tablet:42rem;
 $minwidth-computer:63rem;
+$minwidth-singleAkce:50rem;
 $maxwidth:70rem;
 
 $minwidth-tablet-akce:30rem;

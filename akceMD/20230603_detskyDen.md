@@ -3,8 +3,12 @@ layout: /partials/akce.njk
 title: HudbaDivadlo ProDeti Ostatni cerven2023
 kdy: 3.6.2023
 kde: Pecka – Koupaliště a kemp na Pecce
-fotomin: /images/akce/detskyDen.jpg
-fotomax: /images/akce/detskyDen.jpg
+web: www.seznam.cz
+vstupne: 10-20kc
+SouborRok: "2023"
+SouborMesic: "03"
+SouborDen: "01"
+foto: /images/akce/detskyDen.jpg
 alt: detsky den
 myTags: HudbaDivadlo ProDeti Ostatni cerven2023
 tags: akceMD

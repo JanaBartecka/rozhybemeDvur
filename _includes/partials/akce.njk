@@ -5,10 +5,10 @@
 
   <div class=" akce__item {{ akce.data.myTags }} ">
     
-    <a class="akce__link" href="{{ akce.data.kdy | slugify }}_{{ akce.data.title | slugify }}">
+    <a class="akce__link" href="{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
       <div class="akce__datum">{{ akce.data.kdy }} </div> 
       <div class="akce__image-holder">
-        <img src="{{ akce.data.fotomin }}" class="akce__image" alt="{{ akce.data.alt }}">
+        <img src="{{ akce.data.foto }}" class="akce__image" alt="{{ akce.data.alt }}">
       </div>
       
       <h3 class="akce__title">{{ akce.data.title }}</h3>

@@ -4,8 +4,12 @@ tags: akceMD
 title: ProDeti brezen2023
 kdy: 4.3.2023
 kde: nekde
-fotomin: /images/akce/detskykarneval.jpg
-fotomax: /images/akce/detskykarneval.jpg
+web: www.seznam.cz
+vstupne: 10-20kc
+SouborRok: "2023"
+SouborMesic: "03"
+SouborDen: "01"
+foto: /images/akce/detskykarneval.jpg
 alt: alt text
 myTags: ProDeti brezen2023
 ---

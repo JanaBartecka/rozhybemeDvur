@@ -10,15 +10,19 @@ collections:
     label: "Akce"
     folder: "akceMD"
     create: true
-    slug: "{{year}}{{month}}{{day}}_{{slug}}"
+    slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/akce.njk"}
-      - {label: "tags", name: "tags", widget: "hidden", default: "akce"}
+      - {label: "tags", name: "tags", widget: "hidden", default: "akceMD"}
       - {label: "Titulek", name: "title", widget: "string"}
-      - {label: "Datum akce", name: "kdy", widget: "string"}
+      - {label: "Datum akce odkdy dokdy", name: "kdy", widget: "string"}
+      - {label: "Název souboru rok", name: "SouborRok", widget: "string", default: "2023"}
+      - {label: "Název souboru měsíc", name: "SouborMesic", widget: "string"}
+      - {label: "Název souboru den", name: "SouborDen", widget: "string"}
       - {label: "Misto konani akce", name: "kde", widget: "string"}
-      - {label: "Plakat - min", name: "fotomin", widget: "image"}
-      - {label: "Plakat - max", name: "fotomax", widget: "image"}
+      - {label: "Plakat maximální velikost šířka 400px", name: "fotomin", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
+      - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required:false}
+      - {label: "Vstupné", name: "vstupne", widget: "string"}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
