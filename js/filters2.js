@@ -22,24 +22,34 @@ btnShowFilter.addEventListener('click', () => {
 });
 
 // Load filter value from local storage if it exists
-// if (localStorage.getItem("filterValue")) {
-    // filterInput.value = localStorage.getItem("filterValue");
-    // console.log(localStorage.getItem("filterValue"));
+// if (localStorage.getItem("savedFilters")) {
+    // //filterInput.value = localStorage.getItem("filterValue");
+    // console.log(localStorage.getItem("savedFilters"));
+//   } else {
+    // console.log('nic tady neni');
 //   }
-
+// 
 // const akceItem=document.querySelectorAll('.button__filtrovani')
+// const savedFilters=[]
+// let i=0
+// 
 // akceItem.forEach(akce => akce.addEventListener('click',() => {
     // allFiltersArray.filter( (oneFilter) => {
         // console.log(oneFilter);
         // const filterID=oneFilter.getAttribute('for')
-        // const filterInput=document.getElementById(filterID)
-        // console.log(filterInput.getAttribute('checked'));
-        // if (filterInput.getAttribute('checked') !== null) {
-            // console.log('jsem zde');
+        // console.log(filterID);
+        // const filterInput=document.querySelector('[for=' + filterID + ']')
+        // console.log(filterInput);
+        // if (filterInput.classList.contains('filters__checkboxItem--active')) {
+            // console.log('obsahuji')
+            // savedFilters.push(filterID)
+        // } else {
+            // console.log('neobsahuji')
         // }
-        // //return filterInput.getAttribute('checked') ? console.log('jo') : console.log('ne')
     // })
-    // Save filter values to local storage when the filter button is clicked
-    // ////localStorage.setItem("filterValue", filter.getAttribute('for'))
+    // //Save filter values to local storage when the filter button is clicked
+    // localStorage.setItem("savedFilters", JSON.stringify(savedFilters))
 // }))
+// 
+// localStorage.getItem("savedFilters")
 

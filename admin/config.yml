@@ -20,7 +20,7 @@ collections:
       - {label: "Název souboru měsíc", name: "SouborMesic", widget: "string"}
       - {label: "Název souboru den", name: "SouborDen", widget: "string"}
       - {label: "Misto konani akce", name: "kde", widget: "string"}
-      - {label: "Plakat maximální velikost šířka 400px", name: "foto", widget: "image"}
+      - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
       - {label: "Vstupné", name: "vstupne", widget: "string"}

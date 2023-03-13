@@ -8,15 +8,15 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    align-items: stretch;
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
     padding: 0 v.$spacer-small;
-    flex: 1 1 100%;
+    // flex: 1 1 100%;
     // max-width: calc(100vw - 2*v.$spacer-small);
 
     &__link {
         height: 100%;
-        width: 100%;
         // background-color: var(--primaryColor-similar);
         text-decoration: none;
         transition: all 0.5s linear;
@@ -33,10 +33,12 @@
     }
 
     &__item {
-        max-width: 200px;
+        max-width: calc(100vw - 2*v.$spacer-normal);
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
-       position: relative;
+        position: relative;
+        // justify-items: stretch;
     }
 
     &__item + .akce__item {
@@ -49,10 +51,10 @@
         
 
         &-holder {
-            width: 200px;
-            height: 200px;
+            max-width: 100%;
+            max-height: 200px;
+            margin: 0 auto;
             overflow: hidden;
-            @include m.cornerRound(v.$radius,v.$radius,0,0);
         }
     }
 
@@ -66,15 +68,16 @@
     }
 
     &__datum {
-        position: absolute;
-        right: 0;
-        top: 0;
+        // position: absolute;
+        // right: 0;
+        // top: 0;
         background-color: var(--secondaryColor);
         opacity: 0.7;
+        height: 2.5rem;
         padding: v.$spacer-small;
         color: black;
         font-weight: 600;
-        @include m.cornerRound(0,v.$radius,0,0);
+        @include m.cornerRound(v.$radius,v.$radius,0,0);
         transition: all 0.5s linear;
     }
 
@@ -84,8 +87,18 @@
         justify-content:center;
     }
 
-    @media screen and (min-width:v.$minwidth-tablet) {
+    @media screen and (min-width:v.$minwidth-tablet-akce) {
+        &__item {
+            max-width: calc(50vw - 2*v.$spacer-normal);
+            flex-wrap: wrap;
+        }
+    }
 
+    @media screen and (min-width:v.$minwidth-tablet) {
+        &__item {
+            max-width: 300px;
+            flex-wrap: wrap;
+        }
     }
 }
 
