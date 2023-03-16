@@ -29,7 +29,7 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
     <p class="singleAkce__popisek-text">{{ SingleAkce.data.vstupne }}</p>
     {% if SingleAkce.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky akce: </p>
-    <p class="singleAkce__popisek-text">{{ SingleAkce.data.web }} </p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.web }}">{{ SingleAkce.data.web }}</a> </p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAkce.templateContent | safe }}</p>

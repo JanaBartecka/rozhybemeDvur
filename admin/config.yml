@@ -104,5 +104,4 @@ collections:
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
       - {label: "Poplatek", name: "polatek", widget: "string"}
-      - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}

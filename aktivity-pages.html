@@ -29,7 +29,7 @@ permalink: "krouzky/{{ SingleAktivita.data.SouborRok }}{{ SingleAktivita.data.So
     <p class="singleAkce__popisek-text">{{ SingleAktivita.data.vstupne }}</p>
     {% if SingleAktivita.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky aktivity: </p>
-    <p class="singleAkce__popisek-text">{{ SingleAktivita.data.web }} </p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.web }}">{{ SingleAktivita.data.web }}</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
