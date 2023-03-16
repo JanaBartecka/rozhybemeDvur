@@ -1,0 +1,45 @@
+---
+layout: /layouts/template-main.njk
+title: Rozhybeme Dvur
+metaDescription: nejaky popis
+pagination:
+  data: collections.vyletyMD
+  size: 1
+  alias: SingleVylet
+permalink: "krouzky/{{ SingleVylet.data.SouborRok }}{{ SingleVylet.data.SouborMesic }}{{ SingleVylet.data.SouborDen }}_{{ SingleVylet.data.title | slugify }}/"
+---
+
+{% include 'partials/menu.njk' %}
+
+<section class="banner">
+  <p class="banner__headline">
+    {{ SingleVylet.data.title }}
+  </p>
+</section>
+
+  <!-- <h2>{{ SingleAkce.data.title }}</h2> -->
+<div class="singleAkce">
+  <div class="singleAkce__textovaCast">
+    <h3 class="singleAkce__nadpis">INFORMACE O VÝLETU</h3>
+    <p class="singleAkce__popisek">Kdy: </p>
+      <p class="singleAkce__popisek-text">{{ SingleVylet.data.kdy }}</p>
+    <p class="singleAkce__popisek">Kde: </p>
+    <p class="singleAkce__popisek-text">{{ SingleVylet.data.kde }}</p>
+    <p class="singleAkce__popisek">Poplatek: </p>
+    <p class="singleAkce__popisek-text">{{ SingleVylet.data.vstupne }}</p>
+    {% if SingleVylet.data.web != null %}
+    <p class="singleAkce__popisek">Webové stránky výletu: </p>
+    <p class="singleAkce__popisek-text">{{ SingleVylet.data.web }} </p>
+    {% endif %}
+    <p class="singleAkce__popisek">Podrobnosti: </p>
+    <p  class="singleAkce__popisek-text">{{ SingleVylet.templateContent | safe }}</p>
+  </div>
+  <div>
+    <img src="{{ SingleVylet.data.foto }}" class="singleAkce__image" alt="{{ SingleVylet.data.alt }}">
+  </div>
+</div>
+
+
+
+
+

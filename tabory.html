@@ -3,16 +3,15 @@ layout: /layouts/template-main.njk
 title: Rozhybeme Dvur
 metaDescription: nejaky popis
 pagination:
-  data: collections.krouzkyMD
+  data: collections.taboryMD
   size: 10
-  alias: collections.krouzkyMD
+  alias: collections.taboryMD
 ---
 
 {% include 'partials/menu.njk' %}
 {% include 'partials/banner.njk' %}
 
-{% include 'partials/filtersKrouzky.njk' %}
-{% include 'partials/krouzky.njk' %}
+{% include 'partials/tabory.njk' %}
 
 <div class="akce__pagination">
     {% if pagination.href.previous %} <button class="button"><a href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}

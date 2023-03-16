@@ -1,0 +1,45 @@
+---
+layout: /layouts/template-main.njk
+title: Rozhybeme Dvur
+metaDescription: nejaky popis
+pagination:
+  data: collections.aktivityMD
+  size: 1
+  alias: SingleAktivita
+permalink: "krouzky/{{ SingleAktivita.data.SouborRok }}{{ SingleAktivita.data.SouborMesic }}{{ SingleAktivita.data.SouborDen }}_{{ SingleAktivita.data.title | slugify }}/"
+---
+
+{% include 'partials/menu.njk' %}
+
+<section class="banner">
+  <p class="banner__headline">
+    {{ SingleAktivita.data.title }}
+  </p>
+</section>
+
+  <!-- <h2>{{ SingleAkce.data.title }}</h2> -->
+<div class="singleAkce">
+  <div class="singleAkce__textovaCast">
+    <h3 class="singleAkce__nadpis">INFORMACE O AKTIVITĚ</h3>
+    <p class="singleAkce__popisek">Kdy: </p>
+      <p class="singleAkce__popisek-text">{{ SingleAktivita.data.kdy }}</p>
+    <p class="singleAkce__popisek">Kde: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAktivita.data.kde }}</p>
+    <p class="singleAkce__popisek">Poplatek: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAktivita.data.vstupne }}</p>
+    {% if SingleAktivita.data.web != null %}
+    <p class="singleAkce__popisek">Webové stránky aktivity: </p>
+    <p class="singleAkce__popisek-text">{{ SingleAktivita.data.web }} </p>
+    {% endif %}
+    <p class="singleAkce__popisek">Podrobnosti: </p>
+    <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
+  </div>
+  <div>
+    <img src="{{ SingleAktivita.data.foto }}" class="singleAkce__image" alt="{{ SingleAktivita.data.alt }}">
+  </div>
+</div>
+
+
+
+
+

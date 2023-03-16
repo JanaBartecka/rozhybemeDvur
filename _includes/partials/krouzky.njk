@@ -1,0 +1,23 @@
+
+<div class="akce">
+
+  {% for krouzky in collections.krouzkyMD | reverse %}  
+
+  <div class=" akce__item {{ krouzky.data.myTags }} ">
+    <a class="akce__link" href="https://rozhybemedvur.netlify.app/krouzky/{{ krouzky.data.SouborRok }}{{ krouzky.data.SouborMesic }}{{ krouzky.data.SouborDen }}_{{ krouzky.data.title | slugify }}/">
+      <div class="akce__datum">{{ krouzky.data.kdy }} </div> 
+      
+      <div class="akce__image-holder">
+        <img src="{{ krouzky.data.foto }}" class="akce__image" alt="{{ krouzky.data.alt }}">
+      </div>
+      
+      <h3 class="akce__title">{{ krouzky.data.title }}</h3>
+    </a>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+</div>
+

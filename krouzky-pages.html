@@ -1,0 +1,45 @@
+---
+layout: /layouts/template-main.njk
+title: Rozhybeme Dvur
+metaDescription: nejaky popis
+pagination:
+  data: collections.krouzkyMD
+  size: 1
+  alias: SingleKrouzek
+permalink: "krouzky/{{ SingleKrouzek.data.SouborRok }}{{ SingleKrouzek.data.SouborMesic }}{{ SingleKrouzek.data.SouborDen }}_{{ SingleKrouzek.data.title | slugify }}/"
+---
+
+{% include 'partials/menu.njk' %}
+
+<section class="banner">
+  <p class="banner__headline">
+    {{ SingleKrouzek.data.title }}
+  </p>
+</section>
+
+  <!-- <h2>{{ SingleAkce.data.title }}</h2> -->
+<div class="singleAkce">
+  <div class="singleAkce__textovaCast">
+    <h3 class="singleAkce__nadpis">INFORMACE O KROUŽKU</h3>
+    <p class="singleAkce__popisek">Kdy: </p>
+      <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.kdy }}</p>
+    <p class="singleAkce__popisek">Kde: </p>
+    <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.kde }}</p>
+    <p class="singleAkce__popisek">Poplatek: </p>
+    <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.vstupne }}</p>
+    {% if SingleKrouzek.data.web != null %}
+    <p class="singleAkce__popisek">Webové stránky kroužku: </p>
+    <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.web }} </p>
+    {% endif %}
+    <p class="singleAkce__popisek">Podrobnosti: </p>
+    <p  class="singleAkce__popisek-text">{{ SingleKrouzek.templateContent | safe }}</p>
+  </div>
+  <div>
+    <img src="{{ SingleKrouzek.data.foto }}" class="singleAkce__image" alt="{{ SingleKrouzek.data.alt }}">
+  </div>
+</div>
+
+
+
+
+
