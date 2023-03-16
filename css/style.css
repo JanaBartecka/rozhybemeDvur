@@ -167,7 +167,7 @@ input[type=checkbox] {
     max-width: 70rem;
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 360px calc(100vw - 360px);
+    grid-template-columns: 360px 3fr;
   }
 }
 
