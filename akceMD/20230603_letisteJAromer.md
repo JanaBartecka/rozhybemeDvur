@@ -11,7 +11,7 @@ foto: /images/akce/letisteJaromer.jpg
 alt: Den otevřených dveří a dětský den na letišti v Jaroměři
 web: www.lkja.cz
 vstupne: ..
-myTags: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni cerven2023
+myTags: ProDeti ProDospele Vystavy Ostatni cerven2023
 ---
 
 Program pro děti, ukázka leteckých modelářů nebudou chybět ani letové ukázky.
