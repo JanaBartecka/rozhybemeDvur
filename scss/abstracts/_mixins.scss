@@ -1,6 +1,16 @@
+@use 'variables' as v;
+
 @mixin cornerRound($leftTop:10px, $rightTop:10px,$leftBottom:10px,$rightBottom:10px) {
     border-top-right-radius: $rightTop;
     border-top-left-radius: $leftTop;
     border-bottom-left-radius: $leftBottom;
     border-bottom-right-radius:$rightBottom;
+}
+
+@mixin zarovnani {
+    padding: 0 v.$spacer-small;
+    margin: 0 auto;
+    @media screen and (min-width:v.$minwidth-computer) {
+        max-width: v.$maxwidth;
+    }
 }
