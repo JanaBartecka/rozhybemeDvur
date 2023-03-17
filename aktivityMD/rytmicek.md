@@ -7,7 +7,7 @@ kde: MC Žirafa
 foto: /images/akce/306757456_5921232007904595_6898782289141202775_n.jpg
 alt: Rytmíček - pohybový kroužek
 web: https://materske-centrum-zirafa2.reservio.com/
-polatek: 50 Kč
+polatek: "50"
 myTags: AktivityDo3 AktivityOd3 Ostatni
 ---
 
