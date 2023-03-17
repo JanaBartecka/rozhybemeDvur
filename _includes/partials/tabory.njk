@@ -4,7 +4,7 @@
   {% for tabory in collections.taboryMD | reverse %}  
 
   <div class=" akce__item {{ tabory.data.myTags }} ">
-    <a class="akce__link" href="https://rozhybemedvur.netlify.app/tabory/{{ tabory.data.SouborRok }}{{ tabory.data.SouborMesic }}{{ tabory.data.SouborDen }}_{{ tabory.data.title | slugify }}/">
+    <a class="akce__link" href="https://rozhybemedvur.netlify.app/tabory/{{ tabory.data.title | slugify }}/">
       <div class="akce__datum">{{ tabory.data.kdy }} </div> 
       
       <div class="akce__image-holder">
