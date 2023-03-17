@@ -1,9 +1,17 @@
 @use '../abstracts/variables' as v;
 
 .zmenaProgramu {
+    
+    padding: 0 v.$spacer-small;
+
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     background-color: var(--greyDarkColor);
     font-weight: 600;
     color: var(--lightColor);
+    padding: v.$spacer-normal;
+
+    @media screen and (min-width:v.$minwidth-computer) {
+        max-width: v.$maxwidth;
+    }
 }

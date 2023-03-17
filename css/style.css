@@ -605,9 +605,16 @@ input[type=checkbox] {
 }
 
 .zmenaProgramu {
+  padding: 0 0.5rem;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   background-color: var(--greyDarkColor);
   font-weight: 600;
   color: var(--lightColor);
+  padding: 1rem;
+}
+@media screen and (min-width: 63rem) {
+  .zmenaProgramu {
+    max-width: 70rem;
+  }
 }/*# sourceMappingURL=style.css.map */
