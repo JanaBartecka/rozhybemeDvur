@@ -1,16 +1,16 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: ProDospele Sportovni Ostatni duben2023
+title: SAFARIBĚH ČSOB NECHCI BÝT POSLEDNÍ
 kdy: 1.4.2023
-kde: Dvůr králové nad labem – ZOO
-web: 
-vstupne: 10-20kc
 SouborRok: "2023"
-SouborMesic: "03"
+SouborMesic: "04"
 SouborDen: "01"
+kde: Dvůr králové nad labem – ZOO
 foto: /images/akce/safaribeh.jpg
-alt: detsky den
+alt: SAFARIBĚH ČSOB NECHCI BÝT POSLEDNÍ V ZOO
+web: null
+vstupne: ..
 myTags: ProDospele Sportovni Ostatni duben2023
 ---
 
