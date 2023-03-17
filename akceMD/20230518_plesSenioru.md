@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: Ples seniorů
-kdy: 18.5.2023
+kdy: 18.05.2023
 SouborRok: "2023"
 SouborMesic: "05"
 SouborDen: "18"
@@ -10,7 +10,7 @@ kde: Hankův dům
 foto: /images/akce/plessenioru.jpg
 alt: Ples seniorů v Hankově domě
 web: ""
-vstupne: ..
+vstupne: 150 Kč
 myTags: HudbaDivadlo ProDospele Spolecenske kveten2023
 ---
 
