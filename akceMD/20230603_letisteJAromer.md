@@ -10,7 +10,7 @@ kde: Jaroměř – letiště
 foto: /images/akce/letisteJaromer.jpg
 alt: Den otevřených dveří a dětský den na letišti v Jaroměři
 web: www.lkja.cz
-vstupne: ..
+vstupne: ""
 myTags: ProDeti ProDospele Vystavy Ostatni cerven2023
 ---
 
