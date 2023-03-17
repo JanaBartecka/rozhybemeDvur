@@ -2,15 +2,15 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: SAFARIBĚH ČSOB NECHCI BÝT POSLEDNÍ
-kdy: 1.4.2023
+kdy: 01.04.2023
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "01"
 kde: Dvůr králové nad labem – ZOO
 foto: /images/akce/safaribeh.jpg
 alt: SAFARIBĚH ČSOB NECHCI BÝT POSLEDNÍ V ZOO
-web: null
-vstupne: ..
+web: https://safaripark.cz/cz/zazitky/safaribeh-csob-2020-nechci-byt-posledni?fbclid=IwAR2zKGZSr54aPD2qtHzNFWHP0rCROka8QtPpxgLDO2srN5bewBqtGwcBOok
+vstupne: ""
 myTags: ProDospele Sportovni Ostatni duben2023
 ---
 
