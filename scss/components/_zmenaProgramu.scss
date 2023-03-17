@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as v;
+
+.zmenaProgramu {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: var(--greyDarkColor);
+    font-weight: 600;
+    color: var(--lightColor);
+}

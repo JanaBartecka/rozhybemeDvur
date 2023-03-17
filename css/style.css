@@ -140,6 +140,66 @@ li {
   margin-right: 0.5em;
 }
 
+.button {
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--buttonColor);
+  border: 4px solid var(--buttonColor);
+  color: var(--textColor);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+}
+.button:hover {
+  background-color: var(--lightColor);
+  border: 4px solid var(--buttonColor);
+  color: var(--textColor);
+  transition: all 0.3s;
+}
+.button:active {
+  background-color: var(--buttonColor);
+  color: var(--textColor);
+}
+.button--active {
+  background-color: var(--tertiaryColor);
+  border: 4px solid var(--tertiaryColor);
+  color: var(--lightColor);
+}
+.button--active a {
+  color: var(--lightColor);
+}
+.button--active:hover {
+  color: var(--textColor);
+}
+.button--active:hover a {
+  color: var(--textColor);
+}
+.button a {
+  text-decoration: none;
+}
+.button__filtrovani {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5rem auto 0 auto;
+}
+@media screen and (min-width: 42rem) {
+  .button__filtrovani {
+    display: none;
+  }
+}
+
+button:focus-visible {
+  outline: 6px dotted var(--focusColor);
+}
+
+.button + .button {
+  margin-left: 1.5rem;
+}
+
 .banner {
   min-height: 100px;
   width: 100vw;
@@ -337,6 +397,70 @@ input[type=checkbox] {
   }
 }
 
+.uvod {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+.uvod__card {
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 42rem) {
+  .uvod__card {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "kategorie-nazev kategorie-nazev" "kategorie-text kategorie-vice";
+  }
+}
+@media screen and (min-width: 63rem) {
+  .uvod__card {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "kategorie-nazev kategorie-text kategorie-vice";
+  }
+}
+.uvod__kategorie-nazev {
+  padding: 1rem;
+  background-color: var(--tertiaryColor);
+  color: var(--lightColor);
+  grid-area: kategorie-nazev;
+}
+.uvod__kategorie-text {
+  padding: 1rem 0 1rem 0;
+  grid-area: kategorie-text;
+}
+@media screen and (min-width: 42rem) {
+  .uvod__kategorie-text {
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    align-self: center;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .uvod__kategorie-text {
+    padding: 0 0.5rem;
+  }
+}
+.uvod__kategorie-vice {
+  grid-area: kategorie-vice;
+  padding: 0.5rem;
+  align-self: center;
+  margin: 0;
+}
+.uvod__vice {
+  border: 2px solid var(--primaryColor);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1rem;
+}
+.uvod__vice--hide {
+  display: none;
+}
+
 .akce {
   display: flex;
   flex-wrap: wrap;
@@ -457,7 +581,6 @@ input[type=checkbox] {
     max-width: 70rem;
     display: flex;
     flex-direction: row;
-    flex: 1 1 50%;
     justify-content: center;
   }
   .singleAkce__image {
@@ -481,62 +604,10 @@ input[type=checkbox] {
   transform: translateY(3rem);
 }
 
-.button {
-  padding: 0.5rem 2rem;
-  margin-top: 1rem;
-  border: none;
-  border-radius: 10px;
-  background-color: var(--buttonColor);
-  border: 4px solid var(--buttonColor);
-  color: var(--textColor);
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  display: inline-block;
-}
-.button:hover {
-  background-color: var(--lightColor);
-  border: 4px solid var(--buttonColor);
-  color: var(--textColor);
-  transition: all 0.3s;
-}
-.button:active {
-  background-color: var(--buttonColor);
-  color: var(--textColor);
-}
-.button--active {
-  background-color: var(--tertiaryColor);
-  border: 4px solid var(--tertiaryColor);
+.zmenaProgramu {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: var(--greyDarkColor);
+  font-weight: 600;
   color: var(--lightColor);
-}
-.button--active a {
-  color: var(--lightColor);
-}
-.button--active:hover {
-  color: var(--textColor);
-}
-.button--active:hover a {
-  color: var(--textColor);
-}
-.button a {
-  text-decoration: none;
-}
-.button__filtrovani {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 1.5rem auto 0 auto;
-}
-@media screen and (min-width: 42rem) {
-  .button__filtrovani {
-    display: none;
-  }
-}
-
-button:focus-visible {
-  outline: 6px dotted var(--focusColor);
-}
-
-.button + .button {
-  margin-left: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

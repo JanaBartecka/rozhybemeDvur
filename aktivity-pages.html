@@ -6,7 +6,7 @@ pagination:
   data: collections.aktivityMD
   size: 1
   alias: SingleAktivita
-permalink: "krouzky/{{ SingleAktivita.data.SouborRok }}{{ SingleAktivita.data.SouborMesic }}{{ SingleAktivita.data.SouborDen }}_{{ SingleAktivita.data.title | slugify }}/"
+permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
 ---
 
 {% include 'partials/menu.njk' %}

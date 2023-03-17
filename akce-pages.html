@@ -21,23 +21,35 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
 <div class="singleAkce">
   <div class="singleAkce__textovaCast">
     <h3 class="singleAkce__nadpis">INFORMACE O AKCI</h3>
+
     <p class="singleAkce__popisek">Kdy: </p>
-      <p class="singleAkce__popisek-text">{{ SingleAkce.data.kdy }}</p>
+    <p class="singleAkce__popisek-text">{{ SingleAkce.data.kdy }}</p>
+
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleAkce.data.kde }}</p>
-    <p class="singleAkce__popisek">Vstupné: </p>
-    <p class="singleAkce__popisek-text">{{ SingleAkce.data.vstupne }}</p>
-    {% if SingleAkce.data.web != null %}
-    <p class="singleAkce__popisek">Webové stránky akce: </p>
-    <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.web }}">{{ SingleAkce.data.web }}</a> </p>
+
+    {% if SingleAkce.data.vstupne != null %}
+      <p class="singleAkce__popisek">Vstupné: </p>
+      <p class="singleAkce__popisek-text">{{ SingleAkce.data.vstupne }}</p>
     {% endif %}
+
+    {% if SingleAkce.data.web != null %}
+      <p class="singleAkce__popisek">Webové stránky akce: </p>
+      <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.web }}">{{ SingleAkce.data.web }}</a> </p>
+    {% endif %}
+
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAkce.templateContent | safe }}</p>
+
   </div>
   <div>
+
     <img src="{{ SingleAkce.data.foto }}" class="singleAkce__image" alt="{{ SingleAkce.data.alt }}">
+
   </div>
 </div>
+
+{% include 'partials/zmenaProgramu.njk' %}
 
 
 

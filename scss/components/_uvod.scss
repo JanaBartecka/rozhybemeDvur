@@ -1,0 +1,78 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+.uvod {
+    max-width: v.$maxwidth;
+    margin: v.$spacer-big auto;
+    padding: 0 v.$spacer-big;
+
+    &__card {
+        // display: grid;
+        // grid-template-columns:1fr;
+        // grid-template-rows: auto auto auto;
+        // grid-template-areas: 
+        // "kategorie-nazev"
+        // "kategorie-text"
+        // "kategorie-vice";
+        padding-bottom: v.$spacer-big;
+        margin-top: v.$spacer-big;
+
+        @media screen and (min-width:v.$minwidth-tablet) {
+        
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: auto auto;
+            grid-template-areas: 
+            "kategorie-nazev kategorie-nazev"
+            "kategorie-text kategorie-vice";
+        }
+
+        @media screen and (min-width:v.$minwidth-computer) {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "kategorie-nazev kategorie-text kategorie-vice";
+        }
+    }
+        
+    &__kategorie-nazev {
+        padding: v.$spacer-normal;
+        background-color: var(--tertiaryColor);
+        color: var(--lightColor);
+        grid-area: kategorie-nazev;
+    }
+
+    &__kategorie-text {
+        padding: v.$spacer-normal 0 v.$spacer-normal 0;
+        grid-area: kategorie-text;
+
+        @media screen and (min-width:v.$minwidth-tablet) { 
+            padding: v.$spacer-small v.$spacer-small v.$spacer-small 0;
+            align-self: center;
+        }
+
+        @media screen and (min-width:v.$minwidth-computer) { 
+            padding: 0 v.$spacer-small;
+        }
+    }
+
+    &__kategorie-vice {
+        grid-area: kategorie-vice;
+        padding: v.$spacer-small;
+        align-self: center;
+        margin: 0;
+    }
+
+    &__vice {
+        border: 2px solid var(--primaryColor);
+        @include m.cornerRound;
+        padding: v.$spacer-normal;
+
+        &--hide {
+            display: none;
+        }
+    }
+
+
+}

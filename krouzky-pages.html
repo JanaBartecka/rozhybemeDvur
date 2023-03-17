@@ -6,7 +6,7 @@ pagination:
   data: collections.krouzkyMD
   size: 1
   alias: SingleKrouzek
-permalink: "krouzky/{{ SingleKrouzek.data.SouborRok }}{{ SingleKrouzek.data.SouborMesic }}{{ SingleKrouzek.data.SouborDen }}_{{ SingleKrouzek.data.title | slugify }}/"
+permalink: "krouzky/{{ SingleKrouzek.data.title | slugify }}/"
 ---
 
 {% include 'partials/menu.njk' %}

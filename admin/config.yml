@@ -23,14 +23,14 @@ collections:
       - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
-      - {label: "Vstupné", name: "vstupne", widget: "string"}
+      - {label: "Vstupné - není povinné vyplnit", name: "vstupne", widget: "string", required: false}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "krouzky"
     label: "Krouzky"
     folder: "krouzkyMD"
     create: true
-    slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/krouzky.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "krouzkyMD"}
@@ -50,7 +50,7 @@ collections:
     label: "Aktivity"
     folder: "aktivityMD"
     create: true
-    slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/aktivity.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "aktivityMD"}
@@ -70,7 +70,7 @@ collections:
     label: "Vylety"
     folder: "vyletyMD"
     create: true
-    slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/vylety.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "vyletyMD"}
@@ -90,7 +90,7 @@ collections:
     label: "Tabory"
     folder: "taboryMD"
     create: true
-    slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
+    slug: "{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/tabory.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "taboryMD"}
