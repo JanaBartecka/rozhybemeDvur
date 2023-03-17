@@ -21,15 +21,11 @@ permalink: "vylety/{{ SingleVylet.data.title | slugify }}/"
 <div class="singleAkce">
   <div class="singleAkce__textovaCast">
     <h3 class="singleAkce__nadpis">INFORMACE O VÝLETU</h3>
-    <p class="singleAkce__popisek">Kdy: </p>
-      <p class="singleAkce__popisek-text">{{ SingleVylet.data.kdy }}</p>
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleVylet.data.kde }}</p>
-    <p class="singleAkce__popisek">Poplatek: </p>
-    <p class="singleAkce__popisek-text">{{ SingleVylet.data.vstupne }}</p>
     {% if SingleVylet.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky výletu: </p>
-    <p class="singleAkce__popisek-text">{{ SingleVylet.data.web }} </p>
+    <p class="singleAkce__popisek-text">Odkaz ZDE</p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleVylet.templateContent | safe }}</p>

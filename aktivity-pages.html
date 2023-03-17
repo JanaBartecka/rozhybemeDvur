@@ -29,7 +29,7 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
     <p class="singleAkce__popisek-text">{{ SingleAktivita.data.vstupne }}</p>
     {% if SingleAktivita.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky aktivity: </p>
-    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.web }}">{{ SingleAktivita.data.web }}</a></p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
