@@ -10,7 +10,7 @@ kde: Pecka – Koupaliště a kemp na Pecce
 foto: /images/akce/detskyDen.jpg
 alt: detsky den
 web: www.seznam.cz
-vstupne: ..
+vstupne: ""
 myTags: HudbaDivadlo ProDeti Ostatni cerven2023
 ---
 
