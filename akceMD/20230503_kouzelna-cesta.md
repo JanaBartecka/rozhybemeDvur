@@ -1,7 +1,7 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: Kouzelná cesta
+title: Kouzelná cesta - Petra Bubeníčková, ilustrace Oldřich a Františka Jelenovi
 kdy: 3.4.-30.6.2023
 SouborRok: "2023"
 SouborMesic: "05"
