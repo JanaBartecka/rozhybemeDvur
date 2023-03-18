@@ -2,7 +2,7 @@
 layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Trampolínky
-kdy: 1 hodina
+kdy: 1 hodina Středa 18:00 -19:00
 kde: Fit studiu R.Jaroš na Slovanech
 foto: /images/akce/307200001_5924214080939721_2002892557523923400_n.jpg
 alt: Trampolínky ve Fit studiu R.Jaroš na Slovanech
