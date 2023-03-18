@@ -6,7 +6,7 @@ kdy: 12.4.2023 19:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "12"
-kde: Hankův dům, městské kulturní zařízení
+kde: KRČMA STARÝ PIVOVAR
 foto: /images/akce/330440384_1425451434865706_3099768341086128458_n.jpg
 alt: THE CHILKATS (DE) - Hankův dům
 web: https://www.facebook.com/events/1399192057501993/?ref=newsfeed
