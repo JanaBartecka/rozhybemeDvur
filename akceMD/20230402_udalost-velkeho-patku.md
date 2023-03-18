@@ -6,7 +6,7 @@ kdy: 2.4.2023 14:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "02"
-kde: Dvůr Králové nad Lbem v praku Schulzovy sady u altánu
+kde: Dvůr Králové nad Labem v praku Schulzovy sady u altánu
 foto: /images/akce/333626319_783515086170789_5658242641681316580_n.jpg
 alt: Dvůr Králové nad Lbem v praku Schulzovy sady u altánu
 web: https://www.facebook.com/photo/?fbid=769330541429693&set=gm.934074427614651&idorvanity=332689737753126
