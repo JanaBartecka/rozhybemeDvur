@@ -21,6 +21,26 @@ btnShowFilter.addEventListener('click', () => {
     filterSection.classList.toggle('filters__hide')
 });
 
+const mediaQuery = window.matchMedia("(max-width: 42rem)");
+
+function handleMediaQueryChange(mediaQuery) {
+    if (mediaQuery.matches) {
+        if (!filterSection.classList.contains('filters__hide')) {
+            filterSection.classList.toggle('filters__hide')
+        }
+    } else {
+        if (filterSection.classList.contains('filters__hide')) {
+            filterSection.classList.toggle('filters__hide')
+        }
+    }
+  }
+
+mediaQuery.addListener(handleMediaQueryChange);
+handleMediaQueryChange(mediaQuery);
+
+  
+
+
 // Load filter value from local storage if it exists
 // if (localStorage.getItem("savedFilters")) {
     // //filterInput.value = localStorage.getItem("filterValue");

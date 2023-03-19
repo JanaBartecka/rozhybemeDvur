@@ -6,9 +6,9 @@
     margin: 0 auto;
     text-align: center;
     font-size: 0.8rem;
-    background-color: var(--greyDarkColor);
+    background-color: var(--greyColor);
     font-weight: 600;
-    color: var(--lightColor);
+    color: var(--textColor);
     padding: v.$spacer-normal;
 
     @media screen and (min-width:v.$minwidth-computer) {

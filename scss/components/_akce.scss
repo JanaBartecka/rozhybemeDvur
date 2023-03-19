@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-content: center;
+    // align-content: center;
     align-items: stretch;
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
@@ -21,6 +21,8 @@
         text-decoration: none;
         transition: all 0.5s linear;
         box-shadow: 0px 0px 10px var(--primaryColor-similar);
+        display: flex;
+        flex-direction: column;
         @include m.cornerRound;
 
         &:hover {
@@ -62,8 +64,8 @@
         // padding-top: 1rem;
         padding: v.$spacer-small;
         font-weight: 600;
-        font-size: 1rem;
-        color: var(--tertiaryColor);
+        font-size: 1.2rem;
+        color: var(--primaryColor);
         text-align: left;
     }
 
@@ -75,10 +77,16 @@
         opacity: 0.7;
         height: 2.5rem;
         padding: v.$spacer-small;
+        margin-top: auto;
         color: black;
         font-weight: 600;
         @include m.cornerRound(0,0,v.$radius,v.$radius);
         transition: all 0.5s linear;
+    }
+
+    &__registrace {
+        @include m.cornerRound(0,0,0,0);
+        background-color: var(--primaryColor-similar);
     }
 
     &__pagination {
