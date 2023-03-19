@@ -7,7 +7,7 @@ kde: Sokolovna
 foto: /images/akce/306916602_5918333961527733_8413763797836743105_n.jpg
 alt: Sokolovna
 polatek: 50 Kč
-myTags: AktivityDo3 AktivityOstatní
+myTags: AktivityDo3 AktivityOstatni
 ---
 <!--\[if !mso]>
 <style>
