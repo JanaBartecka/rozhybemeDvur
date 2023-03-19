@@ -21,12 +21,16 @@ permalink: "krouzky/{{ SingleKrouzek.data.title | slugify }}/"
 <div class="singleAkce">
   <div class="singleAkce__textovaCast">
     <h3 class="singleAkce__nadpis">INFORMACE O KROUŽKU</h3>
+    {% if SingleKrouzek.data.kdy != null %}
     <p class="singleAkce__popisek">Kdy: </p>
       <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.kdy }}</p>
+      {% endif %}
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.kde }}</p>
-    <p class="singleAkce__popisek">Poplatek: </p>
-    <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.vstupne }}</p>
+    {% if SingleKrouzek.data.polatek != null %}
+      <p class="singleAkce__popisek">Poplatek: </p>
+      <p class="singleAkce__popisek-text">{{ SingleKrouzek.data.polatek }}</p>
+    {% endif %}
     {% if SingleKrouzek.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky kroužku: </p>
     <p class="singleAkce__popisek-text">Odkaz ZDE</p>

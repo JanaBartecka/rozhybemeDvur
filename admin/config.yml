@@ -23,6 +23,7 @@ collections:
       - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
+      - {label: "Stránky registrace - není povinné vyplnit", name: "registrace", widget: "string", required: false}
       - {label: "Vstupné - není povinné vyplnit", name: "vstupne", widget: "string", required: false}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
@@ -35,12 +36,12 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/krouzky.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "krouzkyMD"}
       - {label: "Titulek", name: "title", widget: "string"}
-      - {label: "Čas kroužku", name: "kdy", widget: "string"}
+      - {label: "Čas kroužku - není povinné vyplnit", name: "kdy", widget: "string", required: false}
       - {label: "Misto konani akce", name: "kde", widget: "string"}
       - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
-      - {label: "Poplatek", name: "polatek", widget: "string"}
+      - {label: "Poplatek - není povinné vyplnit", name: "polatek", widget: "string", required: false}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "aktivity"
@@ -57,7 +58,8 @@ collections:
       - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
-      - {label: "Poplatek", name: "polatek", widget: "string"}
+      - {label: "Stránky registrace - není povinné vyplnit", name: "registrace", widget: "string", required: false}
+      - {label: "Poplatek - není povinné vyplnit", name: "polatek", widget: "string", required: false}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "vylety"
@@ -89,5 +91,5 @@ collections:
       - {label: "Plakat maximální velikost šířka 500px", name: "foto", widget: "image"}
       - {label: "Alternativni text", name: "alt", widget: "string"}
       - {label: "Webove stránky - není povinné vyplnit", name: "web", widget: "string", required: false}
-      - {label: "Poplatek", name: "polatek", widget: "string"}
+      - {label: "Poplatek - není povinné vyplnit", name: "polatek", widget: "string", required: false}
       - {label: "Text", name: "body", widget: "markdown"}

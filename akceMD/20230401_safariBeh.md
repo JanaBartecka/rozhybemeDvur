@@ -10,6 +10,7 @@ kde: Dvůr králové nad labem – ZOO
 foto: /images/akce/safaribeh.jpg
 alt: SAFARIBĚH ČSOB NECHCI BÝT POSLEDNÍ V ZOO
 web: https://safaripark.cz/cz/zazitky/safaribeh-csob-2020-nechci-byt-posledni?fbclid=IwAR2zKGZSr54aPD2qtHzNFWHP0rCROka8QtPpxgLDO2srN5bewBqtGwcBOok
+registrace: https://www.seznam.cz
 vstupne: ""
 myTags: ProDospele Sportovni Ostatni duben2023
 ---

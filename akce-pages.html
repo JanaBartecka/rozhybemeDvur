@@ -38,6 +38,11 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
       <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.web }}">{{ SingleAkce.data.web }}</a> </p>
     {% endif %}
 
+    {% if SingleAkce.data.registrace != null %}
+      <p class="singleAkce__popisek">Registrace na akci: </p>
+      <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.registrace }}">{{ SingleAkce.data.registrace }}</a> </p>
+    {% endif %}
+
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAkce.templateContent | safe }}</p>
 

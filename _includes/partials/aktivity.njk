@@ -6,6 +6,9 @@
   <div class=" akce__item {{ aktivity.data.myTags }} ">
     <a class="akce__link" href="{{ aktivity.data.title | slugify }}/">
       <div class="akce__datum">{{ aktivity.data.kdy }} </div> 
+      {% if aktivity.data.registrace != null %}
+      <div class="akce__datum">Nutná registrace</div>
+    {% endif %}
       
       <div class="akce__image-holder">
         <img src="{{ aktivity.data.foto }}" class="akce__image" alt="{{ aktivity.data.alt }}">

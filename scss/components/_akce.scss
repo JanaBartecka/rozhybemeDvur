@@ -77,7 +77,7 @@
         padding: v.$spacer-small;
         color: black;
         font-weight: 600;
-        @include m.cornerRound(v.$radius,v.$radius,0,0);
+        @include m.cornerRound(0,0,v.$radius,v.$radius);
         transition: all 0.5s linear;
     }
 

@@ -25,8 +25,10 @@ permalink: "tabory/{{ SingleTabor.data.title | slugify }}/"
       <p class="singleAkce__popisek-text">{{ SingleTabor.data.kdy }}</p>
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleTabor.data.kde }}</p>
+    {% if SingleTabor.data.polatek != null %}
     <p class="singleAkce__popisek">Poplatek: </p>
-    <p class="singleAkce__popisek-text">{{ SingleTabor.data.vstupne }}</p>
+    <p class="singleAkce__popisek-text">{{ SingleTabor.data.polatek }}</p>
+    {% endif %}
     {% if SingleTabor.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky táboru: </p>
     <p class="singleAkce__popisek-text">Odkaz ZDE</p>

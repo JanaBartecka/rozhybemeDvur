@@ -25,11 +25,17 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
       <p class="singleAkce__popisek-text">{{ SingleAktivita.data.kdy }}</p>
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleAktivita.data.kde }}</p>
+    {% if SingleAktivita.data.vstupne != null %}
     <p class="singleAkce__popisek">Poplatek: </p>
     <p class="singleAkce__popisek-text">{{ SingleAktivita.data.vstupne }}</p>
+    {% endif %}
     {% if SingleAktivita.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky aktivity: </p>
     <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.web }}">Odkaz ZDE</a></p>
+    {% endif %}
+    {% if SingleAktivita.data.registrace != null %}
+    <p class="singleAkce__popisek">Registrace na aktivitu: </p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.registrace }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
