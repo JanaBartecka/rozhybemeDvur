@@ -10,7 +10,7 @@ kde: Skautská vila - Zlatnička, Plukovníka Švece 1278
 foto: /images/akce/330812027_5901630396611527_4941488482072739686_n.jpg
 alt: JAK SVATÝ JIŘÍ VYZRÁL NA DRAKA - Skautská vila - Zlatnička
 web: https://www.facebook.com/events/592677992468870/?ref=newsfeed
-myTags: HudbaDivadlo ProDeti ProDospele Sportovni Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Sportovni Ostatni duben2023
 ---
 <!--StartFragment-->
 
