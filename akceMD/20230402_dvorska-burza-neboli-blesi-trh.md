@@ -10,6 +10,6 @@ kde: Dopravní hřiště Dvůr Králové nad Labem
 foto: /images/akce/335311546_1362713057644934_933088920366558365_n.jpg
 alt: DVORSKÁ BURZA NEBOLI BLEŠÍ TRH - Dopravní hřiště Dvůr Králové nad Labem
 web: https://www.facebook.com/photo/?fbid=6468898389789811&set=gm.6628876397142299&idorvanity=876384045724925
-myTags: ProDeti ProDospele Vystavy Ostatni
+myTags: ProDeti ProDospele Vystavy Ostatni duben2023
 ---
 DVORSKÁ BURZA NEBOLI BLEŠÍ TRH
