@@ -3,28 +3,28 @@ layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Sokolovna 10:00
 kdy: Úterý 10:00 - 11:00
-kde: Sokolovna
+kde: Sokolovna Dvůr Králové nad Labem
 foto: /images/akce/306916602_5918333961527733_8413763797836743105_n.jpg
 alt: Sokolovna
 polatek: 50 Kč
 myTags: AktivityDo3 AktivityOstatní
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -64,9 +64,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -645,9 +645,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -674,13 +674,13 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-Pro děti od 0 - 2 let i pro lezce vstupné 50,- poplatek roční od ledna 1100,- pro rok 2023)
+Pro děti od 0 - 2 let i pro lezce vstupné 50,- poplatek roční od ledna 1100,- pro rok 2023
 
-Jeden z prvních příspěvků, kam vyrazit s dětma, bude patřit Sokolovně, která má nejdelší tradici ve Dvoře Králové nad Labem co se historicky sportu týče. Jedná se o cvičení pro rodiče a děti. Pokud máte děti ve věku do 2 let určitě přijďte v úterý do Sokolovny. Nezapomeňte jim vzít nějaké bačkůrky nebo botičky ať tam neběhají bosky a pití asi nemusíme zmiňovat <!--\[if gte vml 1]><v:shapetype id="_x0000_t75"
+Jedná se o cvičení pro rodiče a děti. Pokud máte děti ve věku do 2 let určitě přijďte v úterý do Sokolovny. Nezapomeňte jim vzít nějaké bačkůrky nebo botičky ať tam neběhají bosky a pití asi nemusíme zmiňovat <!--\\[if gte vml 1]><v:shapetype id="_x0000_t75"
  coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
  filled="f" stroked="f">
  <v:stroke joinstyle="miter"/>
@@ -705,13 +705,4 @@ Jeden z prvních příspěvků, kam vyrazit s dětma, bude patřit Sokolovně, k
  mso-wrap-style:square'>
  <v:imagedata src="file:///C:/Users/MARKTA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
   o:title="&#128578;"/>
-</v:shape><!\[endif]--><!--\[if !vml]-->![🙂](file:///C:/Users/MARKTA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)<!--\[endif]-->Před začátkem mají děti možnost se proběhnout nebo prolézt po sokolovně a v 9 zahajují sokolnice sportu ZDAR. Prvních 15 minutek se cvičí spolu s básničkami a mezi tím nám připraví opičí dráhu. Děti překonávají různé překážky a pěkně se vyřádí. Na závěr jsou další básničky a loučení. Podle nálady si určitě vaše ratolest vybere, co ho ten den bude bavit více <!--\[if gte vml 1]><v:shape
- id="Obrázek_x0020_5" o:spid="_x0000_i1025" type="#_x0000_t75" alt="&#128578;"
- style='width:12pt;height:12pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="file:///C:/Users/MARKTA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png"
-  o:title="&#128578;"/>
-</v:shape><!\[endif]--><!--\[if !vml]-->![🙂](file:///C:/Users/MARKTA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png)<!--\[endif]-->Pokud si myslíte, že už Vám musí běhat, tak to tak určitě není. Můžete zvolit jen něco a využít možnosti socializace a seznámení. Vstupné je 50 Kč a platí se vždy na místě, podle informací, co máme lze zaplatit v lednu členský poplatek na celý rok 1100 Kč. Nikde není potřeba se registrovat a kočárek lze uzamknout ve venkovní zastřešené kleci. V případě dotazů nás neváhejte kontaktovat, rádi zodpovíme nebo v Sokolovně zjistíme.
-
-Krásný den a sportu zdar.
-
-<!--EndFragment-->
+</v:shape><!\\[endif]--><!--\\[if !vml]-->.<!--\\[endif]-->Začátek je v 10 kdy zahajují sokolnice sportu ZDAR. Prvních 15 minutek se cvičí spolu s básničkami. Děti překonávají různé překážky a pěkně se vyřádí. Na závěr jsou další básničky a loučení. Podle nálady si určitě vaše ratolest vybere, co ho ten den bude bavit více. Pokud si myslíte, že už Vám musí běhat, tak to tak určitě není. Můžete zvolit jen něco a využít možnosti socializace a seznámení. Vstupné je 50 Kč a platí se vždy na místě, podle informací, co máme lze zaplatit v lednu členský poplatek na celý rok 1100 Kč. Nikde není potřeba se registrovat a kočárek lze uzamknout ve venkovní zastřešené kleci.
