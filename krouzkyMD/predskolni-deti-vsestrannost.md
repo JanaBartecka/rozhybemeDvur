@@ -7,15 +7,15 @@ kde: Sokolovna Dvůr králové nad Labem
 foto: /images/akce/307830808_5933108646716931_5797779006818087260_n.jpg
 alt: Předškolní děti - Všestrannost Sokolovna
 polatek: "1100 "
-myTags: KrouzkyOd3 KrouzkyOstatni
+myTags: KrouzkyOd4 KrouzkyOd5 KrouzkyOd6 KrouzkyOstatni
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -55,9 +55,9 @@ myTags: KrouzkyOd3 KrouzkyOstatni
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -636,9 +636,9 @@ myTags: KrouzkyOd3 KrouzkyOstatni
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -665,12 +665,12 @@ myTags: KrouzkyOd3 KrouzkyOstatni
 	mso-bidi-theme-font:minor-bidi;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 Předškolní děti - Všestrannost
 
-Jedná se o cvičení pro předškolní děti bez rodičů. Cvičení probíhá v Sokolovně každé pondělí od 15:45 – 17:00. Je to koncipováno tak, aby děti posilovaly celé tělo bez jednostranné zátěže, rozvíjely své pohybové dovednosti i jemnou motoriku. Snaží se, aby pro děti cvičení byla zábava a získaly tak kladný vztah k pohybu i ke sportu. V hodinách se využívá různé nářadí i náčiní, hrají hry a podobně. Kromě tělesného rozvoje dětí, je cvičení přínosné i pro jejich socializaci, fungování v kolektivu a komunikaci s vrstevníky. Dnes jsem ověřovala na místě a aktuálně je bohužel plno. V případě zájmu mi bylo doporučeno hned na začátku ledna se ozvat. Dříve se platila částka na celý rok 900 Kč ale teď je to rozděleno a od září do prosince je to 600 Kč. A kolik se bude platit od ledna do června zatím není známo. Pokud tedy budete mít zájem je potřeba hned v lednu řešit v Sokolovně. Jinak pro budoucí uchazeče na další roky, to funguje tak, že je potřeba hned v září na první lekci, a to jsou přijímané všechny děti. Pak záleží na počtu. Neexistuje žádný pořadník a nic jiného, kde by docházelo k postupnému přihlašování třeba už o prázdninách. Na první lekci v Sokolovně předají podrobné pokyny spolu s přihláškou. Pokud máte nějaké dotazy nebo podněty neváhejte nás kontaktovat, zodpovíme nebo se pokusíme zjistit v Sokolovně.
+Jedná se o cvičení pro předškolní děti bez rodičů. Cvičení probíhá v Sokolovně každé pondělí od 15:45 – 17:00. Je to koncipováno tak, aby děti posilovaly celé tělo bez jednostranné zátěže, rozvíjely své pohybové dovednosti i jemnou motoriku. Snaží se, aby pro děti cvičení byla zábava a získaly tak kladný vztah k pohybu i ke sportu. V hodinách se využívá různé nářadí i náčiní, hrají hry a podobně. Kromě tělesného rozvoje dětí, je cvičení přínosné i pro jejich socializaci, fungování v kolektivu a komunikaci s vrstevníky. Pro budoucí uchazeče na další roky, to funguje tak, že je potřeba hned v září na první lekci, a to jsou přijímané všechny děti. Pak záleží na počtu. Neexistuje žádný pořadník a nic jiného, kde by docházelo k postupnému přihlašování třeba už o prázdninách. Na první lekci v Sokolovně předají podrobné pokyny spolu s přihláškou. 
 
 <!--EndFragment-->
