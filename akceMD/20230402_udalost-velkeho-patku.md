@@ -10,7 +10,7 @@ kde: Dvůr Králové nad Labem v praku Schulzovy sady u altánu
 foto: /images/akce/333626319_783515086170789_5658242641681316580_n.jpg
 alt: Dvůr Králové nad Lbem v praku Schulzovy sady u altánu
 web: https://www.facebook.com/photo/?fbid=769330541429693&set=gm.934074427614651&idorvanity=332689737753126
-myTags: HudbaDivadlo ProDeti ProDospele Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Ostatni duben2023
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
