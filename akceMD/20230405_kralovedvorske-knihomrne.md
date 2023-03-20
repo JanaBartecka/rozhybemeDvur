@@ -11,7 +11,7 @@ foto: /images/akce/knihomrne-duben.jpg
 alt: "Královédvorské knihomrně v sálku knihovny "
 web: https://www.slavoj.cz/akce/kralovedvorske-knihomrne-11/
 vstupne: Zdarma
-myTags: HudbaDivadlo ProDeti Sportovni Ostatni
+myTags: HudbaDivadlo ProDeti Sportovni Ostatni duben2023
 ---
 <!--StartFragment-->
 
