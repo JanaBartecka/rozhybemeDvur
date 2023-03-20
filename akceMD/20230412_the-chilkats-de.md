@@ -10,7 +10,7 @@ kde: KRČMA STARÝ PIVOVAR
 foto: /images/akce/330440384_1425451434865706_3099768341086128458_n.jpg
 alt: THE CHILKATS (DE) - Hankův dům
 web: https://www.facebook.com/events/1399192057501993/?ref=newsfeed
-myTags: HudbaDivadlo ProDospele Ostatni
+myTags: HudbaDivadlo ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 
