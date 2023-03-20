@@ -9,7 +9,7 @@ alt: FEURSTEINOVA METODA INSTRUMENTÁLNÍHO OBOHACOVÁNÍ – KROUŽEK PŘEMÝŠ
   Jednička
 web: https://ddmdvurkralove.cz/spolecenskovedni/
 polatek: 900 Kč/rok Nové děti -  710 Kč/rok pokračujicí
-myTags: KrouzkyOstatni KrouzkyOd6 KrouzkyOd7KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
+myTags: KrouzkyOstatni KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
   KrouzkyOd11 KrouzkyOd12 KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
 <!--StartFragment-->
