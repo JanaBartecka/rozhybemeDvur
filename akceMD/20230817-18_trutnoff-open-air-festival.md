@@ -11,7 +11,7 @@ foto: /images/akce/336382964_1259436771616944_4911940294633479322_n.jpg
 alt: Trutnoff Open Air Festival
 web: www.trutnoff.cz
 vstupne: "1600"
-myTags: HudbaDivadlo ProDeti ProDospele Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Ostatni srpen2023
 ---
 <!--StartFragment-->
 
