@@ -10,7 +10,7 @@ kde: kostel Nanebevstoupení Páně v Josefově
 foto: /images/akce/334062633_5889626637798775_9070820485483841893_n.jpg
 alt: Velikonoční KONCERT - kostel Nanebevstoupení Páně v Josefově
 web: https://www.facebook.com/photo?fbid=521481946811386&set=a.416390677320514
-myTags: HudbaDivadlo ProDeti ProDospele Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 
