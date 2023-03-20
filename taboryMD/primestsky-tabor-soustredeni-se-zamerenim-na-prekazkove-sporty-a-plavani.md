@@ -1,0 +1,12 @@
+---
+layout: /partials/tabory.njk
+tags: taboryMD
+title: Příměstský tábor/soustředění se zaměřením na překážkové sporty a plavání
+kdy: "10.7.-15.7.2023 "
+kde: Dvůr Králové nad Labem
+foto: /images/akce/image-1-.jpg
+alt: Příměstský tábor/soustředění se zaměřením na překážkové sporty a plavání
+web: https://www.kralovedvorsko.cz/sport/primestsky-tabor-soustredeni-se-zamerenim-na-prekazkove-sporty-a-plavani.html?fbclid=IwAR0gA7ux6AyXrhLO1bLsCcHsmXtFYlCoduoCZ5K16Cm1X6LC2TfrvdlIxnw
+polatek: 1600 Kč
+---
+Tábor je určen pro aktivní sportovce s dobrou fyzickou kondicí a odhodláním na sobě opravdu makat a zlepšovat se. Nikoliv pro gaučové povaleče :-) Na táboře se bude opravdu hodně trénovat. Ale čas bude i na zábavu a relaxaci. U mladších dětí je potřeba, aby se dokázaly udržet ve visu alespoň chvilku jednou rukou a delší dobu oběma rukama. U starších dětí je potřeba zvládnout aspoň shyb. Na tom už se dá stavět :-) Byli bychom moc rádi, aby zájemci o tábor přišli alespoň na 2 tréninky do nové OCR areny a zkusili si, co to obnáší. Termín:  Druhý týden v červenci 10 - 15. července, cca 8 - 16h Náplň: - technika na OCR a ninja překážkách - běh - správný trénink - plavání a relaxace na koupališti - jedna lekce odpoledne Kde: - OCR arena Dvůr Králové nad Labem - městský park - atletický stadion - koupaliště - 1 až 2 výlety - Gladiátor arena HK, arena Dolní Bousov atp. Trenéři: OCR specialita, běžec specialista - popřípadě jeden univerzální odborník - Plus jeden až 3 pomocníci dle potřebyNa jeden den také velká sportovní osobnost - zatím jednáme se Zuzanou Kocumovou (2x Mistryně světa Spartan race), Lukáš Novák (Mistr ČR v OCR).  Cena: Podařilo se nám stát se součástí několika táborů, které s využitím dotací pořádá MAS Královédvorsko. Cena tak bude pro všechny tábory jednotná příjemných 1600 Kč. Protože však chceme sehnat opravdu kvalitního trenéra (trenéry) a hosta, tak je možné, že to nebude úplně stačit a nějakou korunu ještě budeme vybírat - cca 500 Kč. (podobné kempy obvykle stojí mnoho tisíc korun). Přihlášení: Protože pořadatelem je MAS (Místní akční skupina), tak se i stará o veškerou administrativu. A to včetně přihlášek v jednotném formuláři, který prý bude zveřejněn na začátku týdne. Prosím sledujte FB skupinu OCR runners Dvůr Králové - jakmile bude formulář připraven, tak jej dáme do této skupiny. Potom je nutné neprodleně vyplnit přihlášku, aby bylo místo. Kapacita je maximálně 24 sportovců. Kontakt: Jan Holan, telefon: 732 521 835
