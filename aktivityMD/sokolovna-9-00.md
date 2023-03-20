@@ -3,7 +3,7 @@ layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Sokolovna 9:00
 kdy: Úterý 09:00 - 10:00
-kde: Sokolovna
+kde: Sokolovna Dvůr Králové nad Labem
 foto: /images/akce/306916602_5918333961527733_8413763797836743105_n.jpg
 alt: Sokolovna
 polatek: 50 Kč
