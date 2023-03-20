@@ -10,6 +10,6 @@ kde: Areál Žireč
 foto: /images/akce/334426513_540145754913100_602080142314360054_n.jpg
 alt: Velikonoční jarmark a zahájení sezony Areálu Žireč
 web: https://www.facebook.com/photo/?fbid=605403851626874&set=a.572207111613215
-myTags: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Vystavy Ostatni duben2023
 ---
 Velikonoční jarmark a zahájení sezony Areálu Žireč
