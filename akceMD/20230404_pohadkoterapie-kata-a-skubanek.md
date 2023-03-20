@@ -11,7 +11,7 @@ foto: /images/akce/kata-a-skubanek-scaled.jpg
 alt: Pohádkoterapie – Káťa a Škubánek v sálku knihovny
 web: https://www.slavoj.cz/akce/pohadkoterapie-kata-a-skubanek/
 vstupne: Zdarma
-myTags: HudbaDivadlo ProDeti Ostatni
+myTags: HudbaDivadlo ProDeti Ostatni duben2023
 ---
 <!--StartFragment-->
 
