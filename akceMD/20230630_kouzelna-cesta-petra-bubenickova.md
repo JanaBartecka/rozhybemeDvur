@@ -10,7 +10,7 @@ kde: Městská knihovna Slavoj ve Dvoře Králové nad Labem Tylova 512
 foto: /images/akce/vystava-kouzelna-cesta-scaled.jpg
 alt: Kouzelná cesta – Petra Bubeníčková, ilustrace Oldřich a Františka Jelenovi
 web: https://www.slavoj.cz/akce/kouzelna-cesta-petra-bubenickova-ilustrace-oldrich-a-frantiska-jelenovi/
-myTags: ProDeti ProDospele Vystavy Ostatni
+myTags: ProDeti ProDospele Vystavy Ostatni cerven2023
 ---
 <!--StartFragment-->
 
