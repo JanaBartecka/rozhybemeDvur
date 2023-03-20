@@ -11,7 +11,7 @@ foto: /images/akce/divadlo-klicek-duben.jpg
 alt: Loutkové divadlo Klíček – Kašpárek a ježibaba - V MĚSTSKÉ KNIHOVNĚ SLAVOJ
 web: https://www.slavoj.cz/akce/loutkove-divadlo-klicek-kasparek-a-jezibaba/
 vstupne: 20 Kč děti - 30 Kč dospělí
-myTags: HudbaDivadlo ProDeti ProDospele Ostatni
+myTags: HudbaDivadlo ProDeti ProDospele Ostatni duben2023
 ---
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
