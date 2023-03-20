@@ -6,7 +6,7 @@ kdy: Pondělí 15:45 - 17:00 (září-červen)
 kde: Sokolovna Dvůr králové nad Labem
 foto: /images/akce/307830808_5933108646716931_5797779006818087260_n.jpg
 alt: Předškolní děti - Všestrannost Sokolovna
-polatek: "1100 "
+polatek: 1100 Kč
 myTags: KrouzkyOd4 KrouzkyOd5 KrouzkyOd6 KrouzkyOstatni
 ---
 <!--\\[if gte mso 9]><xml>
