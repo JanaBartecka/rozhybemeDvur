@@ -2,7 +2,7 @@
 layout: /partials/tabory.njk
 tags: taboryMD
 title: "Prázdninový týden s knihovnou "
-kdy: 14.8.2023-18.8.2023 od 6 do 15 let
+kdy: 14.8.-18.8.2023 6-15 let
 kde: "Knihovna Slavoj "
 foto: /images/akce/332080785_1412729892805796_1747436370690892615_n.jpg
 alt: Příměstský tábor – Prázdninový týden s knihovnou
