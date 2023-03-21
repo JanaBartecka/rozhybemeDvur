@@ -10,6 +10,7 @@ kde: Hankův dům, městské kulturní zařízení
 foto: /images/akce/335448060_1592209264592046_3551779887841060901_n.jpg
 alt: KÁBRT DISCO - PRO DĚTI - DVŮR KRÁLOVÉ NAD LABEM
 web: https://www.facebook.com/events/181554631289867/?ref=newsfeed
+registrace: https://www.facebook.com/events/181554631289867/?ref=newsfeed
 vstupne: 160Kč děti - 80Kč dospělí
 myTags: HudbaDivadlo ProDeti ProDospele Spolecenske Ostatni duben2023
 ---
