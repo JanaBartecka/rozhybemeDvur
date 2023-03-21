@@ -8,8 +8,9 @@ SouborMesic: "06"
 SouborDen: "03"
 kde: Pecka – Koupaliště a kemp na Pecce
 foto: /images/akce/detskyDen.jpg
-alt: detsky den
-web: www.seznam.cz
+alt: Dětský den
+web: https://www.kemppecka.cz/akce/?akce=detsky-den-v-kempu-pecka-50
+registrace: https://www.kemppecka.cz/akce/?akce=detsky-den-v-kempu-pecka-50
 vstupne: ""
 myTags: HudbaDivadlo ProDeti Ostatni cerven2023
 ---
