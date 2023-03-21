@@ -10,6 +10,7 @@ kde: Trutnov Bojiště
 foto: /images/akce/336382964_1259436771616944_4911940294633479322_n.jpg
 alt: Trutnoff Open Air Festival
 web: www.trutnoff.cz
+registrace: www.trutnoff.cz
 vstupne: "1600"
 myTags: HudbaDivadlo ProDeti ProDospele Ostatni srpen2023
 ---
