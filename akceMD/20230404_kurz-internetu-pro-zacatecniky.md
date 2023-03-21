@@ -10,6 +10,7 @@ kde: Městská knihovna Slavoj
 foto: /images/akce/335878907_511666354497570_3450797398867763225_n.jpg
 alt: Kurz internetu pro začátečníky- Městská knihovna Slavoj
 web: https://www.facebook.com/events/972753770775269/?ref=newsfeed
+registrace: https://www.facebook.com/events/972753770775269/?ref=newsfeed
 vstupne: 200 Kč
 myTags: KurzyWorkshopy ProDospele Ostatni duben2023
 ---
