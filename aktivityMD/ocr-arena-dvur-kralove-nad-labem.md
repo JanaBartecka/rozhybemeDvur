@@ -7,6 +7,7 @@ kde: Sál Attitude Slovany 3051, Dvůr Králové n. L
 foto: /images/akce/324431082_1540204879798646_7501408253578956992_n.jpg
 alt: OCR ARENA Dvůr Králové nad Labem
 web: https://www.facebook.com/groups/ocrrunnersdvurkralove
+polatek: 50 Kč
 myTags: AktivityOstatni AktivityOd12 AktivityOd13 AktivityOd14 AktivityOd15
   AktivityDospeli
 ---
