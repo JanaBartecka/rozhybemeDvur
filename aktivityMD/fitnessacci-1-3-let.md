@@ -1,15 +1,15 @@
 ---
 layout: /partials/aktivity.njk
 tags: aktivityMD
-title: Fitnessáčci – 1-3 let
-kdy: "16:00 - 16:45 "
+title: Fitnessáčci
+kdy: "Pátek 16:00 - 16:45 "
 kde: Fit studio R.Jaroš Slovany
 foto: /images/akce/letaky-sirsi.png
 alt: Fitnessáčci – 1-3 let
 web: https://fitstudiojaros.com/
 registrace: https://fitstudiojaros.com/
 polatek: 100Kč lekce / 90 permice
-myTags: ProDeti Sportovni Ostatni
+myTags: AktivityOstatni AktivityDo3
 ---
 Fitnessáčci s rodiči - chodící děti-3 roky
 
