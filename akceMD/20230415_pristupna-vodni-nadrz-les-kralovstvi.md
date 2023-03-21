@@ -10,6 +10,7 @@ kde: Vodní nádrž Les Království
 foto: /images/akce/e33b2ac2-6e56-456a-84f9-5b99522dfa2c.webp
 alt: Přístupná vodní nádrž Les Království
 web: https://www.kudyznudy.cz/aktuality/svetovy-den-vody-2015-prohlidky-vodaren-jezu-a-p?fbclid=IwAR2ZEQ4dQqH5p9-rzGY7-IbiA023hXTyi87Cbx6KNqdwWKuw4sHXEJl0b_U
+registrace: https://www.pla.cz/planet/webportal/internet/cs/obsah/rezervace-les-kralovstvi_4701.html?fbclid=IwAR3Lw8TSuON7SSMyusYWtkouEZt4FLaf8b7M4dt60w3hgXA5n3Tdwu5vJo4&AspxAutoDetectCookieSupport=1
 myTags: ProDeti ProDospele Sportovni Vystavy Ostatni duben2023
 ---
 <!--StartFragment-->
