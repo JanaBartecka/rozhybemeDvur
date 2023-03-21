@@ -2,7 +2,7 @@
 layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Fitnessáčci školáčci
-kdy: "15:00 - 15:45 "
+kdy: "Pátek 15:00 - 15:45 "
 kde: Fit studio R.Jaroš Slovany
 foto: /images/akce/17.png
 alt: Fitnessáčci školáčci
