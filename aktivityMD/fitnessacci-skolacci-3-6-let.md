@@ -1,7 +1,7 @@
 ---
 layout: /partials/aktivity.njk
 tags: aktivityMD
-title: Fitnessáčci školáčci – 3-6 let
+title: Fitnessáčci školáčci
 kdy: "15:00 - 15:45 "
 kde: Fit studio R.Jaroš Slovany
 foto: /images/akce/17.png
@@ -9,7 +9,7 @@ alt: Fitnessáčci školáčci
 web: https://fitstudiojaros.com/
 registrace: https://fitstudiojaros.com/
 polatek: 100Kč lekce / 90 permice
-myTags: ProDeti Sportovni Ostatni
+myTags: AktivityOd3 AktivityOd4 AktivityOd5 AktivityOd6 AktivityOstatni
 ---
 Fitnessáčci školáčci – 3-6 let
 
