@@ -1,7 +1,7 @@
 ---
 layout: /partials/aktivity.njk
 tags: aktivityMD
-title: OCR ARENA Dvůr Králové nad Labem
+title: OCR ARENA Dvůr Králové nad Labem 18:00
 kdy: "čtvrtek: 18:00 - 19:00"
 kde: Sál Attitude Slovany 3051, Dvůr Králové n. L
 foto: /images/akce/324431082_1540204879798646_7501408253578956992_n.jpg
