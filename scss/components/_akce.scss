@@ -75,7 +75,7 @@
         // top: 0;
         background-color: var(--secondaryColor);
         opacity: 0.7;
-        height: 2.5rem;
+        height: max-content;
         padding: v.$spacer-small;
         margin-top: auto;
         color: black;
@@ -92,7 +92,9 @@
     &__pagination {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content:center;
+        margin-top: v.$spacer-normal;
     }
 
     @media screen and (min-width:v.$minwidth-tablet-akce) {
@@ -106,6 +108,21 @@
         &__item {
             max-width: 300px;
             flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (min-width:v.$minwidth-computer) {
+            max-width: v.$maxwidth;
+    }
+
+    &__button {
+        padding: 0;
+        border: none;
+        margin: 0;
+        border-radius: v.$radius;
+
+        & + .akce__button {
+            margin-left: v.$spacer-small;
         }
     }
 }
@@ -139,7 +156,7 @@
     }
 
     &__textovaCast {
-        padding: 0 v.$spacer-big;
+        padding: 0 v.$spacer-normal;
         margin: 0 auto;
         display: flex;
         flex-direction: column;

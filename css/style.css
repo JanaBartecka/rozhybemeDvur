@@ -11,6 +11,21 @@
   --backgroundColor:white;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primaryColor:#2e9e92;
+    --primaryColor-similar:#9be1dc;
+    --secondaryColor:#d28b28;
+    --tertiaryColor:#14281D;
+    --buttonColor:#e6ae66;
+    --textColor:rgb(134, 168, 144);
+    --lightColor:white;
+    --greyColor: #d1d1d1;
+    --greyDarkColor: #606060;
+    --backgroundColor:white;
+    --darkBrightness:0.8;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -125,7 +140,6 @@ li {
 
 .button {
   padding: 0.5rem 2rem;
-  margin-top: 1rem;
   border: none;
   border-radius: 10px;
   background-color: var(--buttonColor);
@@ -193,7 +207,7 @@ button:focus-visible {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   color: var(--lightColor);
   text-shadow: 0px 0px 5px var(--primaryColor), 0px 0px 5px var(--primaryColor);
 }
@@ -270,7 +284,7 @@ input[type=checkbox] {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 36px;
+  padding: 0 2rem 0 0.5rem;
   margin: 0 auto;
   position: relative;
 }
@@ -311,6 +325,7 @@ input[type=checkbox] {
 }
 .menu__list.menu__active {
   left: 0;
+  margin-top: 0;
 }
 .menu__link {
   display: block;
@@ -390,7 +405,7 @@ input[type=checkbox] {
 .uvod {
   max-width: 70rem;
   margin: 2rem auto;
-  padding: 0 2rem;
+  padding: 0 0.5rem;
 }
 .uvod__card {
   padding-bottom: 2rem;
@@ -524,7 +539,8 @@ input[type=checkbox] {
 .akce__datum {
   background-color: var(--secondaryColor);
   opacity: 0.7;
-  height: 2.5rem;
+  height: -moz-max-content;
+  height: max-content;
   padding: 0.5rem;
   margin-top: auto;
   color: black;
@@ -545,7 +561,9 @@ input[type=checkbox] {
 .akce__pagination {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-top: 1rem;
 }
 @media screen and (min-width: 30rem) {
   .akce__item {
@@ -558,6 +576,20 @@ input[type=checkbox] {
     max-width: 300px;
     flex-wrap: wrap;
   }
+}
+@media screen and (min-width: 63rem) {
+  .akce {
+    max-width: 70rem;
+  }
+}
+.akce__button {
+  padding: 0;
+  border: none;
+  margin: 0;
+  border-radius: 10px;
+}
+.akce__button + .akce__button {
+  margin-left: 0.5rem;
 }
 
 .singleAkce {
@@ -584,7 +616,7 @@ input[type=checkbox] {
   margin: 1rem 0;
 }
 .singleAkce__textovaCast {
-  padding: 0 2rem;
+  padding: 0 1rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -615,6 +647,11 @@ input[type=checkbox] {
     max-width: 70rem;
   }
 }
+.kontakt__card {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
 .footer__copyright {
   display: block;
   text-decoration: none;

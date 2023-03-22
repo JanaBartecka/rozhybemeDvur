@@ -31,13 +31,13 @@ permalink: "tabory/{{ SingleTabor.data.title | slugify }}/"
     {% endif %}
     {% if SingleTabor.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky táboru: </p>
-    <p class="singleAkce__popisek-text">Odkaz ZDE</p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleTabor.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleTabor.templateContent | safe }}</p>
   </div>
   <div>
-    <img src="{{ SingleTabor.data.foto }}" class="singleAkce__image" alt="{{ SingleTabor.data.alt }}">
+    <a data-fslightbox href="{{ SingleTabor.data.foto }}"><img src="{{ SingleTabor.data.foto }}" class="singleAkce__image" alt="{{ SingleTabor.data.alt }}"></a>
   </div>
 </div>
 

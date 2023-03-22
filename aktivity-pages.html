@@ -41,7 +41,7 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
   </div>
   <div>
-    <img src="{{ SingleAktivita.data.foto }}" class="singleAkce__image" alt="{{ SingleAktivita.data.alt }}">
+    <a data-fslightbox href="{{ SingleAktivita.data.foto }}"><img src="{{ SingleAktivita.data.foto }}" class="singleAkce__image" alt="{{ SingleAktivita.data.alt }}"></a>
   </div>
 </div>
 

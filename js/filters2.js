@@ -27,10 +27,12 @@ function handleMediaQueryChange(mediaQuery) {
     if (mediaQuery.matches) {
         if (!filterSection.classList.contains('filters__hide')) {
             filterSection.classList.toggle('filters__hide')
+            btnShowFilter.textContent = "Zobrazit filtrovani"
         }
     } else {
         if (filterSection.classList.contains('filters__hide')) {
             filterSection.classList.toggle('filters__hide')
+            btnShowFilter.textContent = "Skryt filtrovani"
         }
     }
   }

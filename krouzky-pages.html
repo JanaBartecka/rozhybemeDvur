@@ -33,13 +33,13 @@ permalink: "krouzky/{{ SingleKrouzek.data.title | slugify }}/"
     {% endif %}
     {% if SingleKrouzek.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky kroužku: </p>
-    <p class="singleAkce__popisek-text">Odkaz ZDE</p>
+    <p class="singleAkce__popisek-text"><a href="{{ SingleKrouzek.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleKrouzek.templateContent | safe }}</p>
   </div>
   <div>
-    <img src="{{ SingleKrouzek.data.foto }}" class="singleAkce__image" alt="{{ SingleKrouzek.data.alt }}">
+    <a data-fslightbox href="{{ SingleKrouzek.data.foto }}"><img src="{{ SingleKrouzek.data.foto }}" class="singleAkce__image" alt="{{ SingleKrouzek.data.alt }}"></a>
   </div>
 </div>
 

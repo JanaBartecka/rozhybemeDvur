@@ -4,7 +4,7 @@ title: Rozhybeme Dvur
 metaDescription: nejaky popis
 pagination:
   data: collections.aktivityMD
-  size: 10
+  size: 15
   alias: collections.aktivityMD
 ---
 
@@ -15,9 +15,9 @@ pagination:
 {% include 'partials/aktivity.njk' %}
 
 <div class="akce__pagination">
-    {% if pagination.href.previous %} <button class="button"><a href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}
+    {% if pagination.href.previous %} <button class="akce__button"><a class="button" href="{{ pagination.href.previous }}  ">Predchozi strana</a></button>{% endif %}
       {% for pageNumber in pagination.pages %}
-        <button class="button {{ 'button--active' if page.url === pagination.hrefs[loop.index0] }}"><a href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a></button>
+        <button class="akce__button"><a class="button {{ 'button--active' if page.url === pagination.hrefs[loop.index0] }}" href="{{ pagination.hrefs[loop.index0] }}">{{ loop.index }}</a></button>
       {% endfor %}
-    {% if pagination.href.next %} <button class="button"><a href="{{ pagination.href.next }}">Dalsi strana</a></button>{% endif %}
+    {% if pagination.href.next %} <button class="akce__button"><a class="button" href="{{ pagination.href.next }}">Dalsi strana</a></button>{% endif %}
 </div>

@@ -31,7 +31,7 @@ permalink: "vylety/{{ SingleVylet.data.title | slugify }}/"
     <p  class="singleAkce__popisek-text">{{ SingleVylet.templateContent | safe }}</p>
   </div>
   <div>
-    <img src="{{ SingleVylet.data.foto }}" class="singleAkce__image" alt="{{ SingleVylet.data.alt }}">
+    <a data-fslightbox href="{{ SingleVylet.data.foto }}"><img src="{{ SingleVylet.data.foto }}" class="singleAkce__image" alt="{{ SingleVylet.data.alt }}"></a>
   </div>
 </div>
 
