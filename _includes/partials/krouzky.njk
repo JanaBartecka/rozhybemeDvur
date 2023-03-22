@@ -1,24 +1,20 @@
 
 <div class="akce">
-
   {% for krouzky in collections.krouzkyMD | reverse %}  
-
   <div class=" akce__item {{ krouzky.data.myTags }} ">
     <a class="akce__link" href="{{ krouzky.data.title | slugify }}/">
       <h3 class="akce__title">{{ krouzky.data.title }}</h3>
       <div class="akce__image-holder">
         <img src="{{ krouzky.data.foto }}" class="akce__image" alt="{{ krouzky.data.alt }}">
       </div>
-      
-      
-      {% if krouzky.data.kdy != null %}
-      <div class="akce__datum">{{ krouzky.data.kdy }} </div> 
-      {% endif %}
+      <div class="akce__stitky">
+        {% if krouzky.data.kdy != null %}
+          <div class="akce__datum">{{ krouzky.data.kdy }} </div> 
+        {% endif %}
+      </div>
     </a>
   </div>
-
   {% endfor %}
-
 </div>
 
 </div>

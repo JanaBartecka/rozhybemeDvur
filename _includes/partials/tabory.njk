@@ -1,23 +1,18 @@
 
 <div class="akce akce__tabory">
-
   {% for tabory in collections.taboryMD | reverse %}  
-
   <div class=" akce__item {{ tabory.data.myTags }} ">
     <a class="akce__link" href="{{ tabory.data.title | slugify }}/">
-      
       <h3 class="akce__title">{{ tabory.data.title }}</h3>
       <div class="akce__image-holder">
         <img src="{{ tabory.data.foto }}" class="akce__image" alt="{{ tabory.data.alt }}">
       </div>
-      
-      
-      <div class="akce__datum">{{ tabory.data.kdy }}  {{ tabory.data.polatek }}</div> 
+      <div class="akce__stitky">
+        <div class="akce__datum">{{ tabory.data.kdy }}  {{ tabory.data.polatek }}</div> 
+      </div>
     </a>
   </div>
-
   {% endfor %}
-
 </div>
 
 </div>

@@ -61,18 +61,11 @@ input[type='checkbox'] {
             margin-left: 0.5em;
         }
         &--active:before {
-            // content: '';
-            // display: inline-block;
             background-image: url(/images/general/GreenTick.svg);
-            // background-position: cover;
-            // background-repeat: no-repeat;
-            // width: 0.9em;
-            // height: 0.9em;
-            // margin-right: 0.5em;
         }
 
         &--active {
-            color: black;
+            color: var(--textColor);
             font-weight: 600;
         }
     }

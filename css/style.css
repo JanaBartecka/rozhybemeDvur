@@ -21,7 +21,7 @@
     --textColor:rgb(134, 168, 144);
     --lightColor:white;
     --greyColor: #bababa;
-    --greyDarkColor: #514c4c;
+    --greyDarkColor: #73da88;
     --backgroundColor:white;
     --darkBrightness:0.8;
   }
@@ -144,7 +144,7 @@ li {
   border-radius: 10px;
   background-color: var(--buttonColor);
   border: 4px solid var(--buttonColor);
-  color: var(--textColor);
+  color: black;
   font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
@@ -275,7 +275,7 @@ input[type=checkbox] {
   background-image: url(/images/general/GreenTick.svg);
 }
 .filters__checkboxItem--active {
-  color: black;
+  color: var(--textColor);
   font-weight: 600;
 }
 
@@ -334,7 +334,6 @@ input[type=checkbox] {
   color: black;
   padding: 1rem;
   font-weight: 500;
-  color: var(--textColor);
   padding: 1.5rem 1.5rem;
 }
 .menu__link:hover {
@@ -487,7 +486,7 @@ input[type=checkbox] {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
   gap: 1.5rem;
   margin: 2rem auto 0 auto;
   padding: 0 0.5rem;
@@ -533,6 +532,7 @@ input[type=checkbox] {
   font-size: 1.2rem;
   color: var(--primaryColor);
   text-align: left;
+  margin-bottom: auto;
 }
 .akce__datum {
   background-color: var(--secondaryColor);
@@ -571,12 +571,12 @@ input[type=checkbox] {
   .akce__item {
     max-width: calc(50vw - 2rem);
     flex-wrap: wrap;
+    margin: 0;
   }
 }
 @media screen and (min-width: 42rem) {
   .akce__item {
     max-width: 300px;
-    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 63rem) {

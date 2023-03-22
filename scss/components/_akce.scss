@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
     padding: 0 v.$spacer-small;
@@ -57,6 +57,7 @@
         font-size: 1.2rem;
         color: var(--primaryColor);
         text-align: left;
+        margin-bottom: auto;
     }
 
     &__datum {
@@ -93,18 +94,18 @@
         &__item {
             max-width: calc(50vw - 2*v.$spacer-normal);
             flex-wrap: wrap;
+            margin: 0;
         }
     }
 
     @media screen and (min-width:v.$minwidth-tablet) {
         &__item {
             max-width: 300px;
-            flex-wrap: wrap;
         }
     }
 
     @media screen and (min-width:v.$minwidth-computer) {
-            max-width: v.$maxwidth;
+        max-width: v.$maxwidth;
     }
 
     &__button {

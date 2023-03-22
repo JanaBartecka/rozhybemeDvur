@@ -1,30 +1,26 @@
 
 <div class="akce">
-
   {% for akce in collections.akceMD | reverse %}  
 
   <div class=" akce__item {{ akce.data.myTags }} ">
     <a class="akce__link" href="{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
+
       <h3 class="akce__title">{{ akce.data.title }}</h3>
-
-
-      
       <div class="akce__image-holder">
         <img src="{{ akce.data.foto }}" class="akce__image" alt="{{ akce.data.alt }}">
       </div>
       
       <div class="akce__stitky">
-      {% if akce.data.registrace != null %}
-      <div class="akce__datum akce__registrace">Nutná registrace</div>
-    {% endif %}
-      <div class="akce__datum">{{ akce.data.kdy }} </div> 
-    </div>
+        {% if akce.data.registrace != null %}
+          <div class="akce__datum akce__registrace">Nutná registrace</div>
+        {% endif %}
+        <div class="akce__datum">{{ akce.data.kdy }} </div> 
+      </div>
 
     </a>
   </div>
 
   {% endfor %}
-
 </div>
 
 </div>
