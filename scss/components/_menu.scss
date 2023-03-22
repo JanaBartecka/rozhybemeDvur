@@ -70,8 +70,8 @@
     }
 
     &__link:hover {
-        background-color: var(--secoondaryColor);
-        color: #212121;
+        background-color: var(--secondaryColor);
+        color: var(--lightColor);
     }
 
     &__item {
@@ -114,7 +114,7 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: var(--textColor);
+        background-color: black;
     }
 
     @media screen and (min-width:v.$minwidth-computer) {

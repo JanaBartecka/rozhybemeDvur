@@ -13,10 +13,12 @@
         <img src="{{ akce.data.foto }}" class="akce__image" alt="{{ akce.data.alt }}">
       </div>
       
+      <div class="akce__stitky">
       {% if akce.data.registrace != null %}
       <div class="akce__datum akce__registrace">Nutná registrace</div>
     {% endif %}
       <div class="akce__datum">{{ akce.data.kdy }} </div> 
+    </div>
 
     </a>
   </div>

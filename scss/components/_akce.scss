@@ -7,17 +7,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    // align-content: center;
     align-items: stretch;
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
     padding: 0 v.$spacer-small;
-    // flex: 1 1 100%;
-    // max-width: calc(100vw - 2*v.$spacer-small);
 
     &__link {
         height: 100%;
-        // background-color: var(--primaryColor-similar);
         text-decoration: none;
         transition: all 0.5s linear;
         box-shadow: 0px 0px 10px var(--primaryColor-similar);
@@ -28,10 +24,6 @@
         &:hover {
             transform: scale(1.05);
         }
-
-        &:hover .akce__datum{
-            transform: scale(1.05);
-        }
     }
 
     &__item {
@@ -40,7 +32,6 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        // justify-items: stretch;
     }
 
     &__item + .akce__item {
@@ -61,7 +52,6 @@
     }
 
     &__title {
-        // padding-top: 1rem;
         padding: v.$spacer-small;
         font-weight: 600;
         font-size: 1.2rem;
@@ -70,14 +60,10 @@
     }
 
     &__datum {
-        // position: absolute;
-        // right: 0;
-        // top: 0;
         background-color: var(--secondaryColor);
         opacity: 0.7;
         height: max-content;
         padding: v.$spacer-small;
-        margin-top: auto;
         color: black;
         font-weight: 600;
         @include m.cornerRound(0,0,v.$radius,v.$radius);
@@ -87,6 +73,12 @@
     &__registrace {
         @include m.cornerRound(0,0,0,0);
         background-color: var(--primaryColor-similar);
+        color: black;
+        font-weight: 600;
+    }
+
+    &__stitky {
+        margin-top: auto;
     }
 
     &__pagination {
@@ -141,8 +133,7 @@
         font-weight: 600;
         padding: v.$spacer-small;
 
-        &-text {
-            
+        &-text {            
             padding: v.$spacer-small;
             padding-bottom: v.$spacer-normal;
         }
@@ -169,7 +160,6 @@
         max-width: v.$maxwidth;
         display: flex;
         flex-direction: row;
-        // flex: 1 1 50%;
         justify-content: center;
 
         &__image {
@@ -177,8 +167,23 @@
         }
 
         &__textovaCast {
-            padding: 0 v.$spacer-big;
+            padding: 0 v.$spacer-big v.$spacer-normal v.$spacer-big;
             margin: 0;
         }
+    }
+
+    &__fotogalerie {
+        display: grid;
+        gap: v.$spacer-normal;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        @include m.zarovnani;
+        margin-top: v.$spacer-middle;
+        
+        & .singleAkce__image {
+            margin: auto;
+            padding: auto;
+            max-width: 100%;
+        }
+    
     }
 }

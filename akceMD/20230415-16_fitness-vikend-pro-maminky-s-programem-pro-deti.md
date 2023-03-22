@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: 15-16
 kde: DDM JEDNIČKA
-foto: /images/akce/fv-letak-foto.png
+foto: /images/akce/fv-letak-foto.jpg
 alt: FITNESS VÍKEND PRO MAMINKY S PROGRAMEM PRO DĚTI V DDM JEDNIČKA
 web: https://ddmdvurkralove.cz/produkt/fit-vikend-2/?fbclid=IwAR2fD0DKXZmTxzUzsylxuz4SrAmn1V9W0pXvEwCcTOh9DEWrUMy7f2R4HlA
 registrace: https://ddmdvurkralove.cz/produkt/fit-vikend-2/?fbclid=IwAR2fD0DKXZmTxzUzsylxuz4SrAmn1V9W0pXvEwCcTOh9DEWrUMy7f2R4HlA

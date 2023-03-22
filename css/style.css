@@ -14,14 +14,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primaryColor:#2e9e92;
-    --primaryColor-similar:#9be1dc;
+    --primaryColor-similar:#a7d4d1;
     --secondaryColor:#d28b28;
     --tertiaryColor:#14281D;
     --buttonColor:#e6ae66;
     --textColor:rgb(134, 168, 144);
     --lightColor:white;
-    --greyColor: #d1d1d1;
-    --greyDarkColor: #606060;
+    --greyColor: #bababa;
+    --greyDarkColor: #514c4c;
     --backgroundColor:white;
     --darkBrightness:0.8;
   }
@@ -149,6 +149,7 @@ li {
   font-weight: 500;
   cursor: pointer;
   display: inline-block;
+  text-decoration: none;
 }
 .button:hover {
   background-color: var(--lightColor);
@@ -337,8 +338,8 @@ input[type=checkbox] {
   padding: 1.5rem 1.5rem;
 }
 .menu__link:hover {
-  background-color: var(--secoondaryColor);
-  color: #212121;
+  background-color: var(--secondaryColor);
+  color: var(--lightColor);
 }
 .menu__item {
   text-align: center;
@@ -373,7 +374,7 @@ input[type=checkbox] {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: var(--textColor);
+  background-color: black;
 }
 @media screen and (min-width: 63rem) {
   .menu {
@@ -506,9 +507,6 @@ input[type=checkbox] {
 .akce__link:hover {
   transform: scale(1.05);
 }
-.akce__link:hover .akce__datum {
-  transform: scale(1.05);
-}
 .akce__item {
   max-width: calc(100vw - 2rem);
   margin: 0 auto;
@@ -542,7 +540,6 @@ input[type=checkbox] {
   height: -moz-max-content;
   height: max-content;
   padding: 0.5rem;
-  margin-top: auto;
   color: black;
   font-weight: 600;
   border-top-right-radius: 0;
@@ -557,6 +554,11 @@ input[type=checkbox] {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   background-color: var(--primaryColor-similar);
+  color: black;
+  font-weight: 600;
+}
+.akce__stitky {
+  margin-top: auto;
 }
 .akce__pagination {
   display: flex;
@@ -633,9 +635,27 @@ input[type=checkbox] {
     max-width: 400px;
   }
   .singleAkce__textovaCast {
-    padding: 0 2rem;
+    padding: 0 2rem 1rem 2rem;
     margin: 0;
   }
+}
+.singleAkce__fotogalerie {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 0 0.5rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+@media screen and (min-width: 63rem) {
+  .singleAkce__fotogalerie {
+    max-width: 70rem;
+  }
+}
+.singleAkce__fotogalerie .singleAkce__image {
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
 }
 
 .kontakt {
@@ -650,6 +670,9 @@ input[type=checkbox] {
 .kontakt__card {
   margin-top: 2rem;
   font-size: 1.5rem;
+}
+.kontakt__nadpis {
+  padding-bottom: 1rem;
 }
 
 .footer__copyright {

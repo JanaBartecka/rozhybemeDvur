@@ -2,7 +2,6 @@
 
 .button {
     padding: v.$spacer-small v.$spacer-big;
-    // margin-top: v.$spacer-normal;
     border: none;
     border-radius: v.$radius;
     background-color: var(--buttonColor);
@@ -12,6 +11,7 @@
     font-weight: 500;
     cursor: pointer;
     display: inline-block;
+    text-decoration: none;
 
     &:hover {
         background-color: var(--lightColor);
