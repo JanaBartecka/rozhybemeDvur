@@ -60,6 +60,19 @@ a:focus-visible {
     outline: 6px dotted #B309A6;
 }  
 
+a:link {
+    color: var(--textColor);
+    font-weight: 600;
+}
+
+a:visited {
+    color: var(--tertiaryColor);
+}
+
+a:hover {
+    color: var(--secondaryColor);
+}
+
 [src$=".png"], [src$=".jpg"],[src$=".jpeg"],[src$=".svg"],svg,
 .fotogalerie__link {
     filter:brightness(var(--darkBrightness)); 

@@ -2,37 +2,41 @@
 @use '../abstracts/mixins' as m;
 
 .uvod {
-    max-width: v.$maxwidth;
-    margin: v.$spacer-big auto;
-    padding: 0 v.$spacer-small;
+    @include m.zarovnani;
 
     &__card {
-        // display: grid;
-        // grid-template-columns:1fr;
-        // grid-template-rows: auto auto auto;
-        // grid-template-areas: 
-        // "kategorie-nazev"
-        // "kategorie-text"
-        // "kategorie-vice";
-        padding-bottom: v.$spacer-big;
-        margin-top: v.$spacer-big;
+        margin-top: v.$spacer-normal;
 
         @media screen and (min-width:v.$minwidth-tablet) {
-        
             display: grid;
             grid-template-columns: 3fr 1fr;
             grid-template-rows: auto auto;
             grid-template-areas: 
             "kategorie-nazev kategorie-nazev"
             "kategorie-text kategorie-vice";
+
+            & + .uvod__card {
+                margin-top: v.$spacer-big;
+            }
+
+            &--nobutton {
+                grid-template-areas: 
+                "kategorie-nazev kategorie-nazev"
+                "kategorie-text kategorie-text";
+            }
         }
 
         @media screen and (min-width:v.$minwidth-computer) {
             display: grid;
-            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-columns: 2fr 3fr 1fr;
             grid-template-rows: auto;
             grid-template-areas: 
             "kategorie-nazev kategorie-text kategorie-vice";
+
+            &--nobutton {
+                grid-template-areas: 
+                "kategorie-nazev kategorie-text kategorie-text";
+            }
         }
     }
         
@@ -68,32 +72,14 @@
         border: 2px solid var(--primaryColor);
         @include m.cornerRound;
         padding: v.$spacer-normal;
-        // transform: scale(1.5);
         display: block;
         width: 100%;
         height: 100%;
-        // animation: popupAnimation 10000ms ease-in-out forwards;
         transition: all 100ms ease-in-out 1300ms;
+        margin-top: v.$spacer-small;
         
         &--hide {
             display: none;
-            // transition: all 100ms ease-in-out 1300ms;
         }
     }
-
-    @keyframes popupAnimation   {
-        0% {
-            height: 0%;
-        }
-        50% {
-            height: 50%;
-        }
-    
-        100% {
-            height: 100%;
-        }
-    }
-
-
-
 }
