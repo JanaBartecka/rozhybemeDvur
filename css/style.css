@@ -100,10 +100,6 @@ a:link {
   font-weight: 600;
 }
 
-a:visited {
-  color: var(--tertiaryColor);
-}
-
 a:hover {
   color: var(--secondaryColor);
 }
@@ -238,7 +234,7 @@ input[type=checkbox] {
     max-width: 70rem;
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 360px 3fr;
+    grid-template-columns: 340px 3fr;
   }
 }
 
@@ -501,6 +497,7 @@ input[type=checkbox] {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  justify-items: stretch;
   align-items: flex-start;
   gap: 1.5rem;
   margin: 2rem auto 0 auto;
@@ -508,35 +505,28 @@ input[type=checkbox] {
 }
 .akce__link {
   height: 100%;
+  width: 100%;
   text-decoration: none;
-  transition: all 0.5s linear;
+}
+.akce__item {
+  width: calc(100vw - 2rem);
+  position: relative;
   box-shadow: 0px 0px 10px var(--primaryColor-similar);
-  display: flex;
-  flex-direction: column;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: all 0.5s linear;
 }
-.akce__link:hover {
+.akce__item:hover {
   transform: scale(1.05);
-}
-.akce__item {
-  max-width: calc(100vw - 2rem);
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.akce__item + .akce__item {
-  margin-top: 0.5rem;
 }
 .akce__image {
   width: 100%;
   overflow: hidden;
 }
 .akce__image-holder {
-  max-width: 100%;
+  max-width: 200px;
   max-height: 200px;
   margin: 0 auto;
   overflow: hidden;
@@ -548,6 +538,7 @@ input[type=checkbox] {
   color: var(--primaryColor);
   text-align: left;
   margin-bottom: auto;
+  width: 100%;
 }
 .akce__datum {
   background-color: var(--secondaryColor);
@@ -584,19 +575,15 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 30rem) {
   .akce__item {
-    max-width: calc(50vw - 2rem);
-    flex-wrap: wrap;
-    margin: 0;
+    width: calc(50vw - 2rem);
   }
 }
-@media screen and (min-width: 42rem) {
-  .akce__item {
-    max-width: 300px;
-  }
-}
-@media screen and (min-width: 63rem) {
+@media screen and (min-width: 48rem) {
   .akce {
     max-width: 70rem;
+  }
+  .akce__item {
+    flex-basis: calc(50% - 2rem);
   }
 }
 .akce__button {

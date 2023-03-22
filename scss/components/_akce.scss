@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    justify-items: stretch;
     align-items: flex-start;
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
@@ -14,28 +15,19 @@
 
     &__link {
         height: 100%;
+        width: 100%;
         text-decoration: none;
-        transition: all 0.5s linear;
-        box-shadow: 0px 0px 10px var(--primaryColor-similar);
-        display: flex;
-        flex-direction: column;
-        @include m.cornerRound;
-
-        &:hover {
-            transform: scale(1.05);
-        }
     }
 
     &__item {
-        max-width: calc(100vw - 2*v.$spacer-normal);
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
+        width: calc(100vw - 2*v.$spacer-normal);
         position: relative;
-    }
-
-    &__item + .akce__item {
-        margin-top: v.$spacer-small;
+        box-shadow: 0px 0px 10px var(--primaryColor-similar);
+        @include m.cornerRound;
+        transition: all 0.5s linear;
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     &__image {
@@ -44,7 +36,7 @@
         
 
         &-holder {
-            max-width: 100%;
+            max-width: 200px;
             max-height: 200px;
             margin: 0 auto;
             overflow: hidden;
@@ -58,6 +50,7 @@
         color: var(--primaryColor);
         text-align: left;
         margin-bottom: auto;
+        width: 100%;
     }
 
     &__datum {
@@ -92,20 +85,19 @@
 
     @media screen and (min-width:v.$minwidth-tablet-akce) {
         &__item {
-            max-width: calc(50vw - 2*v.$spacer-normal);
-            flex-wrap: wrap;
-            margin: 0;
+            width: calc(50vw - 2*v.$spacer-normal);
         }
     }
 
     @media screen and (min-width:v.$minwidth-tablet) {
-        &__item {
-            max-width: 300px;
-        }
+
     }
 
-    @media screen and (min-width:v.$minwidth-computer) {
+    @media screen and (min-width:v.$minwidth-computer-akce) {
         max-width: v.$maxwidth;
+        &__item {
+            flex-basis: calc(50% - 2*v.$spacer-normal);
+        }
     }
 
     &__button {

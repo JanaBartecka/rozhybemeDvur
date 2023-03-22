@@ -1,6 +1,6 @@
 
 <div class="akce">
-  {% for akce in collections.akceMD | reverse %}  
+  {% for akce in collections.akceMD %}  
 
   <div class=" akce__item {{ akce.data.myTags }} ">
     <a class="akce__link" href="{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
