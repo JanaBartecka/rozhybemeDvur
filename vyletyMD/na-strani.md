@@ -6,10 +6,10 @@ kde: Na strání nad vlakovým nádražím
 foto: /images/akce/336136251_132767609536484_7829424612860545278_n.jpg
 alt: Na stráni
 myTags: VyletyPesky VyletyOstatni VyletyNakole
-foto1: /images/akce/1-1.png
-alt1: test
-foto2: /images/akce/10-200x197.jpg
-alt2: test2
+foto1: ""
+alt1: ""
+foto2: ""
+alt2: ""
 foto3: null
 alt3: null
 foto4: null
