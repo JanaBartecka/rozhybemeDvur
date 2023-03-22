@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Fitnessáčci školáčci
 kdy: "Pátek 15:00 - 15:45 "
 kde: Fit studio R.Jaroš Slovany
-foto: /images/akce/17.png
+foto: /images/akce/17.jpg
 alt: Fitnessáčci školáčci
 web: https://fitstudiojaros.com/
 registrace: https://fitstudiojaros.com/

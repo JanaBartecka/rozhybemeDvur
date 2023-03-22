@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Trampolínky
 kdy: Středa 18:00 -19:00
 kde: Fit studiu R.Jaroš na Slovanech
-foto: /images/akce/14-1.png
+foto: /images/akce/14-1.jpg
 alt: Trampolínky ve Fit studiu R.Jaroš na Slovanech
 web: https://fitstudiojaros.com/
 registrace: Náměstí T.G.Masaryka 59 Dvůr Králové nad Labem

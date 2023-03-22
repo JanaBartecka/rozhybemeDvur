@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Fitnessáčci
 kdy: "Pátek 16:00 - 16:45 "
 kde: Fit studio R.Jaroš Slovany
-foto: /images/akce/letaky-sirsi.png
+foto: /images/akce/letaky-sirsi.jpg
 alt: Fitnessáčci – 1-3 let
 web: https://fitstudiojaros.com/
 registrace: https://fitstudiojaros.com/
