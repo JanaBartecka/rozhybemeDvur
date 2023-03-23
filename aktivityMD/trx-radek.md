@@ -2,7 +2,7 @@
 layout: /partials/aktivity.njk
 tags: aktivityMD
 title: TRX Radek
-kdy: Pondělí, Středa
+kdy: Pondělí, Středa 19:00
 kde: "Fit studio R.Jaroš na slovanech "
 foto: /images/akce/333804486_728481205499665_1917506252522952162_n.jpg
 alt: TRX Radek Fit studio R.Jaroš
