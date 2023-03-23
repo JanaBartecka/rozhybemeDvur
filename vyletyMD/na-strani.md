@@ -3,7 +3,7 @@ layout: /partials/vylety.njk
 tags: vyletyMD
 title: Na stráni
 kde: Na strání nad vlakovým nádražím
-foto: /images/akce/336136251_132767609536484_7829424612860545278_n.jpg
+foto: /images/akce/336136251_132767609536484_7829424612860545278_n-1-.jpg
 alt: Na stráni
 myTags: VyletyPesky VyletyOstatni VyletyNakole
 foto1: ""
