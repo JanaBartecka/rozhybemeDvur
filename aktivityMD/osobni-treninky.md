@@ -9,7 +9,7 @@ alt: Osobní tréninky
 web: https://fitstudiojaros.com/
 registrace: ""
 polatek: 600Kč 1-3 osoby
-myTags: AktivityDospeli AktivityOstatni AktivityOd14 AktivityOd15
+myTags: "AktivityDospeli AktivityOstatni "
 ---
 V﻿íce informací u R. Jaroše
 
