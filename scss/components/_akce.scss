@@ -40,6 +40,7 @@
             max-height: 200px;
             margin: 0 auto;
             overflow: hidden;
+            padding: v.$spacer-small 0;
         }
     }
 
@@ -51,6 +52,7 @@
         text-align: left;
         margin-bottom: auto;
         width: 100%;
+        border-bottom: 1px solid var(--primaryColor);
     }
 
     &__datum {

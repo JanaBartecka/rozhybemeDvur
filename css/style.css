@@ -1,27 +1,27 @@
 :root {
-  --primaryColor:#2EC4B6;
-  --primaryColor-similar:#CBF3F0;
-  --secondaryColor:#FF9F1C;
+  --primaryColor:#679436;
+  --primaryColor-similar:#BAD29F;
+  --secondaryColor:#FFDF64;
   --tertiaryColor:#254232;
-  --buttonColor:#FFBF69;
+  --buttonColor:#E2D686;
   --textColor:black;
   --lightColor:white;
-  --greyColor: #d1d1d1;
-  --greyDarkColor: #606060;
+  --greyColor: #E0E2DB;
+  --greyDarkColor: #889696;
   --backgroundColor:white;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primaryColor:#2e9e92;
-    --primaryColor-similar:#a7d4d1;
-    --secondaryColor:#d28b28;
-    --tertiaryColor:#14281D;
-    --buttonColor:#e6ae66;
-    --textColor:rgb(134, 168, 144);
-    --lightColor:rgb(233, 233, 233);
-    --greyColor: #bababa;
-    --greyDarkColor: #eeeeee;
+    --primaryColor:#679436;
+    --primaryColor-similar:#BAD29F;
+    --secondaryColor:#e0c455;
+    --tertiaryColor:#254232;
+    --buttonColor:#E2D686;
+    --textColor:rgb(91, 144, 125);
+    --lightColor:white;
+    --greyColor: #E0E2DB;
+    --greyDarkColor: #889696;
     --backgroundColor:white;
     --darkBrightness:0.8;
   }
@@ -562,6 +562,7 @@ input[type=checkbox] {
   max-height: 200px;
   margin: 0 auto;
   overflow: hidden;
+  padding: 0.5rem 0;
 }
 .akce__title {
   padding: 0.5rem;
@@ -571,6 +572,7 @@ input[type=checkbox] {
   text-align: left;
   margin-bottom: auto;
   width: 100%;
+  border-bottom: 1px solid var(--primaryColor);
 }
 .akce__datum {
   background-color: var(--secondaryColor);
