@@ -7,7 +7,7 @@ kde: Sokolovna Dvůr Králové nad Labem
 foto: /images/akce/307560758_5933054443389018_2996338653572283900_n.jpg
 alt: Sokolovna
 polatek: 50 Kč
-myTags: AktivityDo3 AktivityOstatní
+myTags: AktivityDo3 AktivityOd3 AktivityOstatní
 ---
 Děti od 2 let vstup 50,- ročně od ledna 1100,- pro rok 2023
 
