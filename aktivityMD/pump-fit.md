@@ -8,7 +8,7 @@ foto: /images/akce/334128300_917203612932623_4023633645730195788_n.jpg
 alt: PUMP-FIT Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
 polatek: "150 Kč jednorázově / permice zvýhodněné "
-myTags: KrouzkyDospeli KrouzkyOstatni
+myTags: AktivityDospeli AktivityOstatni
 ---
 
 
