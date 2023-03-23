@@ -61,7 +61,7 @@
     &__link {
         display: block;
         text-decoration: none;
-        color: black;
+        color: black !important;
         padding: 1rem;
         font-weight: 500;
         padding: v.$spacer-middle v.$spacer-middle;

@@ -60,16 +60,16 @@ a:focus-visible {
     outline: 6px dotted #B309A6;
 }  
 
-a:link {
-    color: var(--textColor);
+.link:link {
+    color: var(--buttonColor);
     font-weight: 600;
 }
 
-// a:visited {
-    // color: var(--tertiaryColor);
-// }
+.link:visited {
+    color: var(--textColor);
+}
 
-a:hover {
+.link:hover {
     color: var(--secondaryColor);
 }
 

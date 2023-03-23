@@ -6,7 +6,7 @@
     border-radius: v.$radius;
     background-color: var(--buttonColor);
     border: 4px solid var(--buttonColor);
-    color: black;
+    color: black !important;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;

@@ -80,6 +80,7 @@
     &__pagination {
         display: flex;
         flex-direction: row;
+        row-gap: v.$spacer-small;
         flex-wrap: wrap;
         justify-content:center;
         margin-top: v.$spacer-normal;
