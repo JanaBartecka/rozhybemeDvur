@@ -1,0 +1,4 @@
+Sitemap: https://www.rozhybemedvur.cz/sitemap.xml
+
+User-agent: *
+Disallow:
