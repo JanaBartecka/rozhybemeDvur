@@ -3,9 +3,10 @@
 
 .uvod {
     @include m.zarovnani;
+    margin-bottom: v.$spacer-big;
 
     &__card {
-        margin-top: v.$spacer-normal;
+        margin-top: v.$spacer-big;
 
         @media screen and (min-width:v.$minwidth-tablet) {
             display: grid;
@@ -52,12 +53,12 @@
         grid-area: kategorie-text;
 
         @media screen and (min-width:v.$minwidth-tablet) { 
-            padding: v.$spacer-small v.$spacer-small v.$spacer-small 0;
+            padding: v.$spacer-middle v.$spacer-small v.$spacer-small 0;
             align-self: center;
         }
 
         @media screen and (min-width:v.$minwidth-computer) { 
-            padding: 0 v.$spacer-small;
+            padding: 0 v.$spacer-middle;
         }
     }
 
@@ -77,6 +78,7 @@
         height: 100%;
         transition: all 100ms ease-in-out 1300ms;
         margin-top: v.$spacer-small;
+        color: var(--textColor);
         
         &--hide {
             display: none;

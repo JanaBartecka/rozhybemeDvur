@@ -3,7 +3,7 @@
   {% for aktivity in collections.aktivityMD | reverse %}  
 
   <div class=" akce__item {{ aktivity.data.myTags }} ">
-    <a class="akce__link" href="{{ aktivity.data.title | slugify }}/">
+    <a class="akce__link" href="https://rozhybemedvur.cz/aktivity/{{ aktivity.data.title | slugify }}/">
       <h3 class="akce__title">{{ aktivity.data.title }}</h3>
       <div class="akce__image-holder">
         <img src="{{ aktivity.data.foto }}" class="akce__image" alt="{{ aktivity.data.alt }}">

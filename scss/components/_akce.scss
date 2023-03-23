@@ -84,6 +84,7 @@
         flex-wrap: wrap;
         justify-content:center;
         margin-top: v.$spacer-normal;
+        margin-bottom: v.$spacer-normal;
     }
 
     @media screen and (min-width:v.$minwidth-tablet-akce) {

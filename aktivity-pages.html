@@ -12,8 +12,8 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
 {% include 'partials/menu.njk' %}
 
 <section class="banner">
-  <img src="/images/rozhybeme_Dvur.png" alt="">
-  <p class="banner__headline">
+  <img src="/images/rozhybeme_Dvur_pozadi.png" alt="">
+  <p class="banner__headline--akce">
     {{ SingleAktivita.data.title }}
   </p>
 </section>
@@ -32,11 +32,11 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
     {% endif %}
     {% if SingleAktivita.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky aktivity: </p>
-    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.web }}">Odkaz ZDE</a></p>
+    <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAktivita.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     {% if SingleAktivita.data.registrace != null %}
     <p class="singleAkce__popisek">Registrace na aktivitu: </p>
-    <p class="singleAkce__popisek-text"><a href="{{ SingleAktivita.data.registrace }}">Odkaz ZDE</a></p>
+    <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAktivita.data.registrace }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>

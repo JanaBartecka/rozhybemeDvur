@@ -10,6 +10,9 @@
         font-size: 0.9rem;
         font-weight: 300;
         color: var(--lightColor);
-        transform: translateY(3rem);
+
+        &:hover {
+            color: var(--buttonColor);
+        }
     }
 }

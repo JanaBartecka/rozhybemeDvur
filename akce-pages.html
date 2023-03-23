@@ -12,8 +12,8 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
 {% include 'partials/menu.njk' %}
 
 <section class="banner">
-  <img src="/images/rozhybeme_Dvur.png" alt="">
-  <p class="banner__headline">
+  <img src="/images/rozhybeme_Dvur_pozadi.png" alt="">
+  <p class="banner__headline--akce">
     {{ SingleAkce.data.title }}
   </p>
 </section>
@@ -36,12 +36,12 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
 
     {% if SingleAkce.data.web != null %}
       <p class="singleAkce__popisek">Webové stránky akce: </p>
-      <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.web }}">Odkaz ZDE</a> </p>
+      <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAkce.data.web }}">Odkaz ZDE</a> </p>
     {% endif %}
 
     {% if SingleAkce.data.registrace != null %}
       <p class="singleAkce__popisek">Registrace na akci: </p>
-      <p class="singleAkce__popisek-text"><a href="{{ SingleAkce.data.registrace }}">Odkaz ZDE</a> </p>
+      <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAkce.data.registrace }}">Odkaz ZDE</a> </p>
     {% endif %}
 
     <p class="singleAkce__popisek">Podrobnosti: </p>

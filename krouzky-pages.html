@@ -12,8 +12,8 @@ permalink: "krouzky/{{ SingleKrouzek.data.title | slugify }}/"
 {% include 'partials/menu.njk' %}
 
 <section class="banner">
-  <img src="/images/rozhybeme_Dvur.png" alt="">
-  <p class="banner__headline">
+  <img src="/images/rozhybeme_Dvur_pozadi.png" alt="">
+  <p class="banner__headline--akce">
     {{ SingleKrouzek.data.title }}
   </p>
 </section>
@@ -34,7 +34,7 @@ permalink: "krouzky/{{ SingleKrouzek.data.title | slugify }}/"
     {% endif %}
     {% if SingleKrouzek.data.web != null %}
     <p class="singleAkce__popisek">Webové stránky kroužku: </p>
-    <p class="singleAkce__popisek-text"><a href="{{ SingleKrouzek.data.web }}">Odkaz ZDE</a></p>
+    <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleKrouzek.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleKrouzek.templateContent | safe }}</p>

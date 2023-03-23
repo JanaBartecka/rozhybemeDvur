@@ -3,7 +3,7 @@
   {% for akce in collections.akceMD %}  
 
   <div class=" akce__item {{ akce.data.myTags }} ">
-    <a class="akce__link" href="{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
+    <a class="akce__link" href="https://rozhybemedvur.cz/akce/{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
 
       <h3 class="akce__title">{{ akce.data.title }}</h3>
       <div class="akce__image-holder">

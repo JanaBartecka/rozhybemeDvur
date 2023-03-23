@@ -1,21 +1,21 @@
 <section class="banner">
-    <img src="/images/rozhybeme_Dvur.png" alt="">
+    <img src="/images/rozhybeme_Dvur1.png" alt="">
     <p class="banner__headline">
     {% if page.fileSlug === '' %}
-        Vítejte na stránkách <br>
+        Vítejte na stránkách
         <span class="banner__nazev">rozhýbeme Dvůr</span>
     {% elseif page.fileSlug === 'akce' %}
-        Akce
+    <span class="banner__nazev--jiny">Akce</span>
     {% elseif page.fileSlug === 'krouzky' %}
-        Kroužky
+    <span class="banner__nazev--jiny">Kroužky</span>
     {% elseif page.fileSlug === 'aktivity' %}
-        Aktivity
+    <span class="banner__nazev--jiny">Aktivity</span>
     {% elseif page.fileSlug === 'vylety' %}
-        Výlety
+    <span class="banner__nazev--jiny">Výlety</span>
     {% elseif page.fileSlug === 'tabory' %}
-        Tábory
+    <span class="banner__nazev--jiny">Tábory</span>
     {% elseif page.fileSlug === 'kontakt' %}
-        Kontakt
+    <span class="banner__nazev--jiny">Kontakt</span>
     {% endif %}
-    </p>
+</p>
 </section>

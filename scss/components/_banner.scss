@@ -1,22 +1,17 @@
 @use '../abstracts/variables' as v;
 
 .banner {
-    // min-height: 100px;
     height: 100%;
     width: 100%;
-    // background-color:  var(--primaryColor-similar) ;
-    // background-image: url(/images/rozhybeme_Dvur.png);
-    // background-size: 100%;
     border-top: 1px dotted black;
     position: relative;
 
     & img {
-        // height: 100%;
         width: 100%;
     }
 
     &__headline {
-        font-size: 1rem;
+        font-size: 1.1rem;
         text-align: center;
         text-transform: uppercase;
         padding:  0 v.$spacer-small v.$spacer-big 55vw;
@@ -25,7 +20,15 @@
         margin: auto;
         position: absolute;
         right: 0;
-        top: 25%;
+        top: 10%;
+
+        @media screen and (min-width:430px) {
+            top: 25%;
+        }
+
+        @media screen and (min-width:550px) {
+            font-size: 1.5rem;
+        }
 
         @media screen and (min-width:v.$minwidth-tablet) {
             font-size: 2rem;
@@ -34,16 +37,74 @@
         @media screen and (min-width:v.$minwidth-computer) {
             font-size: 3rem;
         }
+
+        &--akce {
+            text-shadow: -5px 3px 6px var(--tertiaryColor),-1px 1px 1px var(--lightColor);
+            font-size: 1.3rem;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            padding: v.$spacer-small 20%;
+            position: absolute;
+            text-transform: uppercase;
+            color: var(--tertiaryColor);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+
+            @media screen and (min-width:550px) {
+                font-size: 2rem;
+            }
+    
+            @media screen and (min-width:v.$minwidth-tablet) {
+                font-size: 2.5rem;
+            }
+    
+            @media screen and (min-width:v.$minwidth-computer) {
+                font-size: 3.9rem;
+            }
+        }
     }
 
     &__nazev {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
         text-shadow: -5px 3px 6px var(--tertiaryColor),-1px 1px 1px var(--lightColor);
+
+        @media screen and (min-width:550px) {
+            font-size: 2.2rem;
+        }
+        
         @media screen and (min-width:v.$minwidth-tablet) {
             font-size: 3rem;
         }
         @media screen and (min-width:v.$minwidth-computer) {
             font-size: 5rem;
+        }
+
+        &--jiny {
+            font-size: 3rem;
+            position: absolute;
+            top: v.$spacer-big;
+            right: 10%;
+
+            @media screen and (min-width:430px) {
+                font-size: 4rem;
+            }
+
+            @media screen and (min-width:550px) {
+                font-size: 5rem;
+            }
+            
+            @media screen and (min-width:v.$minwidth-tablet) {
+                font-size: 6rem;
+            }
+            @media screen and (min-width:v.$minwidth-computer) {
+                font-size: 7rem;
+            }
         }
     }
 }
