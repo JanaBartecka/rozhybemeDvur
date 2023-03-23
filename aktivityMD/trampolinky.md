@@ -7,7 +7,7 @@ kde: Fit studiu R.Jaroš na Slovanech
 foto: /images/akce/14-1.jpg
 alt: Trampolínky ve Fit studiu R.Jaroš na Slovanech
 web: https://fitstudiojaros.com/
-registrace: Náměstí T.G.Masaryka 59 Dvůr Králové nad Labem
+registrace: https://www.supersaas.cz/schedule/Trampolinky/Trampol%C3%ADnky?fbclid=IwAR0O6QRExh0IxibMpXdR3zH9FONBtApZBMZLe_I11R1lcKBF_GuxDjqjGGE
 polatek: 150 Kč jednorázově / zvýhodněné permanentky
 myTags: AktivityDospeli AktivityOstatni AktivityOd14 AktivityOd15
 ---
