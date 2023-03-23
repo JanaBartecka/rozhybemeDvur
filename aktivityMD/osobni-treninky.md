@@ -14,3 +14,7 @@ myTags: AktivityDospeli AktivityOstatni AktivityOd14 AktivityOd15
 V﻿íce informací u R. Jaroše
 
 U osobních tréninků neřeším počet osob (1-3), cena je vždy stejná
+
+rezervace: Radek 604 543 372
+
+https://fitstudiojaros.com/
