@@ -5,7 +5,7 @@ title: Kruháč s Míšou
 kdy: Pondělí 16:00
 kde: "Fit studio R.Jaroš na slovanech "
 foto: /images/akce/334017624_511004827774941_5101366248364503575_n.jpg
-alt: Kruháč Neděle Fit studio R.Jaroš
+alt: Kruháč s Míšou Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
 polatek: "150 Kč jednorázově / permice zvýhodněné "
 myTags: KrouzkyDospeli KrouzkyOstatni
