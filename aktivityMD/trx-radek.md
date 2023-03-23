@@ -8,7 +8,7 @@ foto: /images/akce/333804486_728481205499665_1917506252522952162_n.jpg
 alt: TRX Radek Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
 polatek: "150 Kč jednorázově / permice zvýhodněné "
-myTags: KrouzkyDospeli KrouzkyOstatni
+myTags: AktivityDospeli AktivityOstatni
 ---
 
 
