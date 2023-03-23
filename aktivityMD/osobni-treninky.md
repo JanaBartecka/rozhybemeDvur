@@ -12,3 +12,5 @@ polatek: 600Kč 1-3 osoby
 myTags: AktivityDospeli AktivityOstatni AktivityOd14 AktivityOd15
 ---
 V﻿íce informací u R. Jaroše
+
+U osobních tréninků neřeším počet osob (1-3), cena je vždy stejná
