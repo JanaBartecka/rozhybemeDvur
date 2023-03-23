@@ -208,18 +208,49 @@ button:focus-visible {
 }
 
 .banner {
-  min-height: 100px;
-  width: 100vw;
-  background-color: var(--primaryColor-similar);
+  height: 100%;
+  width: 100%;
   border-top: 1px dotted black;
+  position: relative;
+}
+.banner img {
+  width: 100%;
 }
 .banner__headline {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
-  padding: 2rem 1rem;
-  color: var(--lightColor);
-  text-shadow: 0px 0px 5px var(--primaryColor), 0px 0px 5px var(--primaryColor);
+  padding: 0 0.5rem 2rem 55vw;
+  color: var(--tertiaryColor);
+  text-shadow: -5px 3px 6px var(--tertiaryColor);
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+@media screen and (min-width: 42rem) {
+  .banner__headline {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .banner__headline {
+    font-size: 3rem;
+  }
+}
+.banner__nazev {
+  font-size: 1.9rem;
+  text-shadow: -5px 3px 6px var(--tertiaryColor), -1px 1px 1px var(--lightColor);
+}
+@media screen and (min-width: 42rem) {
+  .banner__nazev {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 63rem) {
+  .banner__nazev {
+    font-size: 5rem;
+  }
 }
 
 input[type=checkbox] {
@@ -292,14 +323,15 @@ input[type=checkbox] {
   min-height: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 2rem;
   align-items: center;
   padding: 0 2rem 0 0.5rem;
   margin: 0 auto;
   position: relative;
 }
 .menu__background {
-  background-color: var(--primaryColor);
+  background-color: var(--tertiaryColor);
   width: 100vw;
 }
 .menu__logo {
@@ -370,8 +402,8 @@ input[type=checkbox] {
 .menu__hamburger {
   display: block;
   cursor: pointer;
-  background-color: var(--primaryColor);
-  border: 1px solid black;
+  background-color: var(--tertiaryColor);
+  border: 1px solid var(--lightColor);
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -382,7 +414,7 @@ input[type=checkbox] {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: var(--lightColor);
 }
 @media screen and (min-width: 63rem) {
   .menu {

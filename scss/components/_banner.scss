@@ -1,17 +1,49 @@
 @use '../abstracts/variables' as v;
 
 .banner {
-    min-height: 100px;
-    width: 100vw;
-    background-color:  var(--primaryColor-similar) ;
+    // min-height: 100px;
+    height: 100%;
+    width: 100%;
+    // background-color:  var(--primaryColor-similar) ;
+    // background-image: url(/images/rozhybeme_Dvur.png);
+    // background-size: 100%;
     border-top: 1px dotted black;
+    position: relative;
+
+    & img {
+        // height: 100%;
+        width: 100%;
+    }
 
     &__headline {
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
         text-transform: uppercase;
-        padding:  v.$spacer-big v.$spacer-normal;
-        color: var(--lightColor);
-        text-shadow: 0px 0px 5px var(--primaryColor), 0px 0px 5px var(--primaryColor);
+        padding:  0 v.$spacer-small v.$spacer-big 55vw;
+        color: var(--tertiaryColor);
+        text-shadow: -5px 3px 6px var(--tertiaryColor);
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 25%;
+
+        @media screen and (min-width:v.$minwidth-tablet) {
+            font-size: 2rem;
+        }
+
+        @media screen and (min-width:v.$minwidth-computer) {
+            font-size: 3rem;
+        }
+    }
+
+    &__nazev {
+        font-size: 1.9rem;
+        text-shadow: -5px 3px 6px var(--tertiaryColor),-1px 1px 1px var(--lightColor);
+        @media screen and (min-width:v.$minwidth-tablet) {
+            font-size: 3rem;
+        }
+        @media screen and (min-width:v.$minwidth-computer) {
+            font-size: 5rem;
+        }
     }
 }

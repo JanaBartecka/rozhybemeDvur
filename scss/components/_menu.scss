@@ -5,14 +5,15 @@
     min-height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: v.$spacer-big;
     align-items: center;
     padding: 0 v.$spacer-big 0 v.$spacer-small;
     margin: 0 auto;
     position: relative;
 
     &__background {
-        background-color: var(--primaryColor);
+        background-color: var(--tertiaryColor);
         width: 100vw;
     }
 
@@ -27,7 +28,6 @@
     }
 
     &__icon {
-
         align-self: center;
 
         & svg {
@@ -98,8 +98,8 @@
     &__hamburger {
         display: block;
         cursor: pointer;
-        background-color: var(--primaryColor);
-        border: 1px solid black;
+        background-color: var(--tertiaryColor);
+        border: 1px solid var(--lightColor);
         border-radius: 50%;
         height: 50px;
         width: 50px;
@@ -112,7 +112,7 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: black;
+        background-color: var(--lightColor);
     }
 
     @media screen and (min-width:v.$minwidth-computer) {
