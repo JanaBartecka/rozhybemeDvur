@@ -1,7 +1,7 @@
 ---
 layout: /partials/aktivity.njk
 tags: aktivityMD
-title: Sokolovna 15:00
+title: Sokolovna 16:00
 kdy: Středa 16:00 - 17:00
 kde: Sokolovna Dvůr Králové nad Labem
 foto: /images/akce/307560758_5933054443389018_2996338653572283900_n.jpg
