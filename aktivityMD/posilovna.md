@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Posilovna
 kdy: Dle otvírací doby
 kde: "Fit studio R.Jaroš na slovanech "
-foto: /images/akce/5-1.png
+foto: /images/akce/5-1.jpg
 alt: posilovna Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
 polatek: "100 Kč jednorázově / permice zvýhodněné "

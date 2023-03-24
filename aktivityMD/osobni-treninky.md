@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Osobní tréninky
 kdy: Dle dohody
 kde: Fit studiu R.Jaroš, Slovany 3051
-foto: /images/akce/4-1-1-.png
+foto: /images/akce/4-1-1.jpg
 alt: Osobní tréninky
 web: https://fitstudiojaros.com/
 registrace: ""
