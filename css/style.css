@@ -305,24 +305,24 @@ button:focus-visible {
   }
 }
 .banner__nazev--jiny {
-  font-size: 3rem;
+  font-size: 2.3rem;
   position: absolute;
   top: 2rem;
   right: 10%;
 }
 @media screen and (min-width: 430px) {
   .banner__nazev--jiny {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 @media screen and (min-width: 550px) {
   .banner__nazev--jiny {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 @media screen and (min-width: 42rem) {
   .banner__nazev--jiny {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 }
 @media screen and (min-width: 63rem) {
@@ -817,9 +817,4 @@ input[type=checkbox] {
   font-weight: 600;
   color: var(--textColor);
   padding: 1rem;
-}
-@media screen and (min-width: 63rem) {
-  .zmenaProgramu {
-    max-width: 70rem;
-  }
 }/*# sourceMappingURL=style.css.map */

@@ -10,8 +10,4 @@
     font-weight: 600;
     color: var(--textColor);
     padding: v.$spacer-normal;
-
-    @media screen and (min-width:v.$minwidth-computer) {
-        max-width: v.$maxwidth;
-    }
 }
