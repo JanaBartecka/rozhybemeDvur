@@ -51,6 +51,11 @@ h3 {
     padding-top: v.$spacer-small;
 }
 
+*::-moz-selection {
+    background-color: yellow;
+    color: rgb(20, 10, 2);
+  }
+
 *::selection {
     background-color: yellow;
     color: rgb(20, 10, 2);
@@ -61,7 +66,7 @@ a:focus-visible {
 }  
 
 .link:link {
-    color: var(--buttonColor);
+    color: var(--greyDarkColor);
     font-weight: 600;
 }
 
@@ -75,7 +80,8 @@ a:focus-visible {
 
 [src$=".png"], [src$=".jpg"],[src$=".jpeg"],[src$=".svg"],svg,
 .fotogalerie__link {
-    filter:brightness(var(--darkBrightness)); 
+    -webkit-filter:brightness(var(--darkBrightness));
+            filter:brightness(var(--darkBrightness)); 
 }
 
 li {

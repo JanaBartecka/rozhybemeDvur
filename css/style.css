@@ -9,6 +9,7 @@
   --greyColor: #E0E2DB;
   --greyDarkColor: #889696;
   --backgroundColor:white;
+  --darkBrightness:1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,7 +97,7 @@ a:focus-visible {
 }
 
 .link:link {
-  color: var(--buttonColor);
+  color: var(--greyDarkColor);
   font-weight: 600;
 }
 
@@ -742,6 +743,16 @@ input[type=checkbox] {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+}
+.singleAkce__textovaCast a:hover {
+  color: var(--secondaryColor);
+}
+.singleAkce__textovaCast a:link {
+  color: var(--greyDarkColor);
+  font-weight: 600;
+}
+.singleAkce__textovaCast a:visited {
+  color: var(--textColor);
 }
 @media screen and (min-width: 50rem) {
   .singleAkce {

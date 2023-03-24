@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/JanaBartecka/rozhybemeDvur#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^2.0.0",
+    "autoprefixer": "^10.4.14"
   }
 }

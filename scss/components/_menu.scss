@@ -110,7 +110,6 @@
         width: 30px;
         height: 3px;
         margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
         background-color: var(--lightColor);
     }
@@ -120,6 +119,8 @@
 
         &__list {
             display: flex;
+            max-width: -webkit-max-content;
+            max-width: -moz-max-content;
             max-width: max-content;
             width: auto;
             left: auto;

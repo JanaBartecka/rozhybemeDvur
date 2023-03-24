@@ -58,6 +58,8 @@
     &__datum {
         background-color: var(--secondaryColor);
         opacity: 0.7;
+        height: -webkit-max-content;
+        height: -moz-max-content;
         height: max-content;
         padding: v.$spacer-small;
         color: black;
@@ -135,6 +137,7 @@
             padding: v.$spacer-small;
             padding-bottom: v.$spacer-normal;
         }
+
     }
 
     &__nadpis {
@@ -151,6 +154,18 @@
         flex-direction: column;
         align-items: stretch;
 
+        & a:hover {
+            color: var(--secondaryColor);
+        }
+
+        & a:link {
+            color: var(--greyDarkColor);
+            font-weight: 600;
+        }
+
+        & a:visited {
+            color: var(--textColor);
+        }
 
     }
 
