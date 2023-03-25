@@ -9,7 +9,7 @@ SouborDen: "08"
 kde: Libotov
 foto: /images/akce/vystrizek.jpg
 alt: Velikonční stezka Libotov
-myTags: ProDeti ProDospele Spolecenske Sportovni Ostatni
+myTags: ProDeti ProDospele Sportovni Ostatni
 ---
 <!--StartFragment-->
 
