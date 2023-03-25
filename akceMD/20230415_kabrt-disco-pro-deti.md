@@ -12,7 +12,7 @@ alt: KÁBRT DISCO - PRO DĚTI - DVŮR KRÁLOVÉ NAD LABEM
 web: https://www.facebook.com/events/181554631289867/?ref=newsfeed
 registrace: https://www.facebook.com/events/181554631289867/?ref=newsfeed
 vstupne: 160Kč děti - 80Kč dospělí
-myTags: HudbaDivadlo ProDeti ProDospele Spolecenske Ostatni duben2023
+myTags: HudbaDivadlo ProDeti ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 
