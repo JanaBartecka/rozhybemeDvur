@@ -10,6 +10,6 @@ kde: "Hřiště Lipnice "
 foto: /images/akce/337348798_716115800254762_592984780554604782_n.jpg
 alt: "ČASPV TJ SOKOL LIPNICE - Hřiště Lipnice "
 vstupne: "50"
-myTags: ProDeti ProDospele Sportovni Ostatni
+myTags: ProDeti ProDospele Sportovni Ostatni duben2023
 ---
 V﻿íce infa na obrázku
