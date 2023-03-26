@@ -6,10 +6,7 @@ kdy: pátek 3.2.2023 - 2.6.2023 od15:00- 15:50
 kde: " TS Attitude DKnL."
 foto: /images/akce/image-3-.jpg
 alt: " TS Attitude DKnL."
-web: "TS ATTITUDE Zdroj:
-  https://www.kralovedvorsko.cz/sport/sportovni-krouzek-sportik-pro-deti-3-5-le\
-  t.html?fbclid=IwAR3nP1aBd-voPiiKi81-6szN5eslUcK9Dc8GVkpGuW0zNd6gk8gZxwZlB6k
-  Královédvorsko.cz"
+web: https://ts-attitude.com/
 registrace: https://forms.gle/5f3uwgAvByP9QqpQA
 polatek: 90 Kč
 myTags: "AktivityOstatni AktivityDo3 AktivityOd3 AktivityOd4 AktivityOd5 "
