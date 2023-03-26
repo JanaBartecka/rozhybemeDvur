@@ -7,6 +7,7 @@ kde: "Fit studio R.Jaroš na slovanech "
 foto: /images/akce/333921982_1132772450727434_7745236931157749334_n.jpg
 alt: Kruháč Neděle Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
+registrace: ANO
 polatek: "150 Kč jednorázově / permice zvýhodněné "
 myTags: AktivityDospeli AktivityOstatni
 ---
