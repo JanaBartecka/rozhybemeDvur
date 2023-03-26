@@ -7,6 +7,7 @@ kde: "Fit studio R.Jaroš na slovanech "
 foto: /images/akce/333804486_728481205499665_1917506252522952162_n.jpg
 alt: TRX Radek Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
+registrace: Radek 604 543 372
 polatek: "150 Kč jednorázově / permice zvýhodněné "
 myTags: AktivityDospeli AktivityOstatni
 ---
