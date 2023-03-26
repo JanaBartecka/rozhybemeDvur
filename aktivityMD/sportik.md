@@ -9,7 +9,7 @@ alt: " TS Attitude DKnL."
 web: https://ts-attitude.com/
 registrace: https://forms.gle/5f3uwgAvByP9QqpQA
 polatek: 90 Kč
-myTags: "AktivityOstatni AktivityDo3 AktivityOd3 AktivityOd4 AktivityOd5 "
+myTags: "AktivityOstatni AktivityOd3 AktivityOd4 AktivityOd5 "
 ---
 TS Attitude otevírá další lekci SPORTÍKU pro malé děti ve věku 3-5 let. Lekce budou probíhat každý pátek od 3.2.2023 do 2.6.2023 v čase od 15 do 15:50 hod v tanečním sále TS Attitude DKnL.
 
