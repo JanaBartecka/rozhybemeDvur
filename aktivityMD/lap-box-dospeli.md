@@ -7,6 +7,7 @@ kde: "Fit studio R.Jaroš na slovanech "
 foto: /images/akce/325145299_491812786449050_8599872688412736366_n.jpg
 alt: LAP-BOX Fit studio R.Jaroš
 web: https://www.facebook.com/fitness.club.slovany
+registrace: ANO
 polatek: "150 Kč jednorázově / permice zvýhodněné "
 myTags: AktivityDospeli AktivityOstatni
 ---
