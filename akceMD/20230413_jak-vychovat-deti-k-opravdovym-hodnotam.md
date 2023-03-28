@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: Jak vychovat děti k opravdovým hodnotám?
-kdy: 13.4.2023
+kdy: 13.4.2023 17:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "13"
