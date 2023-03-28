@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: Pohádkoterapie – Káťa a Škubánek
-kdy: 04.04.2023
+kdy: 04.04.2023 13:30-14:30
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "04"
