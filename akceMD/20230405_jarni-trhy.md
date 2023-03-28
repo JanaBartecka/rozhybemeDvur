@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: "Jarní trhy "
-kdy: 5.4.2023
+kdy: 5.4.2023 7:30-14:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "05"
