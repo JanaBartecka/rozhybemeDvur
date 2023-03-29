@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "14"
 kde: Palackého 106 - naproti faře
-foto: /images/akce/plakat_sdilenka_hubro_a4.jpg
+foto: /images/akce/plakat_sdilenka_hubro_a4-1-.jpg
 alt: Prodej handmade produktů od místních tvůrců - Palackého 106 - naproti faře
 myTags: Ostatní ProDeti ProDospele duben2023
 ---
