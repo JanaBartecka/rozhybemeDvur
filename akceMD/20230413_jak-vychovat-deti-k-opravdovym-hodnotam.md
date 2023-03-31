@@ -11,7 +11,7 @@ foto: /images/akce/337260605_785626286314202_8646494400372876363_n.jpg
 alt: Jak vychovat děti k opravdovým hodnotám?
 web: https://www.facebook.com/events/s/jak-vychovavat-deti-k-opravdov/1245044366428034/
 vstupne: 100 Kč
-myTags: KurzyWorkshopy ProDospele Ostatní duben2023
+myTags: KurzyWorkshopy ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 

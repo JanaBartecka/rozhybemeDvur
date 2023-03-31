@@ -12,7 +12,7 @@ alt: SJEZD absoloventů - Dvůr Králové nad Labem
 web: https://ssis-jubilejni.cz/
 registrace: https://ssis-jubilejni.cz/
 vstupne: 300 Kč
-myTags: zari2023 ProDospele Spolecenske Ostatní
+myTags: zari2023 ProDospele Spolecenske Ostatni
 ---
 <!--StartFragment-->
 

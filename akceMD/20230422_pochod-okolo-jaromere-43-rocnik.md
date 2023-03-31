@@ -11,7 +11,7 @@ foto: /images/akce/336882752_747431486955753_3743960121918493629_n.jpg
 alt: "Pochod Okolo Jaroměře (43.ročník) "
 web: https://www.facebook.com/events/s/pochod-okolo-jaromere-2023-43-/591402746033570/
 vstupne: 50 Kč
-myTags: ProDeti ProDospele Sportovni Ostatní duben2023
+myTags: ProDeti ProDospele Sportovni Ostatni duben2023
 ---
 <!--StartFragment-->
 

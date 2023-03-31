@@ -9,7 +9,7 @@ SouborDen: "05"
 kde: náměstí T.G. Masaryka ve Dvoře Králové nad Labem
 foto: /images/akce/337289552_509859087812726_2578093781564951078_n.jpg
 alt: Jarní trhy - náměstí T.G. Masaryka ve Dvoře Králové nad Labem
-myTags: ProDeti ProDospele Ostatní duben2023
+myTags: ProDeti ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 

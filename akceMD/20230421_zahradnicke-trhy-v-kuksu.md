@@ -11,7 +11,7 @@ foto: /images/akce/337400918_160184303601139_492686133451549338_n.jpg
 alt: Zahradnické trhy v Kuksu
 web: https://www.facebook.com/events/239136678476672/239141191809554/
 vstupne: 50 Kč /30 Kč / 0 Kč dle věku
-myTags: ProDeti ProDospele Ostatní duben2023
+myTags: ProDeti ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 

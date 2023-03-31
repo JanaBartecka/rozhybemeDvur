@@ -10,7 +10,7 @@ kde: Na Kopečku 1795
 foto: /images/akce/338004600_209949588303291_2014055505319457099_n.jpg
 alt: Velikonoční mejdan - Na Kopečku 1795
 web: https://www.facebook.com/events/918891652480584
-myTags: HudbaDivadlo ProDospele Ostatní duben2023
+myTags: HudbaDivadlo ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 

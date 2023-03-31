@@ -12,7 +12,7 @@ alt: Jemná Jóga pro Ženy - Jóga doma jak na to?
 web: https://www.facebook.com/events/745458936960133/?ref=newsfeed
 registrace: info@ivetahanusova.com nebo na 722352562
 vstupne: 1490 Kč
-myTags: ProDospele SportovniOstatní duben2023
+myTags: ProDospele Sportovni Ostatni duben2023
 ---
 
 

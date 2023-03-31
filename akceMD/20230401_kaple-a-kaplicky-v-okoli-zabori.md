@@ -9,6 +9,6 @@ SouborDen: "01"
 kde: Pohostinství U Šulců Záboří
 foto: /images/akce/336906830_739413104291926_2925321643593983335_n.jpg
 alt: Kaple a kapličky v okolí Záboří -Pohostinství U Šulců Záboří
-myTags: ProDospele Ostatní duben2023
+myTags: ProDospele Ostatni duben2023
 ---
 V﻿íce infa na letáku

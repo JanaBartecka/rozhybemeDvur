@@ -9,7 +9,7 @@ SouborDen: "01"
 kde: Kulturní dům Vlčkovice
 foto: /images/akce/337160725_1356717991791696_2113884633577472425_n.jpg
 alt: sousedské vepřové hody - Kulturní dům Vlčkovice
-myTags: ProDeti ProDospele Ostatní duben2023
+myTags: ProDeti ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 

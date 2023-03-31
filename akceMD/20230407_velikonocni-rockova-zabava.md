@@ -10,7 +10,7 @@ kde: Pilníkov
 foto: /images/akce/338011721_1270692153836128_5772342983137991170_n.jpg
 alt: Velikonoční rocková zábava
 vstupne: "200/250 Kč "
-myTags: HudbaDivadlo ProDospele Ostatní duben2023
+myTags: HudbaDivadlo ProDospele Ostatni duben2023
 ---
 <!--StartFragment-->
 
