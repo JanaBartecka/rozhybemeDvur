@@ -5,7 +5,7 @@ title: Trutnoff Open Air Festival
 kdy: 17.8. - 20.8.2023
 SouborRok: "2023"
 SouborMesic: "08"
-SouborDen: 17 - 18
+SouborDen: "17"
 kde: Trutnov Bojiště
 foto: /images/akce/336382964_1259436771616944_4911940294633479322_n.jpg
 alt: Trutnoff Open Air Festival

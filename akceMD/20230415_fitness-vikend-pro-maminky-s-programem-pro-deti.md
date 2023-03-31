@@ -5,7 +5,7 @@ title: FITNESS VÍKEND PRO MAMINKY S PROGRAMEM PRO DĚTI
 kdy: 15.04.2023 - 16.04.2023
 SouborRok: "2023"
 SouborMesic: "04"
-SouborDen: 15-16
+SouborDen: "15"
 kde: DDM JEDNIČKA
 foto: /images/akce/fv-letak-foto.jpg
 alt: FITNESS VÍKEND PRO MAMINKY S PROGRAMEM PRO DĚTI V DDM JEDNIČKA
