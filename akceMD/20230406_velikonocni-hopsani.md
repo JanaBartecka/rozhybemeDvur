@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "06"
 kde: 17.listopadu 3129, 544 01 Dvůr Králové nad Labem
-foto: /images/akce/vystrizek.jpg
+foto: /images/akce/vystrizekaaa.jpg
 alt: "Velikonoční hopsání "
 web: https://www.lucnikonici.cz/clanky/akce-pro-deti.html
 registrace: https://www.lucnikonici.cz/clanky/akce-pro-deti.html
