@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "08"
 kde: Libotov
-foto: /images/akce/vystrizek.jpg
+foto: /images/akce/337179984_105015979210907_2487203233702380337_n.jpg
 alt: Velikonční stezka Libotov
 myTags: ProDeti ProDospele Sportovni Ostatni
 ---
