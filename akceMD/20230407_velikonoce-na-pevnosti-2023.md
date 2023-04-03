@@ -10,8 +10,6 @@ kde: Pevnost Josefov - Bastion No. I a podzemí
 foto: /images/akce/330377547_1577600179405873_2084038888531640680_n.jpg
 alt: Velikonoce na pevnosti 2023
 web: https://www.facebook.com/events/1571738989948955
-registrace: ""
-vstupne: ""
 myTags: ProDeti ProDospele Vystavy Ostatni duben2023
 ---
 <!--StartFragment-->

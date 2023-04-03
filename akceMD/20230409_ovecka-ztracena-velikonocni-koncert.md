@@ -10,7 +10,6 @@ kde: Kostel Nejsvětější Trojice
 foto: /images/akce/337274103_702657114988248_7245876811406956878_n.jpg
 alt: "Ovečka ztracená - Velikonoční koncert "
 web: https://www.facebook.com/events/6242064282497716?ref=newsfeed
-registrace: ""
 vstupne: Dobrovolné
 myTags: ProDeti ProDospele HudbaDivadlo Ostatni duben2023
 ---
