@@ -2,10 +2,10 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: KVÍZOVÝ večer Na Výšince
-kdy: 7.4.2023 19:30
+kdy: 14.4.2023 19:30
 SouborRok: "2023"
 SouborMesic: "04"
-SouborDen: "07"
+SouborDen: "14"
 kde: a Výšince
 foto: /images/akce/336884228_711435094158083_5642797699026188842_n.jpg
 alt: KVÍZOVÝ večer Na Výšince
