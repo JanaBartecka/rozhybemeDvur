@@ -11,8 +11,6 @@ collections:
     folder: "akceMD"
     create: true
     slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
-    sort:
-      by: title
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/akce.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "akceMD"}
@@ -29,6 +27,8 @@ collections:
       - {label: "Vstupné - není povinné vyplnit", name: "vstupne", widget: "string", required: false}
       - {label: "Tagy", name: "myTags", widget: "string"}
       - {label: "Text", name: "body", widget: "markdown"}
+    sort:
+      by: title
   - name: "krouzky"
     label: "Krouzky"
     folder: "krouzkyMD"
