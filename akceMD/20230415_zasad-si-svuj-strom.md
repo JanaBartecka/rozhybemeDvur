@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: Zasaď si svůj strom
-kdy: 15.4.2023
+kdy: 15.4.2023 9:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "15"
