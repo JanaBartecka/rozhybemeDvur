@@ -11,7 +11,6 @@ foto: /images/akce/detskyDen.jpg
 alt: Dětský den
 web: https://www.kemppecka.cz/akce/?akce=detsky-den-v-kempu-pecka-50
 registrace: https://www.kemppecka.cz/akce/?akce=detsky-den-v-kempu-pecka-50
-vstupne: ""
 myTags: HudbaDivadlo ProDeti Ostatni cerven2023
 ---
 

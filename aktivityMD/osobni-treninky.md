@@ -7,7 +7,6 @@ kde: Fit studiu R.Jaroš, Slovany 3051
 foto: /images/akce/4-1-1.jpg
 alt: Osobní tréninky
 web: https://fitstudiojaros.com/
-registrace: ""
 polatek: 600Kč 1-3 osoby
 myTags: "AktivityDospeli AktivityOstatni "
 ---
