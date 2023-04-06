@@ -9,8 +9,8 @@
         <img src="{{ aktivity.data.foto }}" class="akce__image" alt="{{ aktivity.data.alt }}">
       </div>
       <div class="akce__stitky">
-        {% if aktivity.data.registrace != null %}
-          <div class="akce__datum akce__registrace">Nutná registrace</div>
+        {% if aktivity.data.registrace %}
+          <div class="akce__datum akce__registrace">Nutná registrace {{ aktivity.data.registrace }}</div>
         {% endif %}
         <div class="akce__datum">{{ aktivity.data.kdy }} </div> 
       </div>

@@ -18,7 +18,6 @@ permalink: "tabory/{{ SingleTabor.data.title | slugify }}/"
   </p>
 </section>
 
-  <!-- <h2>{{ SingleAkce.data.title }}</h2> -->
 <div class="singleAkce">
   <div class="singleAkce__textovaCast">
     <h3 class="singleAkce__nadpis">INFORMACE O TÁBORU</h3>
@@ -26,13 +25,13 @@ permalink: "tabory/{{ SingleTabor.data.title | slugify }}/"
       <p class="singleAkce__popisek-text">{{ SingleTabor.data.kdy }}</p>
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleTabor.data.kde }}</p>
-    {% if SingleTabor.data.polatek != null %}
-    <p class="singleAkce__popisek">Poplatek: </p>
-    <p class="singleAkce__popisek-text">{{ SingleTabor.data.polatek }}</p>
+    {% if SingleTabor.data.polatek %}
+      <p class="singleAkce__popisek">Poplatek: </p>
+      <p class="singleAkce__popisek-text">{{ SingleTabor.data.polatek }}</p>
     {% endif %}
-    {% if SingleTabor.data.web != null %}
-    <p class="singleAkce__popisek">Webové stránky táboru: </p>
-    <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleTabor.data.web }}">Odkaz ZDE</a></p>
+    {% if SingleTabor.data.web %}
+      <p class="singleAkce__popisek">Webové stránky táboru: </p>
+      <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleTabor.data.web }}">Odkaz ZDE</a></p>
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleTabor.templateContent | safe }}</p>

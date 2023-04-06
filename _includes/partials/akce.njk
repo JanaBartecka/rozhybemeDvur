@@ -11,7 +11,7 @@
       </div>
       
       <div class="akce__stitky">
-        {% if akce.data.registrace != null %}
+        {% if akce.data.registrace %}
           <div class="akce__datum akce__registrace">Nutná registrace</div>
         {% endif %}
         <div class="akce__datum">{{ akce.data.kdy }} </div> 

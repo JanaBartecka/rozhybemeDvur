@@ -29,21 +29,19 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
     <p class="singleAkce__popisek">Kde: </p>
     <p class="singleAkce__popisek-text">{{ SingleAkce.data.kde }}</p>
 
-    {% if SingleAkce.data.vstupne != null %}
+    {% if SingleAkce.data.vstupne %}
       <p class="singleAkce__popisek">Vstupné: </p>
       <p class="singleAkce__popisek-text">{{ SingleAkce.data.vstupne }}</p>
     {% endif %}
 
-    {% if SingleAkce.data.web != null %}
+    {% if SingleAkce.data.web %}
       <p class="singleAkce__popisek">Webové stránky akce: </p>
       <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAkce.data.web }}">Odkaz ZDE</a> </p>
     {% endif %}
 
-    {% if SingleAkce.data.registrace != null %}
-    {% if SingleAkce.data.registrace !== "" %}
+    {% if SingleAkce.data.registrace %}
       <p class="singleAkce__popisek">Registrace na akci: </p>
       <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAkce.data.registrace }}">Odkaz ZDE</a> </p>
-      {% endif %}
     {% endif %}
 
     <p class="singleAkce__popisek">Podrobnosti: </p>
