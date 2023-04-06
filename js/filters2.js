@@ -1,9 +1,3 @@
-// show/hide check at each line of filter
-const allFilters=document.querySelectorAll('.filters__checkboxItem')
-const allFiltersArray=Array.from(allFilters)
-allFilters.forEach(filter => filter.addEventListener('click',() => {
-    filter.classList.toggle('filters__checkboxItem--active')
-}));
 
 // show/hide filters and change text in the button
 const btnShowFilter=document.querySelector('.button__filtrovani')
