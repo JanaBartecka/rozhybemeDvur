@@ -15,7 +15,9 @@ registrace: "[https://forms.gle/UikQuSmDj8oAtn8m6](https://forms.gle/UikQuSmDj8\
 vstupne: 100 Kč
 myTags: ProDospele Ostatni duben2023
 ---
-<!--StartFragment-->
+Došlo ke změně termínu na 14.4
+
+
 
 Druhý KVÍZ na Výšince, který byl odložen ze zdravotních důvodů se bude konat v náhradním termínu na velký pátek 7. dubna! ![🐣](https://static.xx.fbcdn.net/images/emoji.php/v9/td/1/16/1f423.png) A jako BONUS bude jedno speciální Velikonoční kolo navíc ![😉](https://static.xx.fbcdn.net/images/emoji.php/v9/t57/1/16/1f609.png).
 
@@ -24,10 +26,11 @@ Druhý KVÍZ na Výšince, který byl odložen ze zdravotních důvodů se bude 
 Co bude ten večer dobrého v nabídce ![😋](https://static.xx.fbcdn.net/images/emoji.php/v9/t0/1/16/1f60b.png) včas upřesním.
 
 \- hrajeme po 4-6 hráčích u stolu\
-- 5 kol, 10 témat, 50 otázek + 3 zahřívací\
-- pár specialit a novinek\
-- zápis začíná v 19:30, ostrý start klasicky ve 20:00 !!!\
-- startovné je 100 Kč/hráč
+
+* 5 kol, 10 témat, 50 otázek + 3 zahřívací\
+* pár specialit a novinek\
+* zápis začíná v 19:30, ostrý start klasicky ve 20:00 !!!\
+* startovné je 100 Kč/hráč
 
 Přihlásit svůj tým můžete už nyní zde ![📝](https://static.xx.fbcdn.net/images/emoji.php/v9/tcc/1/16/1f4dd.png)![👉](https://static.xx.fbcdn.net/images/emoji.php/v9/t51/1/16/1f449.png) [https://forms.gle/UikQuSmDj8oAtn8m6](https://forms.gle/UikQuSmDj8oAtn8m6?fbclid=IwAR0BLLUNuyJaXK2xR1SXPcOALrFreXeZ0Rtr6l2sPXXcjORMYxjdf1Bb02s)
 
