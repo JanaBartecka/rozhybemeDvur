@@ -11,6 +11,8 @@ collections:
     folder: "akceMD"
     create: true
     slug: "{{SouborRok}}{{SouborMesic}}{{SouborDen}}_{{title}}"
+    sort:
+      by: title
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "/partials/akce.njk"}
       - {label: "tags", name: "tags", widget: "hidden", default: "akceMD"}

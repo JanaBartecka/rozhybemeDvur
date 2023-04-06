@@ -5,7 +5,6 @@ for(let i=0; i<uvodButton.length; i++ ) {
         const thisButton=event.target.id
         const thisTextToHide=document.querySelector('.' + thisButton)
         thisTextToHide.classList.toggle("uvod__vice--hide")
-        console.log(event.target.innerHTML);
         if (event.target.innerHTML!=="Zavřít") {
             event.target.innerHTML="Zavřít"
         } else {
