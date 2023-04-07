@@ -19,7 +19,7 @@ collections:
       - {label: "Název souboru rok", name: "SouborRok", widget: "string", default: "2023"}
       - {label: "Název souboru měsíc", name: "SouborMesic", widget: "string"}
       - {label: "Název souboru den", name: "SouborDen", widget: "string"}
-      - {label: "Název souboru rok - konec - volitelný", name: "SouborRokKonec", widget: "string", default: "2023", required: false}
+      - {label: "Název souboru rok - konec - volitelný", name: "SouborRokKonec", widget: "string", required: false}
       - {label: "Název souboru měsíc - konec - volitelný", name: "SouborMesicKonec", widget: "string", required: false}
       - {label: "Název souboru den - konec - volitelný", name: "SouborDenKonec", widget: "string", required: false}
       - {label: "Misto konani akce", name: "kde", widget: "string"}
