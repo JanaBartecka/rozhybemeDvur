@@ -2,7 +2,7 @@
 <div class="akce">
   {% for akce in collections.akceMD %}  
 
-  <div class=" akce__item {{ akce.data.myTags }} akce_datum_{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}">
+  <div class=" akce__item {{ akce.data.myTags }} akce_datum_{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}{{ akce.data.SouborRokKonec }}{{ akce.data.SouborMesicKonec }}{{ akce.data.SouborDenKonec }}">
     <a class="akce__link" href="{{ akce.data.SouborRok }}{{ akce.data.SouborMesic }}{{ akce.data.SouborDen }}_{{ akce.data.title | slugify }}/">
 
       <h3 class="akce__title">{{ akce.data.title }}</h3>

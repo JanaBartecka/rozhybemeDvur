@@ -6,6 +6,9 @@ kdy: 7.4.-10.4.2023 9:00-16:00
 SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "07"
+SouborRokKonec: "2023"
+SouborMesicKonec: "04"
+SouborDenKonec: "10"
 kde: Pevnost Josefov - Bastion No. I a podzemí
 foto: /images/akce/330377547_1577600179405873_2084038888531640680_n.jpg
 alt: Velikonoce na pevnosti 2023

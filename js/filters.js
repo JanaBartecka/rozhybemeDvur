@@ -14,18 +14,31 @@ if (currentPage==='akce') {
     const CurrentMesic=GetCurrentDate.getMonth()
     const CurrentDen=GetCurrentDate.getDate()
     const substring= /^akce_datum_/;
+    let AkceDen=''
+    let AkceMesic=''
+    let AkceRok=''
     
     const NadchazejiciAkce=allAkce.filter(e => {
       const ClassList=Array.from(e.classList)
       e.style.display = 'none';
       const DateTag=ClassList.filter(string => substring.test(string))
+      if (DateTag[0].length>19) {
+        AkceDen=parseInt(DateTag[0].slice(25,27))
+        AkceMesic=parseInt(DateTag[0].slice(23,25))
+        AkceRok=parseInt(DateTag[0].slice(19,23))
+      } else {
+        AkceDen=parseInt(DateTag[0].slice(17,19))
+        AkceMesic=parseInt(DateTag[0].slice(15,17))
+        AkceRok=parseInt(DateTag[0].slice(11,15))
+      }
+
       if (DateTag[0]) {
-        if (parseInt(DateTag[0].slice(11,15))>=CurrentRok) {
-          if (parseInt(DateTag[0].slice(15,17))-1>CurrentMesic) {
+        if (AkceRok>=CurrentRok) {
+          if (AkceMesic-1>CurrentMesic) {
             e.style.display = 'block';
             return e
-          } else if (parseInt(DateTag[0].slice(15,17))-1===CurrentMesic) {
-            if (parseInt(DateTag[0].slice(17,19))>=CurrentDen) {
+          } else if (AkceMesic-1===CurrentMesic) {
+            if (AkceDen>=CurrentDen) {
               e.style.display = 'block';
               return e
             } else {
