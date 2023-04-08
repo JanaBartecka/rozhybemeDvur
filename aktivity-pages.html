@@ -36,7 +36,12 @@ permalink: "aktivity/{{ SingleAktivita.data.title | slugify }}/"
     {% endif %}
     {% if SingleAktivita.data.registrace %}
     <p class="singleAkce__popisek">Registrace na aktivitu: </p>
-    <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAktivita.data.registrace }}">Odkaz ZDE</a></p>
+      {% if SingleAktivita.data.registrace.includes('www') or SingleAktivita.data.registrace.includes('http') %}
+        <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAktivita.data.registrace }}">Odkaz ZDE</a></p>
+        
+      {% else %}
+        <p class="singleAkce__popisek-text">{{ SingleAktivita.data.registrace }}</p>
+      {% endif %}
     {% endif %}
     <p class="singleAkce__popisek">Podrobnosti: </p>
     <p  class="singleAkce__popisek-text">{{ SingleAktivita.templateContent | safe }}</p>
