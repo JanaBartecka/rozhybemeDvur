@@ -41,7 +41,10 @@ permalink: "akce/{{ SingleAkce.data.SouborRok }}{{ SingleAkce.data.SouborMesic }
 
     {% if SingleAkce.data.registrace %}
       <p class="singleAkce__popisek">Registrace na akci: </p>
+      {% if SingleAkce.data.registrace.includes('www') or SingleAkce.data.registrace.includes('http') %}
       <p class="singleAkce__popisek-text"><a class="link" href="{{ SingleAkce.data.registrace }}">Odkaz ZDE</a> </p>
+    {% else %}
+      <p class="singleAkce__popisek-text">{{ SingleAkce.data.registrace }}</p>
     {% endif %}
 
     <p class="singleAkce__popisek">Podrobnosti: </p>
