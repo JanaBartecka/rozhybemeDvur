@@ -9,6 +9,7 @@ SouborDen: "22"
 kde: Hudební klub Top Ten Rock
 foto: /images/akce/336529124_228124116266489_7714102816474724460_n.jpg
 alt: pozvánka na událost
+web: https://www.facebook.com/events/224812053456396?ref=newsfeed
 myTags: "HudbaDivadlo ProDospele Ostatni duben2023 "
 ---
 <!--StartFragment-->
