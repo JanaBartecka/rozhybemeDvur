@@ -1,7 +1,7 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: Nábor do tenisové školičky
+title: Nábor do tenisové školičky druhý den
 kdy: 27.4.2023 17:00
 SouborRok: "2023"
 SouborMesic: "04"
