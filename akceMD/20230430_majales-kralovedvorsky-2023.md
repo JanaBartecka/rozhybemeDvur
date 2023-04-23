@@ -10,7 +10,7 @@ SouborRokKonec: "2023"
 SouborMesicKonec: "05"
 SouborDenKonec: "01"
 kde: náměstí T. G. Masaryka
-foto: /images/akce/majales-2023-vyrez.jpg
+foto: /images/akce/343144263_1859513177757983_9082006961635854225_n.jpg
 alt: Pozvánka na akci
 vstupne: Zdarma
 myTags: HudbaDivadlo ProDeti ProDospele Ostatni duben2023 kveten2023
