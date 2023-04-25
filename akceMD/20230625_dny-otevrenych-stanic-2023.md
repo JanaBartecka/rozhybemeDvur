@@ -6,7 +6,7 @@ kdy: 25.6.2023
 SouborRok: "2023"
 SouborMesic: "06"
 SouborDen: "25"
-kde: Hasičská stanice Dvůr Králové nad Labem
+kde: HS Dvůr Králové nad Labem, Zátopkova 3026
 foto: /images/akce/342065564_575048281384850_5741879050115973062_n.jpg
 alt: Pozvánka na akci
 web: https://www.facebook.com/events/2176863472523086/
