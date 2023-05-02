@@ -5,7 +5,7 @@ title: Pohádkové Krkonoše
 kde: Krkonoše a okolí
 foto: /images/akce/344028334_184556014472626_350491866452075810_n.jpg
 alt: Fotografie
-web: https://pohadkove.krkonose.eu/pohadkove-krkonose-se-oteviraji-1-5-2023?fbclid=IwAR1KMUfQNgJEdMp9nisu-AGWY4weU97XmI7XUMJ-B52cMrHcoxHaAbYf6S0
+web: https://pohadkove.krkonose.eu/razitkovaci-hra-pohadkove-krkonose
 myTags: VyletyPesky VyletyNaKole VyletyAutem VyletyVlakem VyletyOstatni
 ---
 <!--StartFragment-->
