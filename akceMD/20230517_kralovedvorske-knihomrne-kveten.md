@@ -2,7 +2,7 @@
 layout: /partials/akce.njk
 tags: akceMD
 title: Královédvorské knihomrně Květen
-kdy: 5.4.2023 10:00-11:00
+kdy: 17.5.2023 10:00-11:00
 SouborRok: "2023"
 SouborMesic: "05"
 SouborDen: "17"
