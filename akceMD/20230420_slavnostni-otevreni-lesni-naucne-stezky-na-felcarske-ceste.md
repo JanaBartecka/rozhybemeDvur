@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "04"
 SouborDen: "20"
 kde: Hřbitov - spodní brána
-foto: /images/akce/339148473_995364785183112_1948095269272003854_n.png
+foto: /images/akce/339148473_995364785183112_1948095269272003854_n.jpg
 alt: Slavnostní otevření lesní naučné stezky Na Felčarské cestě
 web: https://www.facebook.com/events/239778478587186/
 myTags: ProDeti ProDospele Sportovni Ostatni duben2023

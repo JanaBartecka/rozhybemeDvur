@@ -55,6 +55,13 @@
             display: none;
         }
     }
+
+    &__resetovani {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: v.$spacer-middle auto 0 auto;
+    }
 }
 
 button:focus-visible {
