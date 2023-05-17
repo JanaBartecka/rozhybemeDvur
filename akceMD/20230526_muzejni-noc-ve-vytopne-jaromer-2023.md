@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "05"
 SouborDen: "26"
 kde: Jaroměř
-foto: /images/akce/342815378_746582127119518_5763884677268972653_n.jpg
+foto: /images/akce/347636181_3408484759414169_1930194617302785742_n.jpg
 alt: Pozvánka na událost
 web: https://www.facebook.com/events/s/muzejni-noc-ve-vytopne-jaromer/1013302713382543/
 myTags: "ProDeti ProDospele Vystavy Ostatni kveten2023 "
