@@ -10,6 +10,7 @@ SouborRokKonec: ""
 kde: Vítězná
 foto: /images/akce/346644602_293268453027493_2771707450000348072_n.jpg
 alt: Pozvánka na akci
+web: https://www.facebook.com/events/642564617690827/?ref=newsfeed
 vstupne: 200 Kč k podiu
 myTags: "ProDeti ProDospele Vystavy Ostatni cervenec2023 HudbaDivadlo "
 ---
