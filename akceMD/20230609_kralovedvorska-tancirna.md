@@ -1,7 +1,7 @@
 ---
 layout: /partials/akce.njk
 tags: akceMD
-title: KRÁLOVÉDVORSKÁ TANČÍRNA
+title: KRÁLOVÉDVORSKÁ TANČÍRNA červen 2023
 kdy: 9.6.2023 20:00
 SouborRok: "2023"
 SouborMesic: "06"
