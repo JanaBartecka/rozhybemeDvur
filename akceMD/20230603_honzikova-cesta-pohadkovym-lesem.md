@@ -13,8 +13,7 @@ web: https://www.facebook.com/events/249469701067040/?ref=newsfeed
 registrace: Akci pořádá Půjčovna kostýmů Dvůr Králové nad Labem. Objednávat se
   můžete na tel. 777 568 688 (Petra Hrdinová).
 vstupne: 70 Kč /100 Kč
-myTags: "HudbaDivadlo KurzyWorkshopy ProDeti ProDospele Spolecenske Sportovni
-  Vystavy Ostatni  cerven2023 "
+myTags: "ProDeti ProDospele Sportovni Ostatni cerven2023 "
 ---
 <!--StartFragment-->
 
