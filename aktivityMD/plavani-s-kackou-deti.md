@@ -9,8 +9,8 @@ alt: fotografie
 web: http://www.plavaniskackou.cz/?fbclid=IwAR11aUx0SMfK1tBWlFcPgr5ss3ez8NraZvqF93P9g3_CRWjW5ZeZTFssumM
 registrace: http://www.plavaniskackou.cz/?fbclid=IwAR11aUx0SMfK1tBWlFcPgr5ss3ez8NraZvqF93P9g3_CRWjW5ZeZTFssumM
 polatek: 700 Kč
-myTags: AktivityOd7 AktivityOd8 AktivityOd9 AktivityOd10 AktivityOd11
-  AktivityOd12 AktivityOd13 AktivityOd14 AktivityOd15
+myTags: AktivityOd5 AktivityOd6 AktivityOd7 AktivityOd8 AktivityOd9 AktivityOd10
+  AktivityOd11 AktivityOd12
 ---
 <!--StartFragment-->
 
