@@ -15,6 +15,6 @@ alt: pozvánka na akci
 web: https://docs.google.com/forms/d/e/1FAIpQLScDBDHXnr-JpXBY3BHU7OnW7mhcCPjvGz6tmGBuAX8HdYAeRg/viewform?fbclid=IwAR2mcrJMiVP2bbJkKEoqdjh6H-ZHM5-K3sv_-2GDuc4gDIAvlhT2WR4CdzQ&pli=1
 registrace: https://docs.google.com/forms/d/e/1FAIpQLScDBDHXnr-JpXBY3BHU7OnW7mhcCPjvGz6tmGBuAX8HdYAeRg/viewform?fbclid=IwAR2mcrJMiVP2bbJkKEoqdjh6H-ZHM5-K3sv_-2GDuc4gDIAvlhT2WR4CdzQ&pli=1
 vstupne: 1200 Kč
-myTags: " KurzyWorkshopy ProDeti Ostatni cervenec2023 srpen2023 "
+myTags: " KurzyWorkshopy ProDeti Ostatni srpen2023 "
 ---
 V﻿íce infa na letáku
