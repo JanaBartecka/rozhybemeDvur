@@ -16,4 +16,8 @@ registrace: info@hotelpodzvicinou.cz
 vstupne: 3500 Kč
 myTags: "ProDeti ProDospele Ostatni cervenec2023 "
 ---
-v﻿íce infa na letáku
+<!--StartFragment-->
+
+Vězte a sdílejte ![📢](https://static.xx.fbcdn.net/images/emoji.php/v9/t39/1/16/1f4e2.png): další ročník "balonového nebe" je tu! ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)![🎈](https://static.xx.fbcdn.net/images/emoji.php/v9/tb/1/16/1f388.png)![☁️](https://static.xx.fbcdn.net/images/emoji.php/v9/tee/1/16/2601.png) Poprvé však budou lety otevřeny také veřejnosti. ![🤗](https://static.xx.fbcdn.net/images/emoji.php/v9/tb7/1/16/1f917.png) Hlásit se můžete na ![📧](https://static.xx.fbcdn.net/images/emoji.php/v9/tbe/1/16/1f4e7.png) info@hotelpodzvicinou.cz.
+
+<!--EndFragment-->
