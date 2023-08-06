@@ -7,6 +7,8 @@ let Akce
 //pocet akci na stranku
 const limitAkce=20
 let activePageAkce=1
+//parametr ktery sleduje zda doslo ke zmene strany a ma dojit k odscrollovani nahoru
+zmenaStranyChanger=false
 
 //currentPage - zjisteni na ktere strance se nachazime
 const url = window.location.href;
@@ -115,7 +117,7 @@ function pagination(pocetAkci) {
     }
   }
   //odscrollovani nahoru
-  if (pocetAkci!==1) {
+  if (zmenaStranyChanger===true) {
     scrollToTop() 
   }
 }
@@ -123,6 +125,7 @@ function pagination(pocetAkci) {
 //funkce k odscrollovani na zacatek
 function scrollToTop() {
   let scrollGoal=document.querySelector('.banner').offsetTop + document.querySelector('.banner').offsetHeight
+  //console.log(zmenaStranyChanger)
   window.scrollTo({
     top:scrollGoal,
     behavior:"smooth"
@@ -131,6 +134,7 @@ function scrollToTop() {
 
 function zmenaStrany(event){
   activePageAkce=event.target.textContent
+  zmenaStranyChanger=true
   setVisibility();
 }
 
@@ -141,6 +145,7 @@ Array.prototype.forEach.call(allCheckboxes, function (el) {
 
 //funkce ktera se vola po zaskrtnuti checkboxu
 function toggleCheckbox(e) {
+  zmenaStranyChanger=false
   getChecked(e.target.name);
   toggleCheckboxElement(e.target)
 }
@@ -190,12 +195,12 @@ function sortByCalendar() {
     e.style.display = 'none';
     //osamostatneni data od stringu ktery ho identifikuje
     const DateTag=ClassList.filter(string => substring.test(string))
-    console.log(DateTag[0]);
+    //console.log(DateTag[0]);
     //charakteristicke datum pro zarazeni v pripade ze akce bezi v nejakem obdobi od do
     let vicedenniAkce=false
     if (DateTag[0].length>19) {
       currentValueEnd=cisloDne(parseInt(DateTag[0].slice(23,25)),parseInt(DateTag[0].slice(25,27)))
-      console.log('currentValueEnd' + currentValueEnd);
+      //console.log('currentValueEnd' + currentValueEnd);
       // AkceDen=parseInt(DateTag[0].slice(25,27))
       // AkceMesic=parseInt(DateTag[0].slice(23,25))
       // AkceRok=parseInt(DateTag[0].slice(19,23))
@@ -203,7 +208,7 @@ function sortByCalendar() {
     }
       //pro jednodenni akci
       currentValue=cisloDne(parseInt(DateTag[0].slice(15,17)),parseInt(DateTag[0].slice(17,19)))
-      console.log('currentValue' + currentValue);
+      //console.log('currentValue' + currentValue);
       // AkceDen=parseInt(DateTag[0].slice(17,19))
       // AkceMesic=parseInt(DateTag[0].slice(15,17))
       // AkceRok=parseInt(DateTag[0].slice(11,15))
@@ -211,8 +216,8 @@ function sortByCalendar() {
 
     const StartValue=cisloDne(DataFilters[0].month,DataFilters[0].day)
     const EndValue=cisloDne(DataFilters[1].month,DataFilters[1].day)
-    console.log('StartValue' + StartValue);
-    console.log('EndValue' + EndValue);
+    //console.log('StartValue' + StartValue);
+    //console.log('EndValue' + EndValue);
 
     //rozradeni na nadchazejici a uplynulou akci podle data definovaneho v predchozi if smycce
     if (DateTag[0]) {
@@ -230,6 +235,7 @@ function sortByCalendar() {
   })
   Akce=filteredByCalendar
   activePageAkce=1
+  zmenaStranyChanger=false
   setVisibility();
 }
 
@@ -348,6 +354,7 @@ function ResetFilters() {
   }
   //nove nacteni
   activePageAkce=1
+  zmenaStranyChanger=false
   setVisibility()
 }
 
@@ -362,6 +369,7 @@ ResetFiltrCalendar.addEventListener('click',() => {
     Akce=NadchazejiciUdalosti
     activePageAkce=1
     ReSetSelectionFilters()
+    zmenaStranyChanger=false
     setVisibility()
   //}
   // activePageAkce=1
