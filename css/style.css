@@ -432,6 +432,7 @@ input[type=checkbox] {
 
 .calendar {
   max-width: 350px;
+  background-color: transparent;
 }
 
 .calendar__days {
