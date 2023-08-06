@@ -5,7 +5,7 @@
     <a class="akce__link" href="{{ krouzky.data.title | slugify }}/">
       <h3 class="akce__title">{{ krouzky.data.title }}</h3>
       <div class="akce__image-holder">
-        <img src="{{ krouzky.data.foto }}" class="akce__image" alt="{{ krouzky.data.alt }}">
+        <img data-img="{{ krouzky.data.foto }}" class="akce__image" alt="{{ krouzky.data.alt }}">
       </div>
       <div class="akce__stitky">
         {% if krouzky.data.kdy %}

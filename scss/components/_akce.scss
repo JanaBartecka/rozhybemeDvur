@@ -12,6 +12,7 @@
     gap: v.$spacer-middle;
     margin: v.$spacer-big auto 0 auto;
     padding: 0 v.$spacer-small;
+    grid-area: akce;
 
     &__link {
         height: 100%;

@@ -5,7 +5,7 @@
     <a class="akce__link" href="{{ tabory.data.title | slugify }}/">
       <h3 class="akce__title">{{ tabory.data.title }}</h3>
       <div class="akce__image-holder">
-        <img src="{{ tabory.data.foto }}" class="akce__image" alt="{{ tabory.data.alt }}">
+        <img data-img="{{ tabory.data.foto }}" class="akce__image" alt="{{ tabory.data.alt }}">
       </div>
       <div class="akce__stitky">
         <div class="akce__datum">{{ tabory.data.kdy }}  {{ tabory.data.polatek }}</div> 

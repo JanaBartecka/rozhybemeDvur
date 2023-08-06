@@ -8,13 +8,26 @@ let Akce
 const limitAkce=20
 let activePageAkce=1
 
-//currentPage - yjisteni na ktere strance se nachazime
+//currentPage - zjisteni na ktere strance se nachazime
 const url = window.location.href;
 const SplittedUrl=url.split('/')
 const currentPage=SplittedUrl[SplittedUrl.length-2]
 //priprava pro pole, kde budou akce uplynule a nadchazejici
 let UplynuleUdalosti=[];
 let NadchazejiciUdalosti=[];
+
+//pole vsech checkboxu
+let allCheckboxes = document.querySelectorAll('.checkbox');
+//objekt polozek ktere jsou checked
+let checked = {};
+
+//zavolani funkce getChecked pro vsechny moznosti - kontroluje jestli je polozka checked - pokud ano, ulozi id do pole napr.TypAkce v objektu checked
+getChecked('TypAkce');
+getChecked('DobaKonani');
+getChecked('KrouzkyPodleVeku');
+getChecked('AktivityPodleVeku');
+getChecked('Vylety');
+
 
 //if smycka pro stranku AKCE kde dojde k rozdeleni na akce nadchazajici a uplynule
 // inicializace
@@ -31,7 +44,7 @@ if (currentPage==='akce') {
     let AkceMesic=''
     let AkceRok=''
     
-    //vytvoreni pole nadchayejiciAkce ze vsech akci podle data zacatku pripadne ukonceni pokud existuje
+    //vytvoreni pole nadchazejiciAkce ze vsech akci podle data zacatku pripadne ukonceni pokud existuje
     const NadchazejiciAkce=allAkce.filter(e => {
       //ziskani class listu pro polozku
       const ClassList=Array.from(e.classList)
@@ -76,17 +89,6 @@ if (currentPage==='akce') {
   Akce=allAkce
 }
 
-//pole vsech checkboxu
-let allCheckboxes = document.querySelectorAll('.checkbox');
-//objekt polozek ktere jsou checked
-let checked = {};
-
-//zavolani funkce getChecked pro vsechny moznosti - kontroluje jestli je polozka checked - pokud ano, ulozi id do pole nappr.TypAkce v objektu checked
-getChecked('TypAkce');
-getChecked('DobaKonani');
-getChecked('KrouzkyPodleVeku');
-getChecked('AktivityPodleVeku');
-getChecked('Vylety');
 //inicializace
 setVisibility()
 
@@ -113,10 +115,12 @@ function pagination(pocetAkci) {
     }
   }
   //odscrollovani nahoru
-  scrollToTop()
+  if (pocetAkci!==1) {
+    scrollToTop() 
+  }
 }
 
-//funkce k odscrollovani nazacatek
+//funkce k odscrollovani na zacatek
 function scrollToTop() {
   let scrollGoal=document.querySelector('.banner').offsetTop + document.querySelector('.banner').offsetHeight
   window.scrollTo({
@@ -143,7 +147,11 @@ function toggleCheckbox(e) {
 
 function toggleCheckboxElement(targetElement) {
   const LabelElement=targetElement.labels[0]
-  LabelElement.classList.toggle('filters__checkboxItem--active')
+  if (targetElement.checked===true) {
+    LabelElement.classList.add('filters__checkboxItem--active')
+  } else {
+    LabelElement.classList.remove('filters__checkboxItem--active')
+  }
   //pokud je kliknuto na checkbox Uplynule Udalosti pak zmen aktivni pole ze ktereho probiha filtrovani a zmena disply
   if (targetElement.id==='UplynuleUdalosti') {
       if (targetElement.checked===true) {
@@ -154,7 +162,7 @@ function toggleCheckboxElement(targetElement) {
         e.style.display = 'none';
       })
       Akce=UplynuleUdalosti
-    } else {
+    } else { 
       NadchazejiciUdalosti.forEach((item) => {
         item.style.display = 'block';
           })
@@ -168,6 +176,63 @@ function toggleCheckboxElement(targetElement) {
   setVisibility();
 }
 
+function sortByCalendar() {
+  let DataFilters=JSON.parse(sessionStorage.getItem('DateFilter'))
+  let currentValue
+  let currentValueEnd
+  const substring= /^akce_datum_/;
+
+  //vytvoreni pole filteredByCalendar ze vsech akci podle data zacatku pripadne ukonceni pokud existuje
+  const filteredByCalendar=allAkce.filter(e => {
+    //ziskani class listu pro polozku
+    const ClassList=Array.from(e.classList)
+    //defaultni nastaveni display na none
+    e.style.display = 'none';
+    //osamostatneni data od stringu ktery ho identifikuje
+    const DateTag=ClassList.filter(string => substring.test(string))
+    console.log(DateTag[0]);
+    //charakteristicke datum pro zarazeni v pripade ze akce bezi v nejakem obdobi od do
+    let vicedenniAkce=false
+    if (DateTag[0].length>19) {
+      currentValueEnd=cisloDne(parseInt(DateTag[0].slice(23,25)),parseInt(DateTag[0].slice(25,27)))
+      console.log('currentValueEnd' + currentValueEnd);
+      // AkceDen=parseInt(DateTag[0].slice(25,27))
+      // AkceMesic=parseInt(DateTag[0].slice(23,25))
+      // AkceRok=parseInt(DateTag[0].slice(19,23))
+      vicedenniAkce=true
+    }
+      //pro jednodenni akci
+      currentValue=cisloDne(parseInt(DateTag[0].slice(15,17)),parseInt(DateTag[0].slice(17,19)))
+      console.log('currentValue' + currentValue);
+      // AkceDen=parseInt(DateTag[0].slice(17,19))
+      // AkceMesic=parseInt(DateTag[0].slice(15,17))
+      // AkceRok=parseInt(DateTag[0].slice(11,15))
+
+
+    const StartValue=cisloDne(DataFilters[0].month,DataFilters[0].day)
+    const EndValue=cisloDne(DataFilters[1].month,DataFilters[1].day)
+    console.log('StartValue' + StartValue);
+    console.log('EndValue' + EndValue);
+
+    //rozradeni na nadchazejici a uplynulou akci podle data definovaneho v predchozi if smycce
+    if (DateTag[0]) {
+      if (currentValue >= StartValue && currentValue <= EndValue && vicedenniAkce===false) {
+        //console.log('visible');
+          return e
+      }
+      if (vicedenniAkce===true) {
+        if(((currentValue>=StartValue && currentValue<=EndValue) ||  (currentValueEnd>=StartValue && currentValueEnd<=EndValue)) || (StartValue>=currentValue && EndValue<=currentValueEnd) ) {
+          //console.log('visible');
+          return e
+        }
+      }
+    }
+  })
+  Akce=filteredByCalendar
+  activePageAkce=1
+  setVisibility();
+}
+
 //vytvoreni pole s nazvem name do objektu checked - budou zde polozky, ktere jsou checked
 function getChecked(name) {
   checked[name] = Array.from(document.querySelectorAll('input[name=' + name + ']:checked')).map(function (el) {
@@ -175,10 +240,10 @@ function getChecked(name) {
   });
 }
 
-//zmena displey pro konkretni polozky
+//zmena display pro konkretni polozky
 function setVisibility() {
   let counter=0
-  console.log(checked);
+  //console.log(checked);
   saveIntoSessionStorage(checked)
   let filtrovaneAkce=Akce.map(function (el) {
     var TypAkce = checked.TypAkce.length ? intersection(Array.from(el.classList), checked.TypAkce).length : true;
@@ -190,6 +255,11 @@ function setVisibility() {
       counter++
       if (counter>=limitAkce*(activePageAkce-1) && counter<limitAkce*activePageAkce){
         el.style.display = 'block';
+        const imgPath=el.children[0].children[1].children[0].getAttribute('data-img')
+        //console.log(imgPath);
+        el.children[0].children[1].children[0].setAttribute('src',imgPath)
+        //console.log('block');
+        //console.log(el.classList);
         return el
       } else {
         el.style.display = 'none';
@@ -198,11 +268,11 @@ function setVisibility() {
       el.style.display = 'none';
     }
   })
-  console.log('setVisibility');
-  console.log(filtrovaneAkce);
-  console.log(Akce);
-  console.log(activePageAkce);
-  console.log('konec setVisibility');
+  // console.log('setVisibility');
+  // console.log(filtrovaneAkce);
+  // console.log(Akce);
+  // console.log(activePageAkce);
+  // console.log('konec setVisibility');
   pagination(counter);
 }
 
@@ -220,30 +290,45 @@ function saveIntoSessionStorage(filters) {
 }
 
 //nacteni filtru pokud jsou nejake ulozeny v sessionStorage
-addEventListener("load", (event) => {  
+window.addEventListener("load", (event) => {  
+  if (sessionStorage.getItem('DateFilter')!==null) {
+    sortByCalendar()
+    selectDays()
+  }
+  ReSetSelectionFilters()
+});
+
+function ReSetSelectionFilters() {
   if (sessionStorage.getItem('filters')!==null) {
     //nacteni obsahu do pole checked
-  checked=JSON.parse(sessionStorage.getItem('filters'))
-  //smycka ktera projizdi objekt
-  for (const key in checked) {
-    console.log(`${key}: ${checked[key]}: ${checked[key].length}`);
-    //smycka ktera projizdi kazde pole
-    if (checked[key].length>0){
-      checked[key].forEach((item) => {
-        console.log(item);
-        //najde dany filtr
-        let currentElement=document.getElementById(item)
-        console.log(currentElement);
-        //aktivace filtru
-        toggleCheckboxElement(currentElement)
-      })
+    checked=JSON.parse(sessionStorage.getItem('filters'))
+    //smycka ktera projizdi objekt
+    for (const key in checked) {
+      //console.log(`${key}: ${checked[key]}: ${checked[key].length}`);
+      //smycka ktera projizdi kazde pole
+      if (checked[key].length>0){
+        checked[key].forEach((item) => {
+          //console.log(item);
+          //najde dany filtr
+          let currentElement=document.getElementById(item)
+          //console.log(currentElement);
+          //aktivace filtru
+          toggleCheckboxElement(currentElement)
+        })
+      }
     }
   }
-}});
+}
 
 //kliknuti na tlacitko - Resetovat filtry
 let ResetFiltr=document.querySelector('.button__resetovani')
 ResetFiltr.addEventListener('click',() => {
+  ResetFilters()
+  sortByCalendar()
+  selectDays()
+})
+
+function ResetFilters() {
   //vymazani filtru ze session Storage
   sessionStorage.removeItem('filters')
   Akce=NadchazejiciUdalosti
@@ -264,4 +349,21 @@ ResetFiltr.addEventListener('click',() => {
   //nove nacteni
   activePageAkce=1
   setVisibility()
+}
+
+let ResetFiltrCalendar=document.querySelector('.button__reset--calendar')
+ResetFiltrCalendar.addEventListener('click',() => {
+  sessionStorage.removeItem("DateFilter")
+  unselectAllDays()
+  //if (sessionStorage.getItem('filters')!==null) {
+    // const filters=JSON.parse(sessionStorage.getItem('filters'))
+    // ResetFilters()
+    // saveIntoSessionStorage(filters)
+    Akce=NadchazejiciUdalosti
+    activePageAkce=1
+    ReSetSelectionFilters()
+    setVisibility()
+  //}
+  // activePageAkce=1
+  // ReSetSelectionFilters()
 })

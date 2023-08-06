@@ -14,17 +14,37 @@ input[type='checkbox'] {
         display: grid;
         margin: 0 auto;
         grid-template-columns: 360px 3fr;
+        grid-template-areas: 'filters akce';
+    }
+
+    @media screen and (min-width:v.$minwidth-computer) {
+        grid-template-columns: 360px 1fr 5fr;
+        grid-template-areas: 'filters . akce';
     }
 }
 
 .filters {
     padding: 0 1rem;
+    grid-area: filters;
     &__group {
         margin-top: 1rem;
     }
 
     &__category-name {
-        text-align: justify;
+        &::after {
+            content: '';
+            width: 50%;
+            height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 1px;
+            background: radial-gradient(circle, rgba(v.$primaryColor,1) 0%, rgba(255,255,255,1) 100%);
+            margin-top: v.$spacer-small;
+        }
+        text-align: center;
+        width: 100%;
+        padding-top: v.$spacer-big;
     }
 
     &__checkboxItem + .filters__checkboxItem {

@@ -56,11 +56,12 @@
         }
     }
 
-    &__resetovani {
+    &__resetovani, &__reset--calendar {
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin: v.$spacer-middle auto 0 auto;
+        font-weight: 600;
     }
 }
 

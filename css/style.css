@@ -207,11 +207,12 @@ li {
     display: none;
   }
 }
-.button__resetovani {
+.button__resetovani, .button__reset--calendar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 1.5rem auto 0 auto;
+  font-weight: 600;
 }
 
 button:focus-visible {
@@ -351,21 +352,42 @@ input[type=checkbox] {
 
 @media screen and (min-width: 42rem) {
   .filterContent {
-    max-width: 70rem;
+    max-width: 75rem;
     display: grid;
     margin: 0 auto;
     grid-template-columns: 360px 3fr;
+    grid-template-areas: "filters akce";
+  }
+}
+@media screen and (min-width: 63rem) {
+  .filterContent {
+    grid-template-columns: 360px 1fr 5fr;
+    grid-template-areas: "filters . akce";
   }
 }
 
 .filters {
   padding: 0 1rem;
+  grid-area: filters;
 }
 .filters__group {
   margin-top: 1rem;
 }
 .filters__category-name {
-  text-align: justify;
+  text-align: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+.filters__category-name::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1px;
+  background: radial-gradient(circle, #679436 0%, rgb(255, 255, 255) 100%);
+  margin-top: 0.5rem;
 }
 .filters__checkboxItem + .filters__checkboxItem {
   padding-top: 0.5rem;
@@ -406,6 +428,97 @@ input[type=checkbox] {
 .filters__checkboxItem--active {
   color: var(--textColor);
   font-weight: 600;
+}
+
+.calendar {
+  max-width: 350px;
+}
+
+.calendar__days {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  grid-template-rows: repeat(auto, 50px);
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  align-content: center;
+  text-align: center;
+  grid-row: 0;
+  background-color: white;
+}
+
+.calendar__day {
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.calendar__day--weekend {
+  color: grey;
+}
+
+.calendar__day--noMonth {
+  color: lightgrey;
+}
+
+.calendar__day--today {
+  background-color: var(--tertiaryColor);
+  color: var(--lightColor);
+  border-radius: 50%;
+}
+
+.calendar__day--selected {
+  background-color: var(--primaryColor);
+  color: var(--greyColor);
+  border-radius: 50%;
+}
+
+.calendar__day:hover {
+  background-color: var(--secondaryColor);
+  color: black;
+  border-radius: 50%;
+}
+
+.calendar__yearMonth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar__month {
+  gap: 20px;
+  height: 70px;
+  display: flex;
+}
+
+.calendar__mesic {
+  padding: 5px;
+  display: inline-block;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.calendar__mesic img {
+  width: 100%;
+  height: 50%;
+}
+
+#calendar__mesic--nyni {
+  width: 7rem;
+}
+
+.calendar__year {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 40px;
 }
 
 .menu {
@@ -507,7 +620,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 63rem) {
   .menu {
-    max-width: 70rem;
+    max-width: 75rem;
   }
   .menu__list {
     display: flex;
@@ -539,7 +652,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 63rem) {
   .uvod {
-    max-width: 70rem;
+    max-width: 75rem;
   }
 }
 .uvod__card {
@@ -625,6 +738,7 @@ input[type=checkbox] {
   gap: 1.5rem;
   margin: 2rem auto 0 auto;
   padding: 0 0.5rem;
+  grid-area: akce;
 }
 .akce__link {
   height: 100%;
@@ -707,7 +821,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 48rem) {
   .akce {
-    max-width: 70rem;
+    max-width: 75rem;
   }
   .akce__item {
     flex-basis: calc(50% - 2rem);
@@ -766,7 +880,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 50rem) {
   .singleAkce {
-    max-width: 70rem;
+    max-width: 75rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -789,7 +903,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 63rem) {
   .singleAkce__fotogalerie {
-    max-width: 70rem;
+    max-width: 75rem;
   }
 }
 .singleAkce__fotogalerie .singleAkce__image {
@@ -805,7 +919,7 @@ input[type=checkbox] {
 }
 @media screen and (min-width: 63rem) {
   .kontakt {
-    max-width: 70rem;
+    max-width: 75rem;
   }
 }
 .kontakt__card {

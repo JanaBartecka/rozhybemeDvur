@@ -6,7 +6,7 @@
     <a class="akce__link" href="{{ aktivity.data.title | slugify }}/">
       <h3 class="akce__title">{{ aktivity.data.title }}</h3>
       <div class="akce__image-holder">
-        <img src="{{ aktivity.data.foto }}" class="akce__image" alt="{{ aktivity.data.alt }}">
+        <img data-img="{{ aktivity.data.foto }}" class="akce__image" alt="{{ aktivity.data.alt }}">
       </div>
       <div class="akce__stitky">
         {% if aktivity.data.registrace %}
