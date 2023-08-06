@@ -455,6 +455,7 @@ input[type=checkbox] {
   background-color: white;
   border: none;
   font-size: 1.5rem;
+  color: var(--textColor);
 }
 
 .calendar__day--weekend {
@@ -511,6 +512,7 @@ input[type=checkbox] {
 
 #calendar__mesic--nyni {
   width: 7rem;
+  color: var(--textColor);
 }
 
 .calendar__year {
@@ -519,6 +521,7 @@ input[type=checkbox] {
   margin: 10px;
   border-radius: 50%;
   font-size: 40px;
+  color: var(--textColor);
 }
 
 .menu {
