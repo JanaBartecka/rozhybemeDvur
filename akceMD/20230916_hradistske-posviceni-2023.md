@@ -7,7 +7,7 @@ SouborRok: "2023"
 SouborMesic: "09"
 SouborDen: "16"
 kde: Choustníkovo Hradiště
-foto: /images/akce/362923619_774851441113536_6902210014271725249_n.jpg
+foto: /images/akce/369180917_786964626568884_427812312746594378_n.jpg
 alt: fotografie
 web: https://www.facebook.com/events/984968616148270?ref=newsfeed
 myTags: HudbaDivadlo ProDeti ProDospele Ostatni zari2023
