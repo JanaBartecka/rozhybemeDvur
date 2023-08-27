@@ -13,7 +13,7 @@ myTags: KrouzkyOstatni KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
 ---
 
 
-**ANIMACE HROU – pro děti od 6 do 18 let**
+#### Animace hrou
 
 Přijďte se přesvědčit, že natočit animovaný film není nic složitého. V rámci kroužku se děti seznámí se základy filmové řeči, principy animace a se základními postupy tvorby animovaného filmu. Vyzkoušíme si práci na tvorbě společného nebo individuálního animovaného filmu, a to od vymýšlení scénáře přes výtvarnou realizaci a animaci až po závěrečnou postprodukci v počítači.\
 V případě velkého zájmu bude otevřena další skupina od 15:00 do 16:30.\
