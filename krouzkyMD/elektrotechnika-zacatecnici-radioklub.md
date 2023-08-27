@@ -1,29 +1,29 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: ELEKTROTECHNIKA – začátečníci (radioklub)
-kdy: Pátek 17:00–18:30
+title: Elektrotechnika začátečníci (radioklub)
+kdy: Pondělí 16:00-17:00
 kde: DDM Jednička
 foto: /images/akce/30.jpg
-alt: ELEKTROTECHNIKA – začátečníci (radioklub)- DDM Jednička
-web: https://ddmdvurkralove.cz/technicke/
-polatek: 750 Kč/rok
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/aEN4OGtBRndqcVdPT1dVUE1qOUMvS2hNb21PLzRhV285Sm5uVG9xcWJpbz0=
+polatek: 700 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13
   KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
-
-**ELEKTROTECHNIKA – začátečníci (radioklub) – pro děti od 10 let**\
-Pojďte s námi poznávat základy elektrotechniky a zkoumat, jak fungují přístroje a zařízení kolem nás – od mobilů po elektrárny. Naučíte se vyrábět svoje vlastní elektronická zařízení, která si odnesete domů, a vyzkoušíte si práci s  „vysílačkami“ pod značkou OK1KOB. Naučíte se zacházet se základním ručním nářadím a odhalíte tajemství postupů využívaných při výrobě elektroniky.
-
-**Pátek 17:00–18:30**
-
-**Úvodní informativní schůzka:** 7. 10. 2022 v 17:00 v DDM Jednička
+Pojďte s námi poznávat základy elektrotechniky a zkoumat, jak fungují přístroje a zařízení kolem nás – od mobilů po elektrárny. Naučíte se vyrábět svoje vlastní elektronická zařízení, která si odnesete domů, a vyzkoušíte si práci s „vysílačkami“ pod značkou OK1KOB. Naučíte se zacházet se základním ručním nářadím a odhalíte tajemství postupů využívaných při výrobě elektroniky.\
+Úvodní informativní schůzka: 2. 10. 2023 v 16:00 v DDM Jednička
 
 Vedoucí RNDr. Petr Škoda
 
-Cena: 750 Kč/rok
+Cena: 700 Kč/rok
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Věková skupina 10 - 16 let
 
-<!--EndFragment-->
+Datum zahájení 02.10.2023
+
+Datum ukončení 27.05.2024
+
+Dny konání PO 16:00-17:00
+
+Kontakt 735 752 836
