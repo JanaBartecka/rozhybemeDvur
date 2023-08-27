@@ -1,30 +1,29 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: DÍVČÍ KLUB – pro děti od 1. třídy
-kdy: Pondělí 16:00–17:30
+title: Dramatický kroužek
+kdy: Pátek 15:00-16:00
 kde: DDM Jednička
-foto: /images/akce/1-1.png
-alt: DÍVČÍ KLUB – pro děti od 1. třídy- DDM Jednička
-web: https://ddmdvurkralove.cz/vytvarne-rukodelne-a-remeslne-krouzky/
-polatek: 800 Kč/rok
-myTags: KrouzkyOstatni KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11
-  KrouzkyOd12 KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
+foto: /images/akce/logo.png
+alt: Obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/MFIzR1B5Vk1RKzJGVFZIR2Vma09wT21vK0M1UTNBQWRUdVA1TWtPM1hxZz0=
+polatek: 650 Kč/rok
+myTags: KrouzkyOstatni KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
+  KrouzkyOd11 KrouzkyOd12
 ---
-<!--StartFragment-->
+Pro kluky a holky, kteří mají „komedianta v těle“, mají rádi pohádky a příběhy. Budeme hrát nejen pohádky, ale také pantomimu a komunikační hry, budeme zpívat, vyrábět kulisy a rekvizity. Děti se budou formou hry učit vyjadřovat své emoce, rozvíjet řeč a slovní zásobu, komunikovat a spolupracovat s ostatními, pohybovat se na jevišti.\
+Úvodní informativní schůzka: 6. 10. 2023 v 16:00 v DDM Jednička
 
-**DÍVČÍ KLUB** **– pro děti od 1. třídy**\
-Pro všechna děvčata, která ráda tvoří, pečou a vaří. Společně se seznámíme s různými druhy výtvarných a rukodělných technik. Naučíme se pracovat s novými, ale i se známými výtvarnými materiály – sypané obrázky, náramky z korálků, Quilling, malba na hedvábí, sklo a textil, drhané Macramé, FIMO a spoustu dalšího. K tomu\
-všemu si ještě něco dobrého uvaříme nebo upečeme.
+Cena: 650 Kč/rok
 
-**Pondělí 16:00–17:30**
+Hlavní vedoucí Martina Jarolímková
 
-**Úvodní informativní schůzka:** 3. 10. 2022 v 16:00 v DDM Jednička
+Věková skupina 6 - 12 let
 
-Vedoucí Zdeňka Janouchová
+Datum zahájení 06.10.2023
 
-Cena: 800 Kč/rok
+Datum ukončení 31.05.2024
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Dny konání PÁ 15:00-16:00
 
-<!--EndFragment-->
+Kontakt 735 752 836
