@@ -1,31 +1,29 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: KERAMIKA III. starší děti
+title: Keramika III. pokročilí
 kdy: Úterý 16:30–18:00
 kde: DDM Jednička
 foto: /images/akce/ikona-keramika3-1-.jpg
-alt: KERAMIKA III. starší děti - DDM Jednička
-web: https://ddmdvurkralove.cz/keramicke-krouzky/
+alt: Obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/ZGJyQzM1aUpJT2NwTW9IaXRPZ2Y2c0dRb0FxZERwUmpYR0JSRkZ3Ulhucz0=
 polatek: 900 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
   KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
-
-**KERAMIKA III. starší děti – pro děti od 9 let**\
-Pro deti, které již ovládají základy práce s keramickou hlínou a dekorování hotových výrobku. V hodinách kroužku bude ponechán prostor prevážne pro realizaci vlastních nápadu, ale úcastníci se budou mít možnost seznámit i s novými a složitejšími technikami modelování a dekorování a pri realizaci vlastních projektu využít odborné rady a pomoci. Urceno starším detem a pokrocilým.
-
-**Úterý 16:30–18:00**
-
-**Úvodní informativní schůzka:** 4. 10. 2022 v 16:30 v DDM Jednička
-
-Vedoucí Sylvie Černotová, DiS.
+Pro děti, které již ovládají práci s keramickou hlínou, chtějí si vyzkoušet nové a složitější techniky modelování a dekorování hotových výrobků a chtějí tvořit zejména dle vlastní fantazie. V hodinách kroužku bude ponechán prostor převážně pro realizaci vlastních nápadů a námětů dětí a vhodná témata budou pouze nabízena.\
+Úvodní informativní schůzka: 3. 10. 2023 v 16:30 v DDM Jednička
 
 Cena: 900 Kč/rok
 
-Příhláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Hlavní vedoucí Sylvie Černotová, DiS.
 
+Věková skupina 9 - 15 let
 
+Datum zahájení 03.10.2023
 
-<!--EndFragment-->
+Datum ukončení 28.05.2024 
+
+Dny konání ÚT 16:30-18:00
+
+Kontakt 775 320 373, sylvie.cernotova@ddmdvurkralove.cz
