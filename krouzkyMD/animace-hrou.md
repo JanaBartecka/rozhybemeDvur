@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: ANIMACE pro pokročilé
+title: Animace pro pokročilé
 kdy: Pátek 16:30-18:00
 kde: DDM Jednička
 foto: /images/akce/te02.png
@@ -11,12 +11,12 @@ polatek: 800 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13
   KrouzkyOd14 KrouzkyOd15
 ---
-**ANIMACE HROU – pro děti od 10 do 18 let**
+
+
+#### Animace pro pokročilé
 
 Kroužek je pro všechny nadšence do animace, kteří s ní mají nějakou zkušenost. Dozvíme se principy pohybu, vyzkoušíme si různé typy tohoto řemesla, zahrajeme si různé hry související s tématem, a dokonce si povíme i něco o její historii nebo rozebereme díla oblíbených autorů. Taktéž se budeme podílet na vytvoření společných nebo individuálních filmů a jejich následné reprezentaci na filmových festivalech.\
 Úvodní informativní schůzka: 6. 10. 2023 v 16:30 v DDM Jednička
-
-**Pondělí 15:00–16:30**
 
 Cena: 800 Kč/rok
 
