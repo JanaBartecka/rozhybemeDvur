@@ -1,30 +1,29 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: FLORBAL – pokročilí
+title: Florbal - starší
 kdy: Úterý 18:00–19:30
-kde: v DDM Jednička
+kde: tělocvična ZŠ Schulzovy sady - Školní
 foto: /images/akce/sp10.png
-alt: FLORBAL – pokročilí - DDM Jednička
-web: https://ddmdvurkralove.cz/sportovni/
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/ZERQdTIyVU04bDNWL1RQUC9TT3pRSGxzUXZhZ29KTnhTSUorQVRIbE9zOD0=
 polatek: 900 Kč/rok
-myTags: KrouzkyOstatni KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
-  KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
+myTags: KrouzkyOstatni KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
-
-**FLORBAL – pokročilí – pro děti od 8 let**\
-Sportovní kroužek je pro kluky a holky, kteří již zvládají základní florbalové dovednosti a chtějí se v nich zlepšovat.\
-V průběhu kroužku na vás čeká spousta průpravných cvičení, samotná hra a bude připraven i florbalový turnaj.
-
-**Úterý 18:00–19:30**
-
-**Úvodní informativní schůzka**: 4. 10. 2022 v 16:30 v DDM Jednička
-
-Vedoucí Lukáš Rejl
+Sportovní kroužek je pro starší kluky a holky, kteří již zvládají základní florbalové dovednosti a chtějí se v nich zlepšovat. V průběhu kroužku na vás čeká spousta průpravných cvičení, samotná hra a bude připraven i florbalový turnaj.\
+Pravidelné schůzky budou probíhat v externí tělocvičně v ZŠ Schulzovy sady, ulice Školní.\
+Úvodní informativní schůzka: 3. 10. 2023 v 16:30 v DDM Jednička
 
 Cena: 900 Kč/rok
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Hlavní vedoucí Lukáš Rejl
 
-<!--EndFragment-->
+Věková skupina 13 - 16 let
+
+Datum zahájení 03.10.2023
+
+Datum ukončení 28.05.2024
+
+Dny konání ÚT 18:00-19:30
+
+Kontakt 735 752 836
