@@ -5,7 +5,7 @@ title: ACHÁT
 kdy: Úterý 15:00–16:30
 kde: DDM Jednička
 foto: /images/akce/tct.jpg
-alt: ACHÁT- DDM Jednička
+alt: obrázek
 web: https://ddmdvurkralove.iddm.cz/krouzky/OHJTSG52WkFlMEdiZ2lta0tkZ1VITnJOaEpJZEk0WkdIYmFvZktHRXNyUT0=
 polatek: 700 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13
