@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Baletní přípravka 1
+title: Baletní přípravka
 kdy: Čtvrtek 15:30-16:30
 kde: DDM Jednička
 foto: /images/akce/24-200x189.jpg
