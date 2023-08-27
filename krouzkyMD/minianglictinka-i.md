@@ -1,31 +1,28 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: MINIANGLIČTINKA I
-kdy: Středa 15:00–16:00
+title: Miniangličtinka
+kdy: Středa 16:00-17:00
 kde: DDM Jednička
 foto: /images/akce/ja01.png
-alt: MINIANGLIČTINKA I- DDM Jednička
-web: https://ddmdvurkralove.cz/jazykove/
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/RktVQ1lFMUFLU0Z0a1pHMmZyYndGSEg0MGIwMTlwUmM5WWQ5NUtFNmtOTT0=
 polatek: 750Kč/rok
-myTags: "KrouzkyOstatni KrouzkyOd4 KrouzkyOd5 KrouzkyOd6 KrouzkyOd7 "
+myTags: KrouzkyOstatni KrouzkyOd4 KrouzkyOd5 KrouzkyOd6
 ---
-<!--StartFragment-->
 
-**MINIANGLIČTINKA I. – pro děti od (4) 5 do 7 let**\
-Minianglictinka je kroužek pro malé školáky a predškoláky, kterí se chtejí seznámit se základy anglictiny. Hravou\
-formou se naucíme spousty nových slovícek. Budeme zpívat, hrát anglické hry.
 
-**Středa 15:00–16:00**
-
-**Úvodní informativní schůzka:** 5. 10. 2022 v 15:00 v DDM Jednička
-
-Vedoucí Elena Rückerová
+Miniangličtinka je kroužek pro malé školáky a předškoláky, kteří se chtějí seznámit se základy angličtiny. Hravou formou se naučíme spousty nových slovíček. Budeme zpívat, hrát anglické hry.\
+Úvodní informativní schůzka: 4. 10. 2023 v 16:00 v DDM Jednička
 
 Cena: 750 Kč/rok
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Hlavní vedoucí Elena Rückerová
 
+Věková skupina 4 - 6 let
 
+Datum zahájení 04.10.2023
 
-<!--EndFragment-->
+Datum ukončení 29.05.2024
+
+Dny konání ST 16:00-17:00
