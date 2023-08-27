@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: ANIMACE
+title: Animace hrou
 kdy: Pondělí 16:30–18:00
 kde: DDM Jednička
 foto: /images/akce/te02.png
