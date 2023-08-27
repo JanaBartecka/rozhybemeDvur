@@ -1,30 +1,31 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: KYTARA C – začátečníci I.
-kdy: Úterý 15:00–16:00
+title: Kytara začátečníci
+kdy: Pátek 15:00-16:00
 kde: DDM Jednička
 foto: /images/akce/13-1-400x383.jpg
-alt: KYTARA C – začátečníci I. - DDM Jednička
-web: https://ddmdvurkralove.cz/hudebni/
-polatek: 700 Kč/rok
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/YVp2bkVPaU5sNFJKMWZEMUdsM3ZWa2w5aHFjQWlka1QrOUJRMk5IbG1jTT0=
+polatek: 750 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
   KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
 
-**KYTARA C – začátečníci I. – pro děti od 9 let**
 
-Pro chlapce a děvčata od 9 let se zájmem o hru na krytaru. Naučíte se základní akordy a jednocuché písničky k táboráku. Založíte si vlastní zpěvník.
+Zkuste přes kytaru v sobě objevit muzikanta, který se díky hraní, a především zpěvu dokáže uvolnit a dávat tím radost sobě i svému okolí, jak při sólovém, tak zvláště při společném hraní a zpívání. Pro děti od 9 let i pro jejich rodiče a prarodiče najdeme od dětských a lidových písniček přes trampskou a folkovou muziku až po rockovou nebo populární hudbu společnou cestu v rytmu, melodii a harmonii, a to především s českými texty a písničkami.\
+Úvodní informativní schůzka: 6. 10. 2023 v 15:00 v DDM Jednička
 
-**Úterý 15:00–16:00**
+Cena: 750 Kč/rok
 
-**Úvodní informativní schůzka**: 4. 10. 2022 v 15:00 v DDM Jednička.
+Hlavní vedoucí Max Kulel
 
-Vedoucí Ondřej Plecháč
+Věková skupina 9 - 18 let
 
-Cena: 700 Kč/rok
+Datum zahájení 06.10.2023
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Datum ukončení 31.05.2024
 
-<!--EndFragment-->
+Dny konání PÁ 15:00-16:00
+
+Kontakt 735 752 836
