@@ -1,33 +1,30 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: MAŽORETKY TWEETY 18:30
-kdy: Pátek 18:30–20:00
-kde: externí tělocvična – Gymnázia
+title: Mažoretky Tweety - kadetky
+kdy: Pátek 17:00-18:30
+kde: tělocvična Gymnázium DK
 foto: /images/akce/36.jpg
-alt: MAŽORETKY TWEETY- DDM Jednička
-web: https://ddmdvurkralove.cz/tanecni-sport/
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/NGtmTTZHb1lFYnRSRDcwWkcxZG8vNWo3TzQwZXNVT0RiSFRXdmloNUpJbz0=
 polatek: 950 Kč/rok
-myTags: KrouzkyOstatni KrouzkyOd12 KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
+myTags: "KrouzkyOstatni KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 "
 ---
-<!--StartFragment-->
+Pro všechny děti se zájmem o tanec a hudbu opět otevíráme kroužek mažoretek, který je ideálním propojením sportu a tance. Malé slečny se v tomto kroužku naučí vnímat rytmus hudby, správně držet a koordinovat tělo, osvojí si techniku pochodování a práce s hůlkou (točení, házení, přehazování…). Zkrátka se naučí vše potřebné pro zvládnutí základních choreografií, se kterými poté můžou reprezentovat DDM na různých akcích, případně se zúčastnit soutěží. Výuka je přizpůsobena věku dětí a vedena formou hry a zábavy.\
+Pravidelné schůzky kroužků budou probíhat v externí tělocvičně Gymnázia Dvůr Králové nad Labem.\
+Na úvodní schůzce proběhne případný přesun dětí do jiné skupiny.\
+Úvodní informativní schůzka: 6. 10. 2023 v 17:00 v DDM Jednička
 
-**MAŽORETKY TWEETY – pro děti od 4 let**
 
-Pro všechny děti se zájmem o tanec a hudbu opět otevíráme kroužek mažoretek, který je ideálním propojením sportu a tance. Malé slečny se v tomto kroužku naučí vnímat rytmus hudby, správne držet a koordinovat tělo, osvojí si techniku pochodování a práce s hulkou (tocení, házení, prehazování…). Zkrátka se naucí vše potrebné pro zvládnutí základních choreografií, se kterými poté mužou reprezentovat DDM na různých akcích, případne se zúčastnit soutěží. Výuka je přizpůsobena věku dětí a vedena formou hry a zábavy.
 
-* Pátek 16:00–17:00                 4–7 let                      Cena: 850 Kč/rok
-* Pátek 17:00–18:30                8–12 let                     Cena: 950 Kč/rok
-* Pátek 18:30–20:00               12–15 let                   Cena: 950 Kč/rok
+Hlavní vedoucí MUDr. Kristýna Rindová
 
-Úvodní informativní schůzka: 7. 10. 2022 v 17:00 v DDM Jednička
+Věková skupina 8 - 12 let
 
-Vedoucí Kristýna Rindová
+Datum zahájení 06.10.2023
 
-Pravidelné schuzky kroužku budou probíhat v externí telocvicne – Gymnázium.
+Datum ukončení 31.05.2024
 
-Na úvodní schuzce budou deti rozděleny do skupin.
+Dny konání PÁ 17:00-18:30
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
-
-<!--EndFragment-->
+Kontakt 735 752 836
