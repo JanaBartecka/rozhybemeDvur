@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: ACHÁT
+title: Achát
 kdy: Úterý 15:00–16:30
 kde: DDM Jednička
 foto: /images/akce/tct.jpg
@@ -11,7 +11,7 @@ polatek: 700 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13
   KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
+
 
 ##### Popis kroužku
 
