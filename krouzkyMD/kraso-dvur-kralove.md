@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Kraso Dvůr Králové
+title: Neaktualizováno!  Kraso Dvůr Králové
 kde: Dvůr Králové nad Labem
 foto: /images/akce/320991068_1109862123013527_6542750703050650442_n-1-.jpg
 alt: Obrázek
