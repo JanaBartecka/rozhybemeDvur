@@ -1,30 +1,29 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: VESELÁ VAŘEČKA
-kdy: Čtvrtek 16:00–18:00
+title: Veselá vařečka
+kdy: Čtvrtek 15:30-17:30
 kde: DDM Jednička
 foto: /images/akce/8.jpg
-alt: VESELÁ VAŘEČKA- DDM Jednička
-web: https://ddmdvurkralove.cz/spolecenskovedni/
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/djZHeThMbVdoVmxoL2dyeDFYMWlmcW5mTzRvSHhyUFZ6U0NSWERTNUtqOD0=
 polatek: 800Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
   KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
-
-**VESELÁ VAŘEČKA – pro děti od 9 let**\
-Kroužek Veselá varecka je zamerený na základy varení. Deti si vyzkouší varit tradicní, ale i méne obvyklá jídla. Behem celého roku si povedou svou vlastní kucharku. Kroužek doplníme o ruzné kucharské hry a týmové souteže.\
-Cástka 500 Kc na suroviny bude vybrána zvlášt.
-
-**Čtvrtek 16:00–18:00**
-
-**Úvodní informativní schůzka:** 6. 10. 2022 v 16:00 v DDM Jednička
-
-Vedoucí Mgr. Alena Hušková
+Kroužek je zaměřený na základy vaření. Děti si vyzkouší vařit tradiční, ale i méně obvyklá jídla. Během celého roku si povedou svou vlastní kuchařku. Kroužek doplníme o různé kuchařské hry a týmové soutěže. Částka 500 Kč na suroviny bude vybrána zvlášť.\
+Úvodní informativní schůzka: 5. 10. 2023 v 15:30 v DDM Jednička
 
 Cena: 800 Kč/rok
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Hlavní vedoucí Mgr. Alena Hušková
 
-<!--EndFragment-->
+Věková skupina 9 - 16 let
+
+Datum zahájení 05.10.2023
+
+Datum ukončení 30.05.2024
+
+Dny konání ČT 15:30-17:30
+
+Kontakt 735 752 836
