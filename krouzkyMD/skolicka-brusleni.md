@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Školička bruslení
+title: Neaktualizováno!  Školička bruslení
 kdy: Sobota 9:45-10:45 (září-březen)
 kde: Zimní stadion Dvůr Králové nad Labem
 foto: /images/akce/306551038_10221390647017092_6927895232026014383_n.jpg
