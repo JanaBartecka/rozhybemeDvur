@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Předškolní děti - Všestrannost
+title: Neaktualizováno!  Předškolní děti - Všestrannost
 kdy: Pondělí 15:45 - 17:00 (září-červen)
 kde: Sokolovna Dvůr králové nad Labem
 foto: /images/akce/307830808_5933108646716931_5797779006818087260_n.jpg
