@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Skaut 3.oddíl Dvůr Králové nad Labem
+title: Neaktualizováno!  Skaut 3.oddíl Dvůr Králové nad Labem
 kdy: Úterý 17:00
 kde: v ulici Plk. Švece 1278
 foto: /images/akce/341994744_966439737692417_8376201675685973419_n.jpg
