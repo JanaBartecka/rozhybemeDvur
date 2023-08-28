@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: "Veselé farmaření "
+title: "Neaktualizováno!  Veselé farmaření "
 kdy: Středa 16:30 - 17:30
 kde: Starobucké Debrné 185, Nemojov
 foto: /images/akce/vesela_farma_ctyrlistek.jpg
