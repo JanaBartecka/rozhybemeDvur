@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Fotbal TJ Jiskra Kocbeře POŘÁDÁ NÁBOR CELOROČNĚ
+title: Neaktualizováno! Fotbal TJ Jiskra Kocbeře POŘÁDÁ NÁBOR CELOROČNĚ
 kdy: ""
 kde: Kocbeře
 foto: /images/akce/328944522_724345609349632_8969040644701154037_n-2-.jpg
