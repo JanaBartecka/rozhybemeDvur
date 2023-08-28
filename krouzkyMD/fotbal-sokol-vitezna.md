@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Fotbal Sokol Vítězná
+title: Neaktualizováno! Fotbal Sokol Vítězná
 kdy: "Pondělí a středa "
 kde: Huntířov 324, Vítězná
 foto: /images/akce/307845253_516095197185534_5165959095848266532_n.jpg
