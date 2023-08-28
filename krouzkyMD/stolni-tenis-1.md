@@ -8,7 +8,8 @@ foto: /images/akce/logo.png
 alt: obrázek
 web: https://ddmdvurkralove.iddm.cz/krouzky/T01XSk1SRVFDc3JldW9ZUUhCZHdaR015NTUzdXNEcHdkRmlzTzF4TExxRT0=
 polatek: 750 Kč/rok
-myTags: "KrouzkyOstatni KrouzkyOd4 KrouzkyOd5 KrouzkyOd6 "
+myTags: "KrouzkyOstatni KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11
+  KrouzkyOd12 KrouzkyOd13 KrouzkyOd14 KrouzkyOd15 "
 ---
 
 
