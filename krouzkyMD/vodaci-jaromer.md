@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Vodáci Jaroměř
+title: Neaktualizováno!  Vodáci Jaroměř
 kdy: "Dle dohody "
 kde: Náchodská 551 01, Jaroměř (vedle starého koupaliště)
 foto: /images/akce/20220917_082127.webp
