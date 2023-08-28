@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Fotbal Sokol V.
+title: Neaktualizováno!  Fotbal Sokol V.
 kdy: "Úterý 17:15 "
 kde: Huntířov 324, Vítězná
 foto: /images/akce/307845253_516095197185534_5165959095848266532_n.jpg
