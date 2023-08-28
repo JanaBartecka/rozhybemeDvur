@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: "Házená "
+title: "Neaktualizováno!  Házená "
 kdy: Úterý 16:00-17:00, Středa 15:30-16:30, Pátek15:00-16:30
 kde: Sportovní hala ZŠ Strž
 foto: /images/akce/310151470_5970741352953660_2234741186830089752_n.jpg
