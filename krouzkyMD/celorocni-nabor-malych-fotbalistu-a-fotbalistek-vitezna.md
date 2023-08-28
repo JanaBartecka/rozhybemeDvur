@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Neaktualizováno!  CELOROČNÍ NÁBOR MALÝCH FOTBALISTŮ A FOTBALISTEK Vítězná
+title: Celoroční nábor malých fotbalistů a fotbalistek Vítězná
 kde: Vítězná
 foto: /images/akce/342709637_1652819668527200_3504815149833992258_n.jpg
 alt: Plakát
