@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Karate
+title: Neaktualizováno!  Karate
 kdy: Pondělí 16:30
 kde: tělocvična v ulici Komenského
 foto: /images/akce/image.jpg
