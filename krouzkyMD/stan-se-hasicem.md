@@ -1,7 +1,7 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Staň se hasičem
+title: Neaktualizováno!  Staň se hasičem
 kdy: "dle rozpisu "
 kde: Vítězná
 foto: /images/akce/337902070_1546166729228208_6796889348776338201_n.jpg
