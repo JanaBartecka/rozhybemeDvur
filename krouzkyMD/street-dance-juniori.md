@@ -2,7 +2,7 @@
 layout: /partials/krouzky.njk
 tags: krouzkyMD
 title: STREET DANCE - JUNIOŘI
-kdy: Pondělí 15:30 - 16:30  a každý Pátek 16:00 - 17:00
+kdy: Pondělí 15:30 - 16:30  a Pátek 16:00 - 17:00
 kde: Slovany 3051 Dvůr Králové nad Labem
 foto: /images/akce/snimek-obrazovky-2023-08-28-231849.png
 alt: Obrázek
