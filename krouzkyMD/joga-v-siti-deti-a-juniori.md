@@ -8,8 +8,8 @@ foto: /images/akce/snimek-obrazovky-2023-08-28-231849.png
 alt: Obrázek
 web: http://ts-attitude.com/?fbclid=IwAR2Sr2QRiqDHyKD4Y1SZIOKIAts50l_Fbl4mu0ArOUoGUs6IVA-w3G8VGLE
 polatek: 2800 Kč/rok (14.9.2023-6.6.2024)
-myTags: KrouzkyOstatni KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
-  KrouzkyOd11 KrouzkyOd12 KrouzkyOd13 KrouzkyOd14 KrouzkyOd15 KrouzkyDospeli
+myTags: KrouzkyOstatni KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
+  KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
 **<!--StartFragment-->**
 
