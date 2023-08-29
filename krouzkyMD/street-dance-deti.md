@@ -2,7 +2,7 @@
 layout: /partials/krouzky.njk
 tags: krouzkyMD
 title: STREET DANCE - DĚTI
-kdy: Pondělí 15:30 - 16:30
+kdy: Pondělí 15:30 - 16:30 a Čtvrtek 17:00 - 18:00
 kde: Slovany 3051 Dvůr Králové nad Labem
 foto: /images/akce/snimek-obrazovky-2023-08-28-231849.png
 alt: Obrázek
