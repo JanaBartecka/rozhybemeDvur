@@ -10,7 +10,11 @@ web: https://ddmdvurkralove.iddm.cz/krouzky/YjB6SzBtT0ZlSDdsT0JpdU1meDQySCtVa1Ft
 polatek: 500 Kč
 myTags: "KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13 KrouzkyOstatni "
 ---
+<!--StartFragment-->
 
+Kroužek je určen pro děti docházející do ZŠ a MŠ Bílá Třemešná.
+
+<!--EndFragment-->
 
 Název:Turisticko-přírodovědný kroužek při ZŠ Bílá Třemešná
 
