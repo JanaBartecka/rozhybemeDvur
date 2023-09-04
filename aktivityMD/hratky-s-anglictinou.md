@@ -2,7 +2,7 @@
 layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Hrátky s Angličtinou 2
-kdy: Úterý 15:00-15:45
+kdy: Čtvrtek 15:00-15:45
 kde: MC Žirafa Náměstí T.G.Masaryka 59 Dvůr Králové nad Labem
 foto: /images/akce/stazeny-soubor-1-.jpg
 alt: Hrátky s Angličtinou
