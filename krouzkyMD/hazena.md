@@ -1,11 +1,12 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: "Neaktualizováno!  Házená "
-kdy: Úterý 16:00-17:00, Středa 15:30-16:30, Pátek15:00-16:30
+title: "Házená "
+kdy: Dle věku
 kde: Sportovní hala ZŠ Strž
 foto: /images/akce/310151470_5970741352953660_2234741186830089752_n.jpg
 alt: Házená - Sportovní hala ZŠ Strž
+web: https://www.1hkdk.cz/hala/
 myTags: KrouzkyOd5  KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
   KrouzkyOd11 KrouzkyOd12 KrouzkyOstatni
 ---
@@ -13,4 +14,4 @@ myTags: KrouzkyOd5  KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
 
 Děti od 5-12 let Házená
 
-<!--EndFragment-->
+https://www.handball.cz/aktualita/naborova-akce-nova-sezona-srpen-2023?fbclid=IwAR2V3H7bdoCUTTsI6OUjJf7m6BmlIfY-nFa3Jfd92IJsI7wUxbqiBOfS5TM
