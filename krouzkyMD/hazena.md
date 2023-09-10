@@ -4,7 +4,7 @@ tags: krouzkyMD
 title: "Házená "
 kdy: Dle věku
 kde: Sportovní hala ZŠ Strž
-foto: /images/akce/310151470_5970741352953660_2234741186830089752_n.jpg
+foto: /images/akce/374991107_7080832311944553_1044598940593908238_n.jpg
 alt: Házená - Sportovní hala ZŠ Strž
 web: https://www.1hkdk.cz/hala/
 myTags: KrouzkyOd5  KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
