@@ -111,6 +111,7 @@ a:focus-visible {
 
 [src$=".png"], [src$=".jpg"], [src$=".jpeg"], [src$=".svg"], svg,
 .fotogalerie__link {
+  -webkit-filter: brightness(var(--darkBrightness));
   filter: brightness(var(--darkBrightness));
 }
 
@@ -628,6 +629,7 @@ input[type=checkbox] {
   }
   .menu__list {
     display: flex;
+    max-width: -webkit-max-content;
     max-width: -moz-max-content;
     max-width: max-content;
     width: auto;
@@ -786,6 +788,7 @@ input[type=checkbox] {
 .akce__datum {
   background-color: var(--secondaryColor);
   opacity: 0.7;
+  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   padding: 0.5rem;
