@@ -1,29 +1,31 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: KYTARA C pokročilí II.
-kdy: Středa 18:00–19:00
+title: Kytara pokročilí II.
+kdy: Pondělí 17:30-18:30
 kde: DDM Jednička
 foto: /images/akce/16-200x172.jpg
-alt: KYTARA C pokročilí II. - DDM Jednička
-web: https://ddmdvurkralove.cz/hudebni/
-polatek: 700 Kč/rok
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/YVp2bkVPaU5sNFJKMWZEMUdsM3ZWZ0M0RXBPSmJyZEM1YkdMMHJVb25VND0=
+polatek: 750 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd10 KrouzkyOd11 KrouzkyOd12 KrouzkyOd13
   KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
 
-**KYTARA C pokročilí II. – pro děti od 10 let**\
-Pro děti, které mají za sebou 1 roky hry na kytaru a chtějí pokračovat dál. Naučí se další akordy, doprovody a rozšíří si svůj zpěvník.
 
-**Středa 18:00–19:00**
+Pro děti, které mají za sebou 1 roky hry na kytaru a chtějí pokračovat dál. Naučí se další akordy, doprovody a rozšíří si svůj zpěvník.\
+Úvodní informativní schůzka: 2. 10. 2023 v 17:30 v DDM Jednička
 
-**Úvodní informativní schůzka:** 5. 10. 2022 v 18:00 v DDM Jednička
+Cena: 750 Kč/rok
 
-Vedoucí Ondřej Plecháč
+Hlavní vedoucí Ondřej Plecháč
 
-Cena: 700 Kč/rok
+Věková skupina 10 - 18 let
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Datum zahájení 02.10.2023
 
-<!--EndFragment-->
+Datum ukončení 27.05.2024
+
+Dny konání PO 17:30-18:30
+
+Kontakt 735 752 836

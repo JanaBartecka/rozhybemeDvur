@@ -1,31 +1,27 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: TWIRLING 10:00
-kdy: Sobota 10:00 – 12:00
-kde: externí tělocvična – ZŠ Podhart
+title: Twirlstars I./A
+kdy: Pondělí 16:30-18:00
+kde: tělocvična ZŠ Podharť
 foto: /images/akce/35.jpg
-alt: TWIRLING - DDM Jednička
-web: https://ddmdvurkralove.cz/tanecni-sport/
-polatek: 950 Kč/rok
-myTags: KrouzkyOstatni KrouzkyOd8 KrouzkyOd9 KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
-  KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/Z0VDWFlyU1ArT3RiYzhMVW4zQTNqZ0RGdHpicHRrcVJqVGhjcEU4TXhEWT0=
+polatek: 850 Kč/rok
+myTags: KrouzkyOstatni KrouzkyOd13 KrouzkyOd14 KrouzkyOd15
 ---
-<!--StartFragment-->
+Spojení různých tanečních stylů, gymnastiky a akrobacie v kombinaci s prací s hůlkou. To je krásný a moderní sport, který bude bavit každého kluka či holku, kteří se nebojí nových výzev a mají rádi vystupování a soutěžení i na nejrůznějších akcích. A pokud nechceš soutěžit a vystupovat, pak to také můžeš dělat pro radost!\
+Pravidelné schůzky budou probíhat v externí tělocvičně ZŠ Podharť.\
+Úvodní informativní schůzka: 2. 10. 2023 v 15:30 v DDM Jednička
 
-**TWIRLING – pro děti od 8 let**
 
-Spojení ruzných tanecních stylu, gymnastiky a akrobacie v kombinaci s prací s hulkou. To je krásný a moderní sport, který bude bavit každého kluka ci holku, kterí se nebojí nových výzev a mají rádi vystupování a soutežení i na nejruznejších akcích. A pokud nechceš soutežit a vystupovat, pak to také mužeš delat pro radost!
 
-* Pondělí 15:30 – 17:00                   Cena: 850 Kč/rok
-* Sobota 10:00 – 12:00                   Cena: 950 Kč/rok
+Hlavní vedoucí Tereza Rejlová
 
-Úvodní informativní schůzka: 3. 10. 2022 v 17:30 v DDM Jednička
+Věková skupina 13 - 18 let
 
-Pravidelné schuzky budou probíhat v externí telocvicne – ZŠ Podhart.
+Datum zahájení 02.10.2023
 
-V případě soutežního týmu bude trénink navýšen o sobotu.
+Datum ukončení 27.05.2024
 
-Vedoucí Tereza Rejlová, DiS.
-
-<!--EndFragment-->
+Dny konání PO 16:30-18:00

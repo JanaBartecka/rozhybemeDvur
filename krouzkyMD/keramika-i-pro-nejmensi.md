@@ -1,28 +1,28 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: KERAMIKA I. pro nejmenší
+title: Keramika I./A
 kdy: Pondělí 16:00–17:00
 kde: DDM Jednička
 foto: /images/akce/ikona-keramika1.jpg
-alt: KERAMIKA I. pro nejmenší - DDM Jednička
-web: https://ddmdvurkralove.cz/keramicke-krouzky/
+alt: obrázek
+web: https://ddmdvurkralove.iddm.cz/krouzky/dktyUmUrazFXSW81QXNSSzA0eGREZzR4cmk4akMrWTlucEFGTTk2U3Nmdz0=
 polatek: 750 Kč/rok
 myTags: KrouzkyOstatni KrouzkyOd4 KrouzkyOd5 KrouzkyOd6
 ---
-<!--StartFragment-->
-
-**KERAMIKA I. pro nejmenší – pro děti od 4 let**\
-Kroužek je urcený nejmenším zájemcum o modelování z keramické hmoty. Budeme vyrábet jednoduché predmety, na kterých se naucíme hlínu zpracovat, válet, vykrajovat, obtiskovat, spojovat a tvarovat. Hotové výrobky budeme dekorovat engobami a glazurami.
-
-**Pondělí 16:00–17:00**
-
-**Úvodní informativní schůzka:** 3. 10. 2022 v 16:00 v DDM Jednička
-
-Vedoucí Sylvie Černotová, DiS.
+Kroužek určený nejmenším zájemcům o modelování z keramické hmoty, kteří již keramický kroužek navštěvovali. Budeme vyrábět jednoduché předměty, na kterých se naučíme nové techniky modelování a dekorování výrobků a zdokonalíme se v tom, co již umíme. Prostor bude i pro tvorbu dle vlastní fantazie.\
+Úvodní informativní schůzka: 2. 10. 2023 v 16:00 v DDM Jednička
 
 Cena: 750 Kč/rok
 
-Přihláška na kroužek [zde](https://ddmdvurkralove.cz/prihlaska/).
+Hlavní vedoucí Sylvie Černotová, DiS.
 
-<!--EndFragment-->
+Věková skupina 4 - 6 let
+
+Datum zahájení 02.10.2023
+
+Datum ukončení 27.05.2024
+
+Dny konání PO 16:00-17:00
+
+Kontakt 775 320 373, sylvie.cernotova@ddmdvurkralove.cz

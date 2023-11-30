@@ -4,7 +4,7 @@ tags: aktivityMD
 title: Břišní tance
 kdy: " Pondělí  Začátečnice-18:45-19:30  Pokročilé-19:35-20:20"
 kde: "V zrcadlovém sále ZUŠ R.A. Dvorského na náměstí T.G. Masaryka "
-foto: /images/akce/322737285_1310937309451280_8681914929987226760_n.jpg
+foto: /images/akce/367386194_23920932094221042_174189167308996412_n.jpg
 alt: Kurzy břišních tanců
 web: https://www.khattya.cz/
 myTags: AktivityOstatni AktivityOd10 AktivityOd11 AktivityOd12 AktivityOd13

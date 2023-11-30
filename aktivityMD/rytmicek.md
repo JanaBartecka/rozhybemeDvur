@@ -2,7 +2,7 @@
 layout: /partials/aktivity.njk
 tags: aktivityMD
 title: Rytmíček
-kdy: Středa 15:00 - 16:00
+kdy: Pondělí 8:30 - 10:00
 kde: MC Žirafa Náměstí T.G.Masaryka 59 Dvůr Králové nad Labem
 foto: /images/akce/306757456_5921232007904595_6898782289141202775_n.jpg
 alt: Rytmíček - pohybový kroužek

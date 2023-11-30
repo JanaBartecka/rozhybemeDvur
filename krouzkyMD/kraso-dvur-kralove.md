@@ -1,23 +1,42 @@
 ---
 layout: /partials/krouzky.njk
 tags: krouzkyMD
-title: Kraso Dvůr Králové
+title: Krasobruslařský klub Dvůr Králové
 kde: Dvůr Králové nad Labem
 foto: /images/akce/320991068_1109862123013527_6542750703050650442_n-1-.jpg
 alt: Obrázek
-web: https://www.facebook.com/groups/2143852642443803
+web: https://www.krasodvur.cz/
 polatek: Dle věku
-myTags: KrouzkyOd4 KrouzkyOd5 KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9 KrouzkyOd10
+myTags: KrouzkyOstatni KrouzkyOd5 KrouzkyOd6 KrouzkyOd7 KrouzkyOd8 KrouzkyOd9
+  KrouzkyOd10 KrouzkyOd11 KrouzkyOd12
 ---
-<!--StartFragment-->
+2﻿023 / 2024
 
-Krasobruslení pro děti od 4 do - 10 let.
+Krasobruslařský klub Dvůr Králové přijímá nové členy ve věku 5 - 12 let
 
-Rádi byste, aby dítě mělo zdravý pohyb, ale nechcete ho trápit každodenními tréninky? Chcete ho naučit, aby pro něj aktivně strávený čas měl význam pohody i v dospělosti? Pokud hledáte pro své děti zábavnou sportovní aktivitu, přihlašte je na krasobruslení.V zimě zamrznou rybníky a děti i dospělí se vyráží klouzat. Za časů našich babiček to byla typická zábava, kde starší tahali po ledě mladší, sourozenci dědili brusle. Dnes už je to [](<>)trochu jiné. Pokud nežijí na vesnici, postrádají vzor u starších. Rodiče se bojí postavit na led s tvrzením, že to již zapomněli, že na bruslích stáli dávno. Možná si říkáte, že obkroužit lední plochu svede každý a není k tomu potřeba žádný kurz. Hoďte ho do vody a on začne plavat. Dnes už se ví, že takhle to úplně nefunguje. Krasobruslení je sport, který všestranně rozvíjí. Nejenomže posílí veškeré svalstvo, ale zároveň zlepšuje celkovou koordinaci těla. Dokonce zvýší i otužilost vašeho dítěte. Tréninky probíhají 3 až 4 krát týdně, příspěvek je dle věku od 2000 Kč do 3500 Kč za celou sezónu, děti potřebují krasobrusle (dají se půjčit). Vzhledem k tomu, když by se začalo chodit až teď, cena by se o polovinu snížila. Jde jen o půlku sezóny ![🙂](https://static.xx.fbcdn.net/images/emoji.php/v9/t4c/1/16/1f642.png). Led je do března a pak probíhá ještě trénink na sucho. Uvažujete, zda by to mohlo vaše děti bavit? Tak proč to nezkusit a začít chodit od půlky sezóny, třeba je to chytne ![😉](https://static.xx.fbcdn.net/images/emoji.php/v9/t57/1/16/1f609.png) v případě dalších dotazů mě neváhejte kontaktovat.
+Přijďte si vyzkoušet, zda by vás krasobruslení okouzlilo. První tři týdny nepožadujeme žádnou závaznou přihlášku ani platbu. Našim cílem je vytvářet pozitivní vztah dětí ke sportu a spoluvytvářet příjemné prostředí v klubu. Snažíme se bourat představu o tom, že krasobruslení je jen pro vyvolené, proto půjčujeme kvalitní krasobrusle a podporujeme děti účastnící se vyšších soutěží. Tomuto krédu přizpůsobujeme i výši členských příspěvků. 
+
+Časy tréninků pro skupinu začínajících členů jsou předběžně tyto:   
+
+Zimní stadion: 
+
+úterý 16.15 – 17.15 
+
+středa 14.45 – 15.45 
+
+sobota 7.30 – 8.30 
+
+neděle 8.30 – 9.30   
 
 
 
-<!--StartFragment-->
+Balet v ZUŠ: pondělky 17:30 – 18:30 (od října) Děti se s rodiči mohou sami rozhodnout, kolik tréninků týdně budou absolvovat.  Časy tréninků se ještě mohou změnit. Je třeba sledovat aktuální rozpis na stránkách Technických služeb, kde na titulce bývá odkaz na aktuální verzi rozpisu zimního stadionu. Rozpis k termínu vydání článku najdete níže (MODRÉ KRASO).  Všechny otázky zodpovíme ve FB skupině pro rodiče. Popřípadě zavolejte na kontakty uvedené na našem webu.
+
+https://www.facebook.com/groups/2143852642443803
+
+https://www.kralovedvorsko.cz/sport/krasobrusleni/krasobruslarsky-klub-prijima-nove-cleny-ve-veku-5-12-let.html?fbclid=IwAR0mQSrkitooizTYpS7Xf7kV2qJnvBGWOlCcKUekbOUZ-jX2Mvi1BXuqC2U
+
+\-﻿---------------------------------------------------------------------------------------
 
 Příspěvky pro sezónu 2022/2023 jsou splatné do 25.10.2022 na účet klubu ČS,a.s. - č.ú.: 3501135329/0800 a činí
 
@@ -44,8 +63,6 @@ KK DK Příspěvky pro sezónu 2022/2023 jsou splatné do 25.10.2022 na účet k
 Do poznámky uveďte jméno dítěte. Potvrzení o úhradě příspěvku na Vaši žádost poskytne paní Seitlová. Na žádost člena klubu lze platbu rozdělit do dvou částí s tím, že první bude splatná do 25.10. t.r. a druhá do 31.1.2023.
 
 KK DK
-
-
 
 <!--StartFragment-->
 
